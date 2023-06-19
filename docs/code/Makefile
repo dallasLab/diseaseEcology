@@ -1,7 +1,7 @@
 
 
 all:
-	- Rscript -e "files <- grep('Rmd', list.files(), value=TRUE); library(rmarkdown); sapply(files, render, 'html_document')"
+	- Rscript -e "files <- grep('Rmd', list.files(), value=TRUE); library(rmarkdown); sapply(files, render)"
 
 
 pdf: 

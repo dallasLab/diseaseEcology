@@ -21,3 +21,8 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 (pareto, sex biases, viremia, virulence, superinfection, )
 
+
+
+---
+
+slide 2 
