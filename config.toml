@@ -55,5 +55,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
   dateFormat = "January 1, 2022"
-  background = "background.jpg"
+  background = "/img/background.jpg"
   math = "true"
