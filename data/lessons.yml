@@ -16,8 +16,8 @@ lessons:
   - module: "<i class='fa fa-lg fa-terminal'></i>"
     date: "Week 2 "
     topics: "Life history strategies and host-parasite coevolution"
-    reading: "read/lifeHistory"
-    code: "code/lifeHistory"
+    reading: "read/lifehistory"
+    code: "code/lifehistory"
             
   - module: "<i class='fa fa-lg fa-terminal'></i>"
     date: "Week 3"
@@ -88,7 +88,7 @@ lessons:
     topics: "Biology of macroparasites"
     reading: "read/macroparasites"
     code: "code/macroparasites"
-    homework: "homework/module2" 
+
 
 
   - module: "<i class='fa fa-lg fa-line-chart'></i>"
@@ -103,7 +103,7 @@ lessons:
     topics: "Environmentally-transmitted disease and sexually-transmitted diseases"
     reading: "read/env"
     code: "code/env"
-
+    homework: "homework/module3" 
 
 
 
@@ -148,7 +148,7 @@ lessons:
   - module: "<i class='fa fa-lg fa-star'></i>"
     date: "Week 16"
     topics: "Final exam review + "
-    code: "code/examReview"
+    code: "code/examreview"
     
 
 
