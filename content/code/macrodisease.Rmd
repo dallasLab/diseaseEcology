@@ -1,0 +1,25 @@
+---
+title: "Macroecology of infectious disease and networked populations"
+theme: "cosmo"
+highlight: "pygments"
+output: ioslides_presentation
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+```{r setup, include=FALSE} 
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+---
+
+
+
+
+(latitudinal scaling of richness etc., temperature and macros/mosqs, network models, contact networks/centrality/transmission type matters, link back to superspreader) 
+

@@ -1,0 +1,28 @@
+---
+title: "Parasite richness, specificity, and host range"
+theme: "cosmo"
+highlight: "pygments"
+output: ioslides_presentation
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+```{r setup, include=FALSE} 
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+---
+
+
+
+
+(phylogenetic factors, trait matching, specificity tradeoffs, host constraints; body/range size, tissue tropism, )
+
+
+
+

@@ -1,0 +1,59 @@
+baseurl = ""
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+title = "Infectious disease ecology"
+theme = "material"
+paginate = 7
+relativeurls = true
+publishDir = "docs"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+[author]
+  name = "Tad Dallas"
+  bio = ""
+  job = "Assistant Professor"
+  location = "U of South Carolina"
+  gravatarEmail = "tdallas@mailbox.sc.edu"
+  twitter = "taddallas"
+ 
+# Menu Configuration
+[[menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "Home"
+  pre = "<i class='sidebar-button-icon fa fa-lg fa-home'></i>"
+  url = "/"
+[[menu.main]]
+  weight = 2
+  identifier = "syllabus"
+  name = "Syllabus"
+  pre = "<i class='material-icons'>date_range</i>"
+  url = "/syllabus"
+[[menu.main]]
+  weight = 3
+  identifier = "policies"
+  name = "Policies"
+  pre = "<i class='material-icons'>gavel</i>"
+  url = "/policies"
+
+[[menu.main]]
+  weight = 4
+  identifier = "GitHub"
+  name = "Github"
+  pre = "<i class='button-icon fa fa-2x fa-github'></i>"
+  url = "https://github.com/"
+  
+
+
+[params]
+  dateFormat = "January 1, 2022"
+  background = "https://static01.nyt.com/images/2012/07/15/sunday-review/15COVER/15COVER-superJumbo.jpg"
+  math = "true"

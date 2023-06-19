@@ -1,0 +1,160 @@
+lessons:
+  - module: "<i class='material-icons'>home</i>"
+    topics: "Course design, goals, introduction, and setup"
+    date: "Week 1"
+    reading: "read/setup"
+    code: "code/setup"
+
+
+
+
+
+  - module: ""
+    date: " "
+    topics: "<b> MODULE 1: Parasite diversity </b>"
+
+  - module: "<i class='fa fa-lg fa-terminal'></i>"
+    date: "Week 2 "
+    topics: "Life history strategies and host-parasite coevolution"
+    reading: "read/lifeHistory"
+    code: "code/lifeHistory"
+            
+  - module: "<i class='fa fa-lg fa-terminal'></i>"
+    date: "Week 3"
+    topics: "Parasite richness, specificity, and host range"
+    reading: "read/specificity"
+    code: "code/specificity"
+
+  - module: "<i class='fa fa-lg fa-terminal'></i>"
+    date: "Week 4"
+    topics: "Behavioral and immunological responses"
+    reading: "read/behavior"
+    code: "code/behavior"
+    homework: "homework/module1" 
+
+
+
+
+
+
+
+
+
+
+
+
+  - module: " "
+    date: " "
+    topics: "<b> MODULE 2: Directly-transmitted parasites </b>"
+  
+  
+  - module: "<i class='fa fa-lg fa-user-plus'></i>"
+    date: "Week 5"
+    topics: "Biology of microparasites"
+    reading: "read/microparasites"
+    code: "code/microparasites"
+
+  - module: "<i class='fa fa-lg fa-user-plus'></i>"
+    date: "Week 6"
+    topics: "Epidemics and interventions"
+    reading: "read/epidemics"
+    code: "code/epidemics"
+    
+  - module: "<i class='fa fa-lg fa-user-plus'></i>"
+    date: "Week 7"
+    topics: "Parasite aggregation and burden"
+    reading: "read/aggregation"
+    code: "code/aggregation"
+    homework: "homework/module2" 
+
+
+  - module: "<i class='fa fa-lg fa-thumbs-o-up'></i>"
+    date: "Spring break"
+    topics: " --- "
+
+
+
+
+
+
+
+  - module: " "
+    date: ""
+    topics: "<b>MODULE 3: Non-direct transmission </b>"
+
+
+  - module: "<i class='fa fa-lg fa-line-chart'></i>"
+    date: "Week 9"
+    topics: "Biology of macroparasites"
+    reading: "read/macroparasites"
+    code: "code/macroparasites"
+    homework: "homework/module2" 
+
+
+  - module: "<i class='fa fa-lg fa-line-chart'></i>"
+    date: "Week 10"
+    topics: "Vector-borne disease"
+    reading: "read/vectors"
+    code: "code/vectors"
+
+
+  - module: "<i class='fa fa-lg fa-line-chart'></i>"
+    date: "Week 11"
+    topics: "Environmentally-transmitted disease and sexually-transmitted diseases"
+    reading: "read/env"
+    code: "code/env"
+
+
+
+
+
+
+
+
+  - module: " "
+    date: ""
+    topics: "<b>MODULE 4: Disease across scales </b>"
+    
+  - module: "<i class='fa fa-lg fa-map'></i>"
+    date: "Week 12"
+    topics: "Infectious diseases in communities"
+    reading: "read/communities"
+    code: "code/communities"
+    
+  - module: "<i class='fa fa-lg fa-map'></i>"
+    date: "Week 13"
+    topics: "Coinfection"
+    reading: "read/coinfection"
+    code: "code/coinfection"
+    
+  - module: "<i class='fa fa-lg fa-map'></i>"
+    date: "Week 14"
+    topics: "Macroecology of infectious disease and networked populations"
+    reading: "read/macrodisease"
+    code: "code/macrodisease"
+
+  - module: "<i class='fa fa-lg fa-map'></i>"
+    date: "Week 15"
+    topics: "Zoonoses, spillover, emergence, and One Health"
+    reading: "read/zoonoses"
+    code: "code/zoonoses"
+    homework: "homework/module4" 
+
+  - module: " "
+    date: ""
+    topics: "<b>MODULE 5: Closing thoughts </b>"
+   
+
+  - module: "<i class='fa fa-lg fa-star'></i>"
+    date: "Week 16"
+    topics: "Final exam review + "
+    code: "code/examReview"
+    
+
+
+
+
+  - module: "<i class='material-icons'>school</i>"
+    date: "Week 18"
+    topics: "Final exam"
+   

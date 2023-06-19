@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reads on Infectious disease ecology</title>
+    <link>/read/</link>
+    <description>Recent content in Reads on Infectious disease ecology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/read/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behavioral and immunological responses</title>
+      <link>/read/behavior/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/behavior/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Biology of macroparasites</title>
+      <link>/read/macroparasites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/macroparasites/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Biology of microparasites</title>
+      <link>/read/microparasites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/microparasites/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Coinfection</title>
+      <link>/read/coinfection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/coinfection/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Disease</title>
+      <link>/read/disease/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/disease/</guid>
+      <description>Reading   Anderson, R. M. and May, R. M., Population biology of infectious diseases I Nature 280 (5721), 361 (1979). pdf available here
+  Kilpatrick, A. M. &amp;amp; Altizer, S. (2010) Disease Ecology. Nature Education Knowledge 3(10):55
+link to paper
+  </description>
+    </item>
+    
+    <item>
+      <title>Environmentally-transmitted disease and sexually-transmitted diseases</title>
+      <link>/read/env/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/env/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Epidemics and interventions</title>
+      <link>/read/epidemics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/epidemics/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Exam review</title>
+      <link>/read/examreview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/examreview/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Infectious diseases in communities</title>
+      <link>/read/communities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/communities/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>/read/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/setup/</guid>
+      <description>Introductions Go around and introduce yourselves, what year you are, and what made you decide to take the course (could take many forms, including what you want to learn, what you&amp;rsquo;re interested in, etc. etc.)
+Syllabus Go over syllabus
+What are we doing in this class? Theory provides us a lens to generalize.
+Theory provides us a way to predict.
+Theory provides link between lab systems and natural systems.
+What this course is not A programming course.</description>
+    </item>
+    
+    <item>
+      <title>Life history strategies and host-parasite coevolution</title>
+      <link>/read/lifehistory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/lifehistory/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Macroecology of infectious disease and networked populations</title>
+      <link>/read/macrodisease/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/macrodisease/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Parasite aggregation and burden</title>
+      <link>/read/aggregation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/aggregation/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Parasite richness, specificity, and host range</title>
+      <link>/read/specificity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/specificity/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Vector-borne disease</title>
+      <link>/read/vectors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/vectors/</guid>
+      <description>Reading </description>
+    </item>
+    
+    <item>
+      <title>Zoonoses, spillover, emergence, and One Health</title>
+      <link>/read/zoonoses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/zoonoses/</guid>
+      <description>Reading </description>
+    </item>
+    
+  </channel>
+</rss>

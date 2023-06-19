@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homeworks on Infectious disease ecology</title>
+    <link>/homework/</link>
+    <description>Recent content in Homeworks on Infectious disease ecology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/homework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Module 1 homework</title>
+      <link>/homework/module1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework/module1/</guid>
+      <description>Homework problems    Chapter Problems     1 1,4   2 2,5,7   3 5   5 5,7,9   6 3    </description>
+    </item>
+    
+    <item>
+      <title>Module 2 homework</title>
+      <link>/homework/module2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework/module2/</guid>
+      <description>Homework problems    Chapter Problems     7 2,4,9   8 4   9 3,4    </description>
+    </item>
+    
+    <item>
+      <title>Module 3 homework</title>
+      <link>/homework/module3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework/module3/</guid>
+      <description>Homework problems    Chapter Problems     10 2,3   11 5   12 3,5   14 2,6   15 3,4    </description>
+    </item>
+    
+    <item>
+      <title>Module 4 homework</title>
+      <link>/homework/module4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework/module4/</guid>
+      <description>Metapopulation questions 1 What is the equilibrium fraction of occupied patches for the mainland-island model with a colonization rate of 0.5, and an extinction rate of 0.3? How does this change compared to the standard Levin&amp;rsquo;s model? What explains this change?
+2 Incorporate a rescue effect into the above model and calculate the equilibrium fraction of occupied patches. What is this new value, and how does it compare to the mainland-island and Levin&amp;rsquo;s equilibrium values?</description>
+    </item>
+    
+  </channel>
+</rss>
