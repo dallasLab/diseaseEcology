@@ -44,13 +44,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   pre = "<i class='material-icons'>gavel</i>"
   url = "/policies"
 
-[[menu.footer]]
-  weight = 1
-  identifier = "GitHub"
-  name = "Github"
-  pre = "<i class='button-icon fa fa-2x fa-github'></i>"
-  url = "https://dallaslab.github.io/diseaseEcology/"
-  
 
 
 [params]

@@ -31,6 +31,9 @@ header-includes:
 
 **Drop-in hours**: Th from 1:00 - 2:40pm 
 
+**Course GitHub docs**: https://github.com/dallaslab/diseaseEcology
+
+**Course website**: https://dallaslab.github.io/diseaseEcology/
 
 \bigskip
 \setstretch{1.5}

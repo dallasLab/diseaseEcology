@@ -12,7 +12,12 @@ markup: "mmark"
 #### Times      |  T & TH 2:50pm - 4:05pm     
 #### Drop-in hours |  Th from 1:00pm - 2:40pm  
 
+---
 
+All [notes](https://github.com/dallasLab/diseaseEcology/tree/master/content/pdfNotes), [labs](https://github.com/dallasLab/diseaseEcology/tree/master/content/lab), and [slides](https://github.com/dallasLab/diseaseEcology/tree/master/content/code) are available either on this website, or within the [GitHub repository](https://github.com/dallaslab/diseaseEcology)
+
+
+--- 
 
 ## Course Overview:
 
@@ -41,4 +46,6 @@ There is no required textbook for this course. We will read primary literature a
 ## Course design
 
 This website was inspired by Carl Boetigger's [ESPM 157 course at UC Berkeley](https://espm-157.carlboettiger.info/). Without his willingness to keep his course materials open access, and without the open source tools to build the website, this course would have to be created from scratch. The content would surely have suffered. 
+
+
 
