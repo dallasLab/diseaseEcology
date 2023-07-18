@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Infectious disease ecology</title>
+    <title>Parasitology</title>
     <link>/</link>
-    <description>Recent content on Infectious disease ecology</description>
+    <description>Recent content on Parasitology</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/policies/</guid>
-      <description>Infectious Disease Ecology This document contains more information about the class and course policies. For more detailed information on course structure, click on syllabus tab above, or go to the pdf syllabus on GitHub
+      <description>Parasitology This document contains more information about the class and course policies. For more detailed information on course structure, click on syllabus tab above, or go to the pdf syllabus on GitHub
           Location:    Time: T and TH 2:50 - 4:05pm   Instructor: Dr. Tad Dallas (tdallas@mailbox.sc.edu)   Office: 601 EWS (Coker is the main building, and EWS is the other side of the elevators)   Drop-in hours: Th from 1:00 - 2:40pm    </description>
     </item>
     
@@ -22,7 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/syllabus/</guid>
-      <description> Syllabus    Date Module Topics Read Code Homework   Week 1 home Course design, goals, introduction, and setup         MODULE 1: Parasite diversity       Week 2   Life history strategies and host-parasite coevolution      Week 3  Parasite richness, specificity, and host range      Week 4  Behavioral and immunological responses          MODULE 2: Directly-transmitted parasites       Week 5  Biology of microparasites      Week 6  Epidemics and interventions      Week 7  Parasite aggregation and burden      Spring break  ---          MODULE 3: Non-direct transmission       Week 9  Biology of macroparasites      Week 10  Vector-borne disease      Week 11  Environmentally-transmitted disease and sexually-transmitted diseases         MODULE 4: Disease across scales       Week 12  Infectious diseases in communities      Week 13  Coinfection      Week 14  Macroecology of infectious disease and networked populations      Week 15  Zoonoses, spillover, emergence, and One Health         MODULE 5: Closing thoughts       Week 16  Final exam review +       Week 18 school Final exam        </description>
+      <description> Syllabus    Date Module Topics Read Code Lab Homework   Week 1 home Course design, goals, introduction, and setup          MODULE 1: Parasite diversity        Week 2   Life history strategies and host-parasite coevolution       Week 3  Parasite richness, specificity, and host range       Week 4  Behavioral and immunological responses           MODULE 2: Directly-transmitted parasites        Week 5  Biology of microparasites       Week 6  Epidemics and interventions       Week 7  Parasite aggregation and burden       Spring break  ---           MODULE 3: Non-direct transmission        Week 9  Biology of macroparasites       Week 10  Vector-borne disease       Week 11  Environmentally-transmitted disease and sexually-transmitted diseases          MODULE 4: Disease across scales        Week 12  Infectious diseases in communities       Week 13  Coinfection       Week 14  Macroecology of infectious disease and networked populations       Week 15  Zoonoses, spillover, emergence, and One Health          MODULE 5: Closing thoughts        Week 16  Final exam review +        Week 18 school Final exam         </description>
     </item>
     
     <item>
