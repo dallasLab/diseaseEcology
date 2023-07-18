@@ -1,7 +1,7 @@
 baseurl = ""
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Infectious disease ecology"
+title = "Parasitology"
 theme = "material"
 paginate = 7
 relativeurls = true

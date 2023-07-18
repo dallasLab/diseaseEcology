@@ -15,7 +15,7 @@ header-includes:
 
 
 
-# Infectious Disease Ecology (Biol 599)
+# Parasitology (Biol 531)
 
 ---
 

@@ -15,11 +15,9 @@ markup: "mmark"
 ---
 
 
-### Infectious Disease Ecology
+### Parasitology
 
 This document contains more information about the class and course policies. For more detailed information on course structure, click on `syllabus` tab above, or go to the [pdf syllabus on GitHub]()
-
-
 
 
 ---

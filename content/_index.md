@@ -24,7 +24,7 @@ Parasitism is the most common trophic strategy on Earth, with incredibly variati
 
 ## Approach
 
-This course will use a [flipped classroom](https://en.wikipedia.org/wiki/Flipped_classroom) model, with new material introduced in reading assignments prior to class while class time will focus on applying these skills to explore interesting data sets. **If you do not do the reading, you will quickly find yourself struggling to keep up**. Students are expected to come to class with the conceptual background in the topic of the lecture, as the lectures will focus on skill-building and the analysis of biological data. Students will be expected to work collaboratively in and out of class, and course content and grading will emphasize communication and reproducibility of an analysis as much as scientific or technical completeness. That being said, there are numerous ways to programmatically solve the same problem, and I do not expect to see the same code from multiple people. The [Course Syllabus](/syllabus/) provides an overview of the modules and topics covered as well as links to weekly reading, assignments, and any lecture material. This syllabus is preliminary and always subject to change.
+Students are expected to come to class with the conceptual background in the topic of the lecture, as the lectures will focus on skill-building and the analysis of biological data. Students will be expected to work collaboratively in and out of class, and course content and grading will emphasize communication and reproducibility of an analysis as much as scientific or technical completeness. That being said, there are numerous ways to programmatically solve the same problem, and I do not expect to see the same code from multiple people. The [Course Syllabus](/syllabus/) provides an overview of the modules and topics covered as well as links to weekly reading, assignments, and any lecture material. This syllabus is preliminary and always subject to change.
 
 
 
@@ -32,7 +32,7 @@ This course will use a [flipped classroom](https://en.wikipedia.org/wiki/Flipped
 
 ## Texts
 
-There is no required textbook for this course. We will read primary literature articles every week, which will complement the course notes and be integrated into both in-class quizes and the exams. 
+There is no required textbook for this course. We will read primary literature articles every week, which will complement the course notes and be integrated into both in-class quizzes and the exams. 
 
 
 

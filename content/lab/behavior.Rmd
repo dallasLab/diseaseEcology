@@ -1,0 +1,26 @@
+---
+title: "Behavioral and immunological responses"
+theme: "cosmo"
+highlight: "pygments"
+output: ioslides_presentation
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+```{r setup, include=FALSE} 
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+---
+
+
+
+
+Behavioral (self medication, parasite manipulation, etc.) and immunological responses (plus resistance-tolerance tradeoffs and Th1/Th2 within host dynamics)
+
+

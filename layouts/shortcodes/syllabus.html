@@ -8,6 +8,7 @@
 <th style="text-align:center" align="center" style="width:55%">Topics</th>
 <th align="center" style="width:5%">Read</th>
 <th align="center" style="width:5%">Code</th>
+<th align="center" style="width:5%">Lab</th>
 <th align="center" style="width:5%">Homework</th>
 </tr>
 
@@ -34,6 +35,13 @@
 <i class="fa fa-code fa-lg"></i></font></td>
 {{ end }}
 
+{{ if .lab }}
+<td align="center"><a href="{{ .Site.baseurl }}/{{ .lab }}.html">
+<i class="fa fa-flask fa-lg"></i></a></td>
+{{ else }}
+<td align="center"><font color="f1f1f1">
+<i class="fa fa-flask fa-lg"></i></font></td>
+{{ end }}
 
 <td align="center">{{if .homework}}
 <a href="{{ .Site.baseurl }}/{{ .homework }}">
