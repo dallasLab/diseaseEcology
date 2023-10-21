@@ -22,5 +22,84 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
  (models, time series, herd immunity, R0, etc.)
  
- 
+## Epidemics 
+
+What are they? Emergence, re-emergence, outbreak definitions 
+
+
+
+## What is the cost of epidemics? 
+
+
+
+
+
+
+
+
+
+
+## Why do we model epidemics? 
+
+Mitigation. 
+Snow and the pump handle
+
+
+
+
+## How do we model epidemics? 
+
+Anderson and May 
+
+
+
+
+
+
+
+##  Compartmental models of infectious disease
+
+
+
+
+
+
+## R0 as a concept
+
+
+
+
+
+
+## Elements of infectious disease spread
+
+Pathogen invasion.
+Initial slope of spread (and relationship to R0)
+
+
+
+
+
+
+
+
+
+
+## Mitigation 
+
+Who do we vaccinate? Who do we cull? Where do we treat geographically? 
+
+
+
+
+##  
+
+
+
+
+
+
+
+
+
 

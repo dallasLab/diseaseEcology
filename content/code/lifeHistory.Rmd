@@ -21,7 +21,123 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 
 
-(parasite biodiv, terminology, transmission mode, red queen, optimal virulence)
+
+---
+
+### So how many parasites are there? 
+
+Revisit from previous lecture and expand on it. 
+
+
+
+
+
+---
+
+### How do we really define parasite diversity? 
+
+Diversity in numbers
+Diversity in phylogenetics
+Diversity in infection modes
+Diversity in tissue infected 
+Diversity in impacts
+Diversity in host specificity
+...
+
+
+---
+
+### Diversity in phylogenetics 
+
+
+---
+
+### Diversity in infection modes
+
+macroparasites versus microparasites 
+different routes to infection 
+
+
+---
+
+### Diversity in tissue infected 
+
+
+
+
+--- 
+
+### Diversity in impacts 
+
+You have all been infected by a parasite, but it was likely pretty mild? 
+
+But what about things like anthrax, rabies, or ebola? 
+
+
+
+---
+
+### Diversity in host specificity 
+
+Generalism versus specialism 
+
+
+
+
+
+
+
+
+
+
+---
+
+### Why specialize? 
+
+
+
+---
+
+### Host-parasite coevolution 
+
++ So if you specialize, the host may evolve defenses. How does a parasite get around this? 
+
+
+
+
+
+---
+
+### What is the "goal" of the parasite? 
+
++ To reproduce. So it doesn't really _want_ to kill the host, right? 
++ But it also has to reproduce and consume some aspect of the host, which comes at a fitness consequence for the host. 
+
++ There's a conflicting balance between trying to reproduce (which causes harm to host) and flying under the rader (if success is defined as transmission to the next host) 
+
+
+
+---
+
+### optimal virulence 
+
+
+
+
+---
+
+### What parasites would not follow this general pattern? 
+
++ Fungal pathogens that can live in the environment
++ 
++ 
++ 
+
+
+
+
+
+
 
 
 

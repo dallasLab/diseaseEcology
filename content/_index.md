@@ -49,3 +49,12 @@ This website was inspired by Carl Boetigger's [ESPM 157 course at UC Berkeley](h
 
 
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZP9LD1Z55D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZP9LD1Z55D');
+</script>

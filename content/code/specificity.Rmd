@@ -19,9 +19,124 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ---
 
 
+--- 
+
+### What is host specificity? 
 
 
-(phylogenetic factors, trait matching, specificity tradeoffs, host constraints; body/range size, tissue tropism, )
+
+
+
+
+---
+
+### Parasite host range 
+
+
+
+
+
+
+
+
+---
+
+### Predicting parasite host range 
+
++ parasites often infect with low infection prevalence, so estimating parasite host range is difficult. 
++ What are some approaches to estimating parasite host range? 
++ At what scale is host range defined (a country? a species?)
+
+
+
+---
+
+### What determines parasite host range? 
+
++ physical factors (skin thickeness)
++ environmental factors? 
++ host phylogenetics
++ 
+
+
+
+---
+
+### Host range is just a number 
+
+The number of host species a parasite infects. How might this not be a good measure of specificity? 
+
+(could infect lots of host within the same genus.)
+
+
+
+--- 
+
+### Different measure of specificity 
+
+phylogenetic, taxonomic, and functional 
+
+
+
+
+
+---
+
+### revisit the costs of specificity? 
+
+
+
+
+
+---
+
+### Host range versus parasite species richness 
+
+Host range is from the parasite's perspective. 
+Parasite species richness is from the hosts perspective. 
+
+
+
+
+
+---
+
+### What controls parasite species richness? 
+
+Body size
+Geographic range size 
+Immune profile 
+
+
+
+(have a couple of slides on this topic)
+
+
+
+
+
+---
+
+### Predicting host-parasite interactions 
+
+What's the goal of this? 
+How do we do it? 
+Why is it important? 
+What are the features of host and parasite that allow for infection? 
+
+
+
+
+
+
+---
+
+### 
+
+
+
+
+
 
 
 

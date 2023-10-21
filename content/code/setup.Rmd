@@ -18,23 +18,59 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ```
 ---
 
+
+
 ### Introductions 
 
 I can start this off. Then we can go around the room, thinking about
 
 + what you want to get out of the course
-+ how theory fits into your current research (if you are currently doing research)
 + any worries/feelings/questions/concerns about the course
++ your favorite parasite
+
 
 
 ---
 
+### A bit about me 
+
++ my background is quantitative disease ecology
++ started with ticks and small mammals
++ host-parasite interactions are incredibly interesting, parasites are gross. 
++ [lab research here](https://taddallas.github.io)
+
+
+
+
+
+---
+
+### A bit about course structure 
+
++ lecture (3 hrs) + lab (1 hr)
++ structure of lecture
++ structure of lab
++ [course website](https://dallaslab.github.io/diseaseEcology/syllabus/)
+
+
+
+
+
+
+---
 
 ### Syllabus
 
 Work through syllabus, clarify structure, etc. 
 
-- [syllabus](https://ecoinformatix.github.io/syllabus/)
+- [syllabus](https://dallasLab.github.io/diseaseEcology/syllabus/)
+
+
+_why is the website called "diseaseEcology" if this is a "parasitology" course?_
+
+
+
+
 
 
 
@@ -46,5 +82,226 @@ Work through syllabus, clarify structure, etc.
 Go through the course website and make sure everyone has easy access and is clear on how to get the lecture notes, readings, and homeworks. 
 
 ---
+
+
+
+
+
+### What is parasitology? 
+
++ The study of parasites and parasite-related disease
++ The difference between parasites and disease
++ Parasitology, disease ecology, and epidemiology 
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+### How many parasites are there? 
+
++ Around 40% of species diversity 
+
++ Incredibly varied in life history
+
++ Tough to say
+  + We keep finding more
+  + [Sampling is limited](https://pubmed.ncbi.nlm.nih.gov/33203333/) 
+  + Depends on what you want to call a parasite (viruses?)
+  + Guesses range around 6 to 10 million species 
+  
+
+
+
+
+
+
+
+
+---
+
+### Why are parasites important? 
+
++ Regulation of population and community dynamics 
+  + Classic Hudson work ([population cycles as function of parasitism](https://pubmed.ncbi.nlm.nih.gov/9856948/))
+  
++ They are costly (human health, economic loss, etc.)
+
++ [Use of parasites as biocontrol](https://csiropedia.csiro.au/myxomatosis-to-control-rabbits/)
+
++ An interesting ecological interaction (why study plant-pollinator interactions?)
+
+
+
+
+
+
+
+--- 
+
+### The idea of parasite conservation 
+
++ Parasites are incredibly diverse, and may represent a lot of extinctions 
+
++ How/why do parasites go extinct? 
+
++ [Which parasites should be conserved?](https://www.sciencedirect.com/science/article/pii/S0006320719319937)
+  + tough to advocate for parasites which threaten human health or which threaten animal populations
+  
+
+
+
+
+
+
+---
+
+### What is the difference between parasites and disease? 
+
++ Parasitism is being infected by a parasite. 
++ Disease is defined as the expression of symptoms related to the parasite. 
+
+
+> So the parasite causes disease, but these terms should not be confused. 
+
+
+
+
+
+
+
+
+
+
+---
+
+### Why do we care about infectious disease? 
+
+
+
++ Impact on biodiversity 
+
++ Economic importance
+
++ Impacts on humans 
+
+
+
+
+
+
+---
+
+### Impact on biodiversity 
+
+
+![figs/]()
+
+
+
+
+
+---
+
+### Economic importance
+
+
+![figs/]()
+
+
+
+
+
+
+---
+
+### Impact on humans 
+
+
+![figs/]()
+
+
+
+
+
+
+--- 
+
+### Zoonotic parasites
+
++ A zoonotic parasite is a parasite that can infect humans. 
+
++ Let's name some zoonotic parasites 
+
++ Let's define some terms
+  + spillover
+  + emergence
+  + re-emergence
+
+
+
+
+
+
+
+
+
+--- 
+
+### Koch's postulates
+
++ Microorganism must be present in diseased individuals and absent in healthy individuals.
++ Microorganism must be isolated from a diseased organism and grown in pure culture.
++ Cultured microorganism should cause disease when introduced into a healthy organism.
++ Microorganism must be re-isolated from the inoculated, diseased experimental host and identified as being identical to the original specific causative agent.
+
+
+
+
+
+
+
+---
+
+### Limitations of Koch's postulates
+
++ Super important when originally introduced for characterizing disease (TB, cholera, etc.)
+
++ Many infectious diseases subvert the posulates
+  + some pathogens can't be cultured yet (e.g., many prion diseases)
+  + asymptomatic folks (e.g., Koch himself saw this with cholera)
+  + low prevalence of infection given inoculation (hence the 'should' in postulate 3, which was previously 'must')
+  
+  
+
+
+
+---
+
+### Let's have a good semester 
+
++ We're going to learn a lot
+
++ Stay on top of readings
+
++ Ask when you have questions
+
++ Have fun
+
+
+
+
+
+
+
 
 
