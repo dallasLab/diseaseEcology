@@ -11,19 +11,778 @@ output: ioslides_presentation
   margin-left: auto;
   margin-right: auto;
 }
+h2 { 
+ color: #3399ff;		
+}
+h3 { 
+ color: #3399ff;		
+}
 </style>
 
 ```{r setup, include=FALSE} 
 knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
 ```
+
+
+
+
+
+
+<!-- (pop cycling, 
+epidemic v. endemic, 
+freq v dep transmission) 
+talk about variety of transmission modes of microparasites (emphasize vectors)
+(no; save for env transmission week) lead into water-borne pathogens and talk about cholera (week 12 lecture 20 from Park)
+end with intro of SIR model idea
+week 2 from Park 2019 --> 
+ 
+ 
+ 
+ 
+
 ---
 
+### What are microparasites?
+
++ Fungal, bacterial, viral, and protozoan parasites
+
++ Small, typically fast reproduction, often lead to lasting immunity
 
 
 
- (pop cycling, epidemic v. endemic, freq v dep transmission)
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
+
+
+
+---
+
+### Transmission modes 
+
++ Can be transmitted many ways (water, direct, vectors)
+
++ Direct 
+  + direct contact (e.g., respiratory droplets)
+  + sexual contact 
+
++ Indirect 
+  + environment
+  + water 
+  + vector
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
+
+---
+
+### Bacterial microparasites 
+
++ Unicellular prokaryotes (no mitochondria, unbound genetic material)
+
++ Can be intracellular or extracellular 
+
++ Asexual reproduction (potential for horizontal gene transfer through plasmid transfer between cells)
+
++ Many bacteria are good (e.g., your gut bacteria)
+
++ e.g., black death (bubonic and pneumonic plague; _Yersinia pestis_), Cholera, Tuberculosis
+
+
+
+---
+
+### A relevant bacterial microparasite 
+
+Cholera (_Vibrio cholerae_)
+
++ water-borne or contaminated food 
+
++ acute diarrhoeal disease 
+
++ severe symptoms can lead to death within hours 
+
++ oral vaccine available, but still 1.3-4 million cases per year (21k - 143k deaths)
+
++ can be endemic or epidemic 
+
+
+
+
+
+
+
+---
+
+### Fungal microparasites 
+
++ Rigid cell wall made of chitin 
+
++ Vegetative growth via mycellium or budding 
+
++ Hyphae can growth through host cells
+
++ Produce sexual or asexual spores 
+
++ e.g., last of us? Athlete's foot, ringworm, etc. Many more crop fungal pathogens (ergot and the Salem witch trials) 
+
+
+
+
+
+---
+
+### A relevant fungal microparasite 
+
+White nose syndrome (_Geomyces destructans_)
+
++ external fungal pathogen 
+
++ grows well in cooler temperatures 
+
++ death caused by dehydration or starvation (bats wake up early from hiberation)
+
++ transmitted directly and through environment
+
+
+--- 
+
+### A relevant fungal microparasite 
+
+White nose syndrome (_Geomyces destructans_)
+
+![](figs/whiteNose.jpg){width="90%"}
+
+
+
+
+
+
+
+---
+
+### Viruses 
+
++ Structurally simple = protein coat + genetic material (RNA or DNA)
+
++ RNA virsues has small genomes and high mutation rates, DNA viruses larger, more genes, and lower mutation rates. 
+
++ Inert outside of hosts 
+
++ Hijack host cell's machinery to replicate (obligate intracellular parasite) 
+
++ e.g., DNA: poxviridae (smallpox), herpesviridae (herpes, chicken pox)
++ e.g., RNA: flaviviridae (yellow fever, dengue), retroviridae (HIV) 
+
+
+
+
+
+---
+
+### A relevant virus 
+
+Dengue (DENV) 
+
++ mosquito-transmitted (100-400 million infections per year) 
+
++ fever, headache, nausea, vomiting, rash
+
++ Dengvaxia vaccine, but only for previously infected people where risk of reinfection is high
+
++ 4 types of dengue. No cross-type immunity, so reinfection happens and is bad 
+
+
+
+
+---
+
+### Another virus just for fun 
+
+West Nile Virus (WNV) 
+
++ Most common mosquito-borne disease in USA 
+
++ Infects birds (no bird to human transmission known)
+
++ Asymptomatic cases common
+
++ high fever, stiff neck, headache, stupor, coma, tremors, muscle weakness, vision loss, numbness
+
++ lifelong immunity
+
+
+
+
+
+
+
+
+
+---
+
+### Protozoan microparasites 
+
++ Single-celled eukaryotes
+
++ Extremely diverse, loads of transmission modes and tissues infected
+
++ Can be intracellular or extracellular
+
++ Some host-specific, some incredibly broad host range 
+
++ e.g., _Plasmodium_, _Trypanosoma_, _Leishmania_, etc. 
+
+
+
+---
+
+### A relevant protozoan 
+
+Leishmaniasis
+
++ 3 main forms (visceral, cutaneous, and mucocutaneous) 
+
++ visceral is almost always fatal without treatment 
+
++ transmitted by phlebotomine sandflies (90+ species can transmit)
+
++ associated with malnutrition, population displacement, poor housing, weakened immune function, etc. 
+
++ 700k-1 million cases
+
++ Interaction with HIV means coinfection tends to produce really negative outcomes
+
+
+
+
+
+
+---
+
+### The importance of vectors 
+
++ All of those protozoans listed are vector-borne and many or most of the other examples were vector-borne 
+
++ <font color='green'> Vectors are incredibly important! </font> 
+
++ We will spend an entire week on vector-borne disease. 
+
++ Get excited, because vectors add a neat layer of complexity onto disease systems 
+
+
+
+
+
+
+
+---
+
+### Density dependent transmission 
+
++ Transmission depends on the density of susceptible and infected hosts (the well-mixed assumption of contact) 
+
++ Transmission requires:
+  
+  + contact between individuals ($cN$)
+  + the right sort of contact (needs to be susceptible with an infected, right?)
+  + successful parasite establishment ($a$)
+
+
+---
+
+### Density dependent transmission 
+
++ For one infected individual, the probability that they encounter a susceptible individual is $\frac{S}{N}$
+
++ For all infected individuals in the population, this scales to $I\frac{S}{N}$
+
++ Transmission requires:
+  
+  + contact between a susceptible and an infected individual ($c$)
+  + successful parasite establishment ($a$)
+
++ Transmission = $cN\frac{S}{N}Ia$ = $\beta SI$
+
+
+<div class="notes">
+Be clear about S and I terminology, as it's going to be used at the end of this lecture to introduce the SIR model and such. 
+
+</div>
+
+
+
+
+
+---
+
+### Frequency dependent transmission 
+
++ Transmission depends on the number of contacts you have (e.g., sexually-transmitted infections)
+
++ Transmission requires:
+  
+  + contact between a susceptible and an infected individual ($c$)
+  + successful parasite establishment ($a$)
+
++ Transmission = $c\frac{S}{N}Ia$ = $\beta\frac{SI}{N}$
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
+
+
+
+
+
+---
+
+### Transmission and the force of infection 
+
+<font color='green'> Force of infection </font>: per capita rate at which susceptible individuals get infected
+
++ But it's different dependent on if the pathogen is frequency or density dependent, right? 
+
+\[ DD: \dfrac{dI}{dt} = \beta S \]
+\[ FD: \dfrac{dI}{dt} = \beta' S \]
+
+but $\beta \neq \beta'$
+
+and this is because $\beta$ is a combination of contact $c$ and parasite establishment $a$. 
+
+
+
+---
+
+### Density dependent transmission assumes that you contact everyone
+
++ Density-dependent transmission = $cN\frac{S}{N}Ia$ 
+
++ ...that $cN$ is the contact of everyone with everyone. 
+
+
+
+
+
+
+
+---
+
+### How does contact scale with population density? 
+
+![](figs/dd-vs-fd.png){width="90%"}
+
+
+
+
+
+
+
+
+
+--- 
+
+### 
+
+What else? 
+
+Currently only about 20 slides, so this would be over in 30 minutes. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+<br> 
+<br> 
+<br> 
+
+<h2> <center> End of lecture 1 </center> </h2> 
+
+
+
+
+
+
+
+
+
+<!-- intro to SIR terminology (talk about transmission, recovery, mortality, etc. etc. etc.)
+lead into the next lecture, which will focus on the SIR and modeling bits around epidemics -->
+
+
+
+
+---
+
+### Impacts of parasites
+
++ Population extinction 
+
++ Invasive species (enemy release and biotic resistance)
+
++ Alter population dynamics 
+
++ Weird knock-on effects (e.g., alter competitive landscape)
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
+
+
+
+---
+
+### Population extinction (extirpation)
+
++ Do we expect parasites with density-dependent transmission to cause host extirpation? 
+
++ Under what mechanisms could this happen? 
+  + stochasticity/small populations 
+  + non-DD transmission (inhomogeneous mixing)
+  + reservoirs 
+
+<sub> de Castro and Bolker 2005 _Ecology Letters_ </sub> 
+
+
+
+
+
+---
+
+### How often does parasite-induced extinction occur? 
+
+![](figs/parasiteInducedExtinction.png){width="90%"}
+
+
+
+
+
+
+
+---
+
+### Invasive species (enemy release and biotic resistance)
+
++ <font color='green'> enemy release </font>: invasive species are less impacted by enemies than native species (lose parasites in process of invasion or parasites in invaded range not a good fit)
+
++ <font color='green'> biotic resistance </font>: invasive species more impacted by enemies than native species (can happen in a bunch of ways)
+  + let's think about some of the ways this could happen without leading to a net loss for both host species 
+
+
+
+<div class="notes">
+
+If native host is less affected by the parasite, or has a lower transmission rate, or doesn't really encounter the invasive host all that much. Otherwise, an increase in infection in the invasive will also feedback into the native species, right? This assumes density-dependent transmission, as the effect would be way weaker with FD transmission. What about spatial heterogeneity? If the parasite prefers a certain microenvironment, differences in habitat use, activity period, etc. could result in differential infection of the invasive. Finally, think about the burden of disease (if burden is proportional to the negative effects of disease, hosts that harbor larger burdens will pay a higher cost, maybe without an increase in parasite shedding or transmission potential). 
+
+</div>
+
+
+
+
+
+
+
+
+---
+
+### Enemy release 
  
- 
- 
- 
+<div class="columns-2">
+
+
+![](figs/crab.jpg){width="100%"}
+
++ European green crab _Carcinus maenas_ has reduced parasite species richness (and infection prevalence) in its invasive range compared with its natural range
+
+
+</div> 
+
+
+
+
+
+
+
+---
+
+### Biotic resistance
+
+<div class="columns-2">
+
+ + Eastern white pine (_Pinus strobus_) could not be introduced into Europe (after many attempts) because of a native blister rust (_Cronartium ribicola_) which is sustained by more tolerant indigenous European pines 
+
+
+![](figs/rust.jpg){width="100%"}
+
+</div> 
+
+
+
+
+
+
+
+
+
+
+---
+
+### Alter population dynamics 
+
+<div class="columns-2">
+
++ Red grouse dynamics in Britain are famously cyclic 
+
++ The cause of these fluctuations is a nematode parasite whose impact is directly related to host demographic parameters ($r_t$ and breeding mortality) 
+
+> Hubson et al. 1998 _Science_ 
+
+![](figs/grouse1.png){width="80%"}
+
+</div> 
+
+
+
+
+
+
+---
+
+### Take out parasite, take out cycling 
+
+![](figs/grouse2.jpeg){width="90%"}
+
+
+
+
+
+
+
+
+
+---
+
+### Weird knock-on effects (e.g., alter competitive landscape)
+
++ Population dynamics (growth is determined by birth and death)
+
++ $N = B - D$
+
++ but parasites can result in additional mortality ($N=B-D-\omega$)
+
++ this extra mortality can cause competition between species to change, or affect food web dynamics (e.g., deer infected by chronic wasting disease alter wolf population dynamics)
+
+> _Parasite-mediated competition_ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+### Microparasite dynamics in host populations 
+
++ <font color='green'>Outbreaks</font>: Sudden increase in disease in a population that forms _epidemic curve_ 
+
++ <font color='green'>Sequential epidemics</font>: Multiple waves or peaks of infection 
+
++ <font color='green'>Endemic parasites</font>: Increase in prevalence that eventually settles to some equilibrial amount of infection 
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
+---
+
+### Outbreaks
+
+![](figs/ebola.png){width="90%"}
+
+
+
+---
+
+### Sequential epidemics
+
+![](figs/flu.jpg){width="90%"}
+
+
+
+---
+
+### Endemic parasites 
+
+
+![](figs/endemicPlasmodium.jpg){width="90%"}
+
+
+
+
+
+---
+
+### Modeling microparasite infections 
+
++ To understand, forecast, and mitigate infectious disease, we need to be able to model them (or at least fit a model to them). 
+
++ <font color='green'> statistical modeling </font>: fitting a model to data to gain inference or prediction. 
+
++ <font color='green'> phenomenological modeling </font>: building a model from first principles to describe a system's behavior. Can then be fit to data. 
+
+
+
+
+
+---
+
+### Some examples to help distinguish 
+
++ Campylobacter: bacterial pathogen (infection comes from animals or animal feces, mainly poulty) 
+
++ Campylobacter cases in Germany from 2001-2011 
+
+![](figs/campy.png){width="70%"}
+
+
+
+
+
+
+
+---
+
+### Statistical modeling 
+
+Fit a statistical model just based on case counts over time
+
++ good for exploring periodicity in infections 
++ could be useful for forecasting 
+
+
+
+---
+
+### A fit statistical model 
+
+![](figs/campy2.png){width="90%"}
+
+
+<sub> https://epirhandbook.com/en/time-series-and-outbreak-detection.html </sub> 
+
+
+
+---
+
+### Phenomenological modeling 
+
++ SEIR model of humans (h) and houseflies (f) 
+
+
+![](figs/campy3.jpg){width="60%"}
+
+
+> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6408420/
+
+
+
+
+
+
+---
+
+### Phenomenological modeling 
+
++ Built from knowledge about transmission, without looking at data first 
+
+
++ can still be fit to data, so some of the resulting outputs may be similar between the two approaches
+
+![](figs/campy4.jpg){width="90%"}
+
+> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6408420/
+
+
+
+
+
+
+
+
+---
+
+### How can simple models produce all of these complex patterns? 
+
++ Next lecture we'll be going over modeling infectious disease
+
++ Most of the models we will go over produce outbreak-like dynamics (epidemics) 
+
+> Before next class, think about when you would expect to see sequential epidemics or endemic infections 
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
 

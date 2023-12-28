@@ -11,6 +11,12 @@ output: ioslides_presentation
   margin-left: auto;
   margin-right: auto;
 }
+h2 { 
+ color: #3399ff;		
+}
+h3 { 
+ color: #3399ff;		
+}
 </style>
 
 ```{r setup, include=FALSE} 
@@ -19,5 +25,27 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ---
 
 
- (mosquito/tick/etc., vector biology, modeling issues, R0, human health impacts, env constraints, )
+<!-- (mosquito/tick/etc., vector biology, modeling issues, R0, human health impacts, env constraints, ) week 9 from Park 2019 --> 
+
+
+
+
+
+
+---
+
+### Title
+
+
+![](figs/parasites.jpg){width="90%"}
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
 

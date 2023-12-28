@@ -11,6 +11,12 @@ output: ioslides_presentation
   margin-left: auto;
   margin-right: auto;
 }
+h2 { 
+ color: #3399ff;		
+}
+h3 { 
+ color: #3399ff;		
+}
 </style>
 
 ```{r setup, include=FALSE} 
@@ -186,8 +192,6 @@ Go through the course website and make sure everyone has easy access and is clea
 
 ### Why do we care about infectious disease? 
 
-
-
 + Impact on biodiversity 
 
 + Economic importance
@@ -199,12 +203,20 @@ Go through the course website and make sure everyone has easy access and is clea
 
 
 
+
+
+
+
 ---
 
 ### Impact on biodiversity 
 
 
-![figs/]()
+![](figs/chytrid.png){width=90%}
+
+
+<sub> Fisher et al. 2020. _Nature Reviews Microbiology_ </sub>
+
 
 
 
@@ -215,7 +227,9 @@ Go through the course website and make sure everyone has easy access and is clea
 ### Economic importance
 
 
-![figs/]()
+![](figs/oysterMudWorm.png){width=80%}
+
+<sub> Cassella. 2022. _High Country News_ </sub>
 
 
 
@@ -227,7 +241,11 @@ Go through the course website and make sure everyone has easy access and is clea
 ### Impact on humans 
 
 
-![figs/]()
+![](figs/baker2021.png){width=80%}
+
+<sub> Baker et al. 2022. _Nature Reviews Microbiology_ </sub>
+
+
 
 
 
@@ -260,8 +278,11 @@ Go through the course website and make sure everyone has easy access and is clea
 ### Koch's postulates
 
 + Microorganism must be present in diseased individuals and absent in healthy individuals.
+
 + Microorganism must be isolated from a diseased organism and grown in pure culture.
+
 + Cultured microorganism should cause disease when introduced into a healthy organism.
+
 + Microorganism must be re-isolated from the inoculated, diseased experimental host and identified as being identical to the original specific causative agent.
 
 
@@ -282,6 +303,10 @@ Go through the course website and make sure everyone has easy access and is clea
   + low prevalence of infection given inoculation (hence the 'should' in postulate 3, which was previously 'must')
   
   
+
+
+
+
 
 
 

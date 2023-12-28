@@ -11,6 +11,12 @@ output: ioslides_presentation
   margin-left: auto;
   margin-right: auto;
 }
+h2 { 
+ color: #3399ff;		
+}
+h3 { 
+ color: #3399ff;		
+}
 </style>
 
 ```{r setup, include=FALSE} 
@@ -20,7 +26,26 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 
 
-
- (within host competition, pederson's work, priority effects, altered susceptibility, competition changing outcomes for host, )
+<!-- (within host competition, pederson's work, priority effects, altered susceptibility, competition changing outcomes for host, )  week 11 from Park 2019 --> 
  
+
+
+
+---
+
+### Title
+
+
+![](figs/parasites.jpg){width="90%"}
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
 

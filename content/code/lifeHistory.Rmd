@@ -11,6 +11,12 @@ output: ioslides_presentation
   margin-left: auto;
   margin-right: auto;
 }
+h2 { 
+ color: #3399ff;		
+}
+h3 { 
+ color: #3399ff;		
+}
 </style>
 
 ```{r setup, include=FALSE} 
@@ -21,13 +27,27 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 
 
+<!-- use the week 2 Park info to fill out the major groups of parasites ("terminology/diversity" lecture) -->
+
+
+### Learning objectives
+
++ Appreciate the multiple forms parasites can take
++ Be able to define general parasite terms (e.g., obligate, facultative, etc.)
++ Understand parasite life history tradeoffs
++ Be able to quantify parasite specialism
+
+
+
+
+
+
 
 ---
 
-### So how many parasites are there? 
+### Parasite diversity 
 
-Revisit from previous lecture and expand on it. 
-
+![Carlson et al. 2020 PRSB](figs/rspb2020.jpg){width=50%}
 
 
 
@@ -36,13 +56,44 @@ Revisit from previous lecture and expand on it.
 
 ### How do we really define parasite diversity? 
 
-Diversity in numbers
-Diversity in phylogenetics
-Diversity in infection modes
-Diversity in tissue infected 
-Diversity in impacts
-Diversity in host specificity
-...
+**Diversity in:**
+
++ numbers
++ phylogenetics
++ infection modes
++ tissue infected 
++ impacts
++ host specificity
++ ...
+
+
+
+
+
+
+
+
+---
+
+### Diversity in numbers 
+
+![](figs/parasites.jpg){width="90%"}
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
+
+
+
+
 
 
 ---
@@ -50,17 +101,234 @@ Diversity in host specificity
 ### Diversity in phylogenetics 
 
 
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
+
+
+
+
+
 ---
 
 ### Diversity in infection modes
 
-macroparasites versus microparasites 
-different routes to infection 
++ macroparasites versus microparasites 
+
++ direct versus indirect transmission 
+
++ simple versus complex life cycle
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
+
+
+---
+
+
+![](figs/lifeCycles.jpg){width=100%}
+
+
+---
+
+### Env-transmitted pathogen (simple)
+
+![](figs/Nematode_lifecycle.jpg){width=80%}
+
+
+
+---
+
+### Complex life cycle
+
+![](figs/complexLifeCycleMalaria.jpg){width=85%}
+
+
+
+
+
+---
+
+### Diversity in infection modes 
+
++ Six parasite strategies:
+  + parasitic castration 
+  + directly transmitted parasitism 
+  + trophically-transmitted parasitism
+  + vector-transmitted parasitism
+  + parasitoidism
+  + micropredation
+  
+
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+---
+
+### parasitic castrators
+
++ remove the host's ability to reproduce
++ take that energy and/or space 
+
+
+
+
+<div class="notes">
+
+Parasitic castrators partly or completely destroy their host's ability to reproduce, diverting the energy that would have gone into reproduction into host and parasite growth, sometimes causing gigantism in the host. The host's other systems remain intact, allowing it to survive and to sustain the parasite
+</div>
+
+
+
+---
+
+### directly transmitted parasitism 
+
++ do not require vector 
++ this includes environmentally-transmitted pathogens (e.g., cholera, many intestinal helmiths)
+
+![](figs/direct.jpg){width=50%}
+
+
+<div class="notes">
+
+Directly-transmitted parasites, not requiring a vector to reach their hosts, include such parasites of terrestrial vertebrates as lice and mites; marine parasites such as copepods and cyamid amphipods; monogeneans; and many species of nematodes, fungi, protozoans, bacteria, and viruses. 
+</div>
+
+
+
+---
+
+### trophically-transmitted parasitism
+
++ transmitted through predation of the host 
++ complex life cycle parasites 
++ can modify host behavior 
+
+
+![](figs/trophic.jpg){width=50%}
+
+
+<div class="notes">
+
+Trophically-transmitted parasites are transmitted by being eaten by a host. They include trematodes (all except schistosomes), cestodes, acanthocephalans, pentastomids, many round worms, and many protozoa such as Toxoplasma (Poulin 2015). They have complex life-cycles involving hosts of two or more species. In their juvenile stages they infect and often encyst in the intermediate host. When the intermediate-host animal is eaten by a predator, the definitive host, the parasite survives the digestion process and matures into an adult; some live as intestinal parasites. Many trophically-transmitted parasites modify the behavior of their intermediate hosts, increasing their chances of being eaten by a predator. As with directly transmitted parasites, the distribution of trophically transmitted parasites among host individuals is aggregated (Poulin 2015).
+</div>
+
+
+
+---
+
+### vector-transmitted parasitism
+
++ Rely on other organisms for transmission (e.g., mosquitos, ticks, lice, fleas, etc.) 
++ Sometimes reproduce in vector, sometimes only reproduce in definitive host 
+
+![](figs/vectors.jpg){width=50%}
+
+
+<div class="notes">
+Vector-transmitted parasites rely on a third party, an intermediate host, where the parasite does not reproduce sexually (Australian Society of Parasitology 2010) to carry them from one definitive host to another (Poulin and Randhawa 2015). These parasites are microorganisms, namely protozoa, bacteria, or viruses, often intracellular pathogens (disease-causers) (Poulin and Randhawa 2015).  Their vectors are mostly hematophagic arthropods such as fleas, lice, ticks, and mosquitoes 
+</div>
+
+
+
+
+
+
+
+---
+
+### parasitoidism
+
++ Insects that kill their hosts (so more like predation)
++ Larvae live as parasites within infected host 
+
+![](figs/parasitoid.png){width=50%}
+
+
+<div class="notes">
+Parasitoids are insects which sooner or later kill their hosts, placing their relationship close to predation (Stevens 2010). Most parasitoids are parasitoid wasps or other hymenopterans; others include dipterans such as phorid flies. They can be divided into two groups, idiobionts and koinobionts, differing in their treatment of their hosts (Gullan and Cranston 2010). 
+
+Idiobiont parasitoids sting their often large prey on capture, either killing them outright or paralyzing them immediately. The immobilized prey is then carried to a nest, sometimes alongside other prey if it is not large enough to support a parasitoid throughout its development. An egg is laid on top of the prey and the nest is then sealed. The parasitoid develops rapidly through its larval and pupal stages, feeding on the provisions left for it 
+</div>
+---
+
+
+
+
+
+### micropredation
+
++ attacks more than one host (reducing each host individual fitness by small amount)
++ e.g., leeches, mosquitos, fleas, ticks, lice
+
+
+
+<div class="notes">
+A micropredator attacks more than one host, reducing each host's fitness by at least a small amount, and is only in contact with any one host intermittently. This behavior makes micropredators suitable as vectors, as they can pass smaller parasites from one host to another (Poulin and Randhawa 2015; Lafferty and Kuris 2002; Wilson et al. 2017).  Most micropredators are hematophagic, feeding on blood. They include annelids such as leeches, crustaceans such as branchiurans and gnathiid isopods, various dipterans such as mosquitoes and tsetse flies, other arthropods such as fleas and ticks, vertebrates such as lampreys, and mammals such as vampire bats
+
+</div>
+
+
+
+  
+
+
+
+
+
 
 
 ---
 
 ### Diversity in tissue infected 
+
++ **Tissue tropism**: range of host tissue types which the pathogen can infect 
+
++ e.g., viruses tht must bind to specific cell surface receptors to enter a cell
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -69,9 +337,30 @@ different routes to infection
 
 ### Diversity in impacts 
 
++ Some parasites have little impact (e.g., some parasitic worms), some have pronounced impact (e.g., anthrax)
+
++ Impacts quantified as 
+  + morbidity/mortality 
+  + energetic cost to host
+  + fitness cost 
+  + etc. 
+
+
+
+<div class="notes">
+
 You have all been infected by a parasite, but it was likely pretty mild? 
 
 But what about things like anthrax, rabies, or ebola? 
+
+</div>
+
+
+
+
+
+
+
 
 
 
@@ -79,8 +368,25 @@ But what about things like anthrax, rabies, or ebola?
 
 ### Diversity in host specificity 
 
-Generalism versus specialism 
++ **Host specificity**: range and diversity of types of hosts a parasite can infect 
 
+
++ Generalism versus specialism 
+
+
++ Hosts can specialize 
+  + in number of hosts
+  + in diversity of hosts 
+
+
+> What's the most generalist parasite you can think of? 
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
 
 
 
@@ -94,13 +400,115 @@ Generalism versus specialism
 
 ### Why specialize? 
 
++ High infectivity/transmission in preferred host
+
+
+### Why generalize? 
+
++ Need a host to reproduce
++ Potential for invasion of new habitats 
++ Co-extinction is bad 
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
+
+
+
+---
+
+### How do we quantify parasite specialism? 
+
++ number of host species infected (host range)
++ relative utilization of different host species 
++ [maybe weighted by phylogenetic distance between hosts](https://pubmed.ncbi.nlm.nih.gov/12793652/)
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+### Specialism-generalism tradeoffs 
+
++ Jack of all trades, master of none? 
+  + Proposes a relationship between ability to infect and host specificity (e.g., low host specificity results in low average infection prevalence)
+
+> But do we see evidence for this relationship? 
+
+
+
+
+<div class="notes">
+
+Animal species with larger local populations tend to be widespread across many localities, whereas species with smaller local populations occur in fewer localities. This pattern is well documented for free-living species and can be explained by the resource breadth hypothesis: the attributes that enable a species to exploit a diversity of resources allow it to attain a broad distribution and high local density. In contrast, for parasitic organisms, the trade-off hypothesis predicts that parasites exploiting many host species will achieve lower mean abundance on those hosts than more host-specific parasites because of the costs of adaptations against multiple defense systems. We test these alternative hypotheses with data on host specificity and abundance of fleas parasitic on small mammals from 20 different regions. Our analyses controlled for phylogenetic influences, differences in host body surface area, and sampling effort. In most regions, we found significant positive relationships between flea abundance and either the number of host species they exploited or the average taxonomic distance among those host species. This was true whether we used mean flea abundance or the maximum abundance they achieved on their optimal host. Although fleas tended to exploit more host species in regions with either larger number of available hosts or more taxonomically diverse host faunas, differences in host faunas between regions had no clear effect on the abundance-host specificity relationship. Overall, the results support the resource breadth hypothesis: fleas exploiting many host species or taxonomically unrelated hosts achieve higher abundance than specialist fleas. We conclude that generalist parasites achieve higher abundance because of a combination of resource availability and stability.
+
+http://dx.doi.org/10.1086/423716
+
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 ---
 
 ### Host-parasite coevolution 
 
-+ So if you specialize, the host may evolve defenses. How does a parasite get around this? 
++ Infection is costly to hosts in terms of fitness, leading to evolution of host defenses 
+
++ Parasites want to infect, leading to evolution of novel infection strategies 
+
+> We will discuss this later in much more detail 
+
+
+
+
+<div class="notes">
+
+Be sure to not imply 'want' (e.g., hosts do not want to become infected), as it's not really that, it's that hosts that have the 'correct' level of defense will have higher fitness, such that selection will favor different levels of host investment in immune defense dependent on parasite pressure (leave a lot of this for later, but good to mention it now). 
+
+</div>
+
+
+
+
+
+
 
 
 
@@ -111,15 +519,56 @@ Generalism versus specialism
 ### What is the "goal" of the parasite? 
 
 + To reproduce. So it doesn't really _want_ to kill the host, right? 
+
 + But it also has to reproduce and consume some aspect of the host, which comes at a fitness consequence for the host. 
 
-+ There's a conflicting balance between trying to reproduce (which causes harm to host) and flying under the rader (if success is defined as transmission to the next host) 
++ There's a conflicting balance between 
+  + trying to reproduce (which causes harm to host) 
+  + flying under the rader (transmission to the next host) 
+
+> We will go into more detail on this later as well
+
+
+<div class="notes">
+Ties into resistance-tolerance tradeoffs but don't bring this up yet. Or if you do, differentiate it from virulence evolution. 
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
 ---
 
 ### optimal virulence 
+
++ **Virulence**: pathogen-induced mortality of infected host
+
++ Dead hosts don't transmit
+
+
+![](figs/myxo.jpg){width="90%"}
+
+
+<div class="notes">
+
+
+</div>
+
+
+
+
+
+
 
 
 
@@ -128,13 +577,16 @@ Generalism versus specialism
 
 ### What parasites would not follow this general pattern? 
 
-+ Fungal pathogens that can live in the environment
-+ 
-+ 
-+ 
++ Fungal pathogens, generally
++ Pathogens with a long-lived environmental stage (e.g., anthrax)
 
 
 
+
+<div class="notes">
+This is my *note*.
+
+</div>
 
 
 

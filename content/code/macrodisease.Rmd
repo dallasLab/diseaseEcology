@@ -11,6 +11,12 @@ output: ioslides_presentation
   margin-left: auto;
   margin-right: auto;
 }
+h2 { 
+ color: #3399ff;		
+}
+h3 { 
+ color: #3399ff;		
+}
 </style>
 
 ```{r setup, include=FALSE} 
@@ -22,4 +28,23 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 
 (latitudinal scaling of richness etc., temperature and macros/mosqs, network models, contact networks/centrality/transmission type matters, link back to superspreader) 
+
+---
+
+### Title
+
+
+![](figs/parasites.jpg){width="90%"}
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
+
 

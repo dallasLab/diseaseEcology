@@ -11,6 +11,12 @@ output: ioslides_presentation
   margin-left: auto;
   margin-right: auto;
 }
+h2 { 
+ color: #3399ff;		
+}
+h3 { 
+ color: #3399ff;		
+}
 </style>
 
 ```{r setup, include=FALSE} 
@@ -21,4 +27,24 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 
 
-(climate change/land use/human-wildlife interface, what are zoonoses and how do they happen, define emergence/re-emergence/outbreak, risk factors for zoonoses - phylo relationship to reservoir, interaction with reservoir, routes of spillover)
+<!-- (climate change/land use/human-wildlife interface, what are zoonoses and how do they happen, define emergence/re-emergence/outbreak, risk factors for zoonoses - phylo relationship to reservoir, interaction with reservoir, routes of spillover) week 12 and week 13 from Park 2019-->
+
+
+
+---
+
+### Title
+
+
+![](figs/parasites.jpg){width="90%"}
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+

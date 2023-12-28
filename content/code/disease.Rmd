@@ -13,9 +13,35 @@ output:
   margin-left: auto;
   margin-right: auto;
 }
+h2 { 
+ color: #3399ff;		
+}
+h3 { 
+ color: #3399ff;		
+}
 </style>
 
 
+
+
+
+---
+
+### Title
+
+
+![](figs/parasites.jpg){width="90%"}
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+---
 
 # Modeling host-parasite interactions
 

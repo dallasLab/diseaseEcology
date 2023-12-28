@@ -65,9 +65,11 @@ The total breakdown of points is 500 points. Grades will be assigned using the f
 component      | weight
 :---------------|-----:
 HW Exercises (4)   | 30% 
-Exams (2) | 20%
-Weekly quizes | 40% 
+Exams (2) | 50%
+Weekly quizes | 10%
 Participation  | 10% 
+
+
 
 
 

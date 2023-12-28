@@ -11,6 +11,12 @@ output: ioslides_presentation
   margin-left: auto;
   margin-right: auto;
 }
+h2 { 
+ color: #3399ff;		
+}
+h3 { 
+ color: #3399ff;		
+}
 </style>
 
 ```{r setup, include=FALSE} 
@@ -19,5 +25,28 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ---
 
 
- (parasite life cycle via env, macroparasite models, R0, effects of aggregation on host dynamics)
+ 
+ 
+ <!-- parasite life cycle via env, macroparasite models, R0, effects of aggregation on host dynamics)  Week 4 from Park 2019 --> 
+ 
+
+
+
+---
+
+### Title
+
+
+![](figs/parasites.jpg){width="90%"}
+
+
+
+
+<div class="notes">
+This is my *note*.
+
+</div>
+
+
+
 
