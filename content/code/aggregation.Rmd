@@ -22,7 +22,7 @@ h3 {
 ```{r setup, include=FALSE} 
 knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
 ```
----
+
 
 
 
@@ -42,11 +42,27 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 
 
+---
+
+### But prevalence and intensity are interesting to look at together 
+
++ Prevalence and intensity are driven by potentially different forces
+
++ Prevalence is more about encounter ($c$) and intensity is more about host susceptibility ($a$)
+
++ We'll consider both until next lecture 
+
+
+
+
+
+
+
 
 
 ---
 
-### Why do we care about intensity? 
+### Why do we care about intensity in particular? 
 
 + <font color='orange'> outcomes </font> (death is more likely if you have more parasites)
 
@@ -81,7 +97,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 + <font color='green'> supershedders</font>: high infection burden can lead to shedding lots of pathogen in the environment (increases transmission rate) 
 
-+ supershedding is different than superspreading 
++ Supershedding is different than superspreading 
 
 + Transmission potential increases for both external parasites and internal parasites 
 
@@ -192,7 +208,7 @@ Saturating transmission potential (there's only so many parasites you can have b
 
 ---
 
-### What causes variation in infection intensity within a host population?
+### What causes variation in parasite burden within a host population?
 
 + host sex
 
@@ -219,10 +235,85 @@ Saturating transmission potential (there's only so many parasites you can have b
 
 ### Sex-biased parasitism 
 
-+ 
++ Generally, males tend to have higher parasite prevalence and intensity than females
 
-+ 
++ At least two main drivers:
+  + ecological (males have different traits)
+  + physiological (different hormone profiles)
 
+
+---
+
+### Ecological drivers of sex-biased parasitism 
+
++ <font color='green'> sexual size dimorphism </font>: difference in body size between sexes
+
++ males tend to (but not always) be larger than females 
+
++ <font color='red'>However</font>, differences in size are also related to differences in other things which influence parasite encounter (home range size, territoriality, etc.). 
+
++ Really tough to disentangle differences in size from differences in behavior. 
+
+> How would we test if sex-biased parasitism was driven by size differences versus other behavioral or trait differences? 
+
+<sub> Zuk & McKean 1996 _Int J of Parasitology_</sub>
+
+
+---
+
+### Physiological 
+
++ Hormonal differences between the sexes may also play a role in at least two ways
+  + hormones may alter immune function
+  + hormones may influence behavior
+
+
+
+
+---
+
+### Hormones may alter immune function
+
++ testosterone suppresses the immune system, increasing susceptibility to infection 
+
++ note that this does not increase contact rate (which is important for prevalence), but does increase the parasite's ability to increase within the host (which is important for intensity)
+
+
+
+
+---
+
+### Hormones may influence behavior 
+
++ Testosterone associated with risk-taking behavior, home range size, and movement 
+
++ This serves to increase encounter rates (which is important for prevalence), but does not increase the parasite's ability to increase within the host (which is important for intensity) 
+
+
+
+---
+
+### What does this all mean? 
+
++ If parasite prevalence and intensity is higher in males, then there are likely multiple forces at work
+
++ If parasite prevalence is higher, but intensity is not, then it boils down to variation in contact rate, not within-host physiological differences 
+
++ If parasite intensity is higher, but prevalence is not, then it boils down to variation in physiology/hormones/immune/energy budget, not contact rate
+
+
+
+---
+
+### A fun example of sex-biased parasitism 
+
+![](figs/mooseSexBias.png){width="100%"}
+
+<sub> Swislocka et al. 2020 _Int J Parasitol Parasites Wildlife </sub> 
+
+<div class="notes">
+Male moose had higher parasite species richness and prevalence for the majority of the 9 parasite species, but they did not test infection intensity, as fecal egg counts are not super reliable, they argue. 
+</div>
 
 
 
@@ -238,6 +329,8 @@ Saturating transmission potential (there's only so many parasites you can have b
 <sub>Krasnov et al. 2012 _Mammalia_ </sub>
 
 
+
+
 ---
 
 ### Sex-biased parasitism 
@@ -245,20 +338,6 @@ Saturating transmission potential (there's only so many parasites you can have b
 ![](figs/sexBias2.png){width="80%"}
 
 <sub>Krasnov et al. 2012 _Mammalia_ </sub>
-
-
-
-
-
-
-
-
-
----
-
-### Other examples of sex-biased parasitism 
-
-
 
 
 
@@ -366,9 +445,13 @@ hist(sample(df$burden, 1000, replace=TRUE),
 
 ### Home range size 
 
++ Species with larger home ranges, or home ranges with more overlap with other species, lead to greater encounter of parasites
 
++ The potential energetic cost of having a large home range could lead to higher infection intensity 
 
+![](figs/networkRange.png){width="90%"}
 
+<sub>Godfrey 2013 _Int J Parasitol: Parasites and Wildlife </sub> 
 
 
 
@@ -382,7 +465,21 @@ hist(sample(df$burden, 1000, replace=TRUE),
 
 ### Immune function 
 
++ We talked about immune function as related to sex differences, but there could also be standing variation in immune function across the population. 
 
++ We focus here on <font color='green'>innate immunity</font>
+
+---
+
+### Immune function 
+
++ Variation in immune function will influence infection intensity, but not prevalence 
+
++ Often tough to disentangle, as it requires immune information before and after parasite infection (or at least before) 
+
++ Studies tend to look at how parasites influence immune regulation
+  
+  + e.g., some helminth parasites can downregulate immune function of hosts (McSorley and Maizels 2012 _Clin Microbiol Rev_)
 
 
 
@@ -427,9 +524,11 @@ hist(sample(df$burden, 1000, replace=TRUE),
 
 ### What have we learned so far? 
 
-+ There is variation in parasite burden within a population 
++ There is variation in parasite infection prevalence and intensity within a population 
 
-+ This variation is related to host traits 
++ This variation is related to host traits, physiology, etc. 
+
++ Some things affect infection prevalence, some intensity, some both 
 
 
 
@@ -443,7 +542,11 @@ hist(sample(df$burden, 1000, replace=TRUE),
 
 ### Parasite aggregation 
 
++ Now we'll focus almost entirely on infection intensity 
+
 + This variation in infection intensity (aka parasite burden) gets at the fundamental idea that <font color='green'> parasites are aggregated within host populations</font> 
+
++ Let's dive into some of the terminology and how intensity is measured 
 
 <div class="notes">
 
@@ -471,6 +574,104 @@ hist(sample(df$burden, 1000, replace=TRUE),
 
 
 
+--- 
+
+### Issues that we're still struggling with 
+
++ Do we need to account for host body mass in estimates of infection intensity? 
+
+![](figs/hostSexApodemus.png){width="80%"}
+
+
+
+
+
+
+---
+
+### Issues that we're still struggling with 
+
++ Do we need to account for parasite size or impact? 
+
+![](figs/parasiteBiovolume.png){width="70%"}
+
+<sub> Lambden & Johnson 2013 _Ecology & Evolution_</sub>
+
+<div class="notes">
+Parasites of amphibians show this clear difference in the number of parasite individuals and the actual burden in terms of percent of host body mass that is parasite. That is, number is related to biovolume, but the slope of that relationship is important to consider, right? Here, we are making the big assumption that larger parasites relative to host mass are having a bigger impact on the host (do larger parasites take more host resources?) 
+
+</div>
+
+
+
+
+
+---
+
+### What does the distribution of intensity look like? 
+
+![](figs/parAgg0.png){width="60%"}
+
+<sub> Webber & Willis 2020 _Royal Society Open Science_</sub>
+
+
+
+
+---
+
+### What does the distribution of intensity look like? 
+
+![](figs/parAgg1.png){width="100%"}
+
+<sub> Buhat et al. 2021 _Modeling Earth Systems and Env_ </sub>
+
+
+
+
+
+---
+
+### What does the distribution of intensity look like? 
+
+![](figs/parAgg2.png){width="100%"}
+
+<sub> https://parasiteecology.wordpress.com/2014/04/09/how-many-worms-is-too-many/</sub>
+
+
+
+
+
+
+---
+
+### Tradeoffs in infection intensity 
+
++ Taking too many host resources (e.g., when intensity is high) can kill the host, or reduce parasite fitness
+
++ There should be a sweet spot of intensity 
+
++ But this spot is super dependent on amount of host resources, host lifespan, parasite transmission mode, parasite survival in the environment, etc. etc. etc. 
+
+
+
+
+
+---
+
+### Tradeoffs in infection intensity 
+
+
+![](figs/intensitySweetSpot.png){width="80%"}
+
+<sub> https://parasiteecology.wordpress.com/2014/04/09/how-many-worms-is-too-many/</sub>
+
+
+
+
+
+
+
+
 
 
 ---
@@ -489,7 +690,8 @@ hist(sample(df$burden, 1000, replace=TRUE),
 
 + Hoover's index
 
-https://www.otago.ac.nz/parasitegroup/PDF%20papers/Morrilletal2023-IJP.pdf
+
+<sub>Morill et al. 2023 _Int J for Parasitology </sub> 
 
 
 
@@ -501,8 +703,11 @@ https://www.otago.ac.nz/parasitegroup/PDF%20papers/Morrilletal2023-IJP.pdf
 
 ### Variance-mean ratio 
 
++ Basically a test of dispersion
 
-Variance divided by the mean 
++ Values greater than 1 mean variance is larger than the mean (overdispersed)
+
++ So there's more aggregation when VMR is high 
 
 \[ VMR = \dfrac{\sigma^2}{\mu} \]
 
@@ -513,6 +718,21 @@ Variance divided by the mean
 
 
 --- 
+
+### Negative binomial distribution 
+
++ By fitting a known distribution, we get a single measure of aggregation based on the distribution of parasite infection intensity values 
+
++ As aggregation increases, $k$ decreases 
+
++ As infection intensity becomes _random_, $k$ goes to infinity 
+
+\[ k = \dfrac{(\mu^2 - \sigma^2)/N}{(\sigma^2 - \mu^2)} \]
+
+
+
+
+---
 
 ### Negative binomial distribution 
 
@@ -528,11 +748,6 @@ hist(rnbinom(1000, size=10, prob=0.4), main='mu=10',
 
 ```
 
-\[ k = \dfrac{(\mu^2 - \sigma^2)/N}{(\sigma^2 - \mu^2)} \]
-
-
-
-
 
 
 
@@ -542,9 +757,10 @@ hist(rnbinom(1000, size=10, prob=0.4), main='mu=10',
 
 ### Mean crowding 
 
-
++ Basically, the average number of parasites infecting host (but not quite) 
 
 \[ m* = \dfrac{\sum x^2_j}{\sum x_j} - 1 \]
+
 
 
 
@@ -555,6 +771,13 @@ hist(rnbinom(1000, size=10, prob=0.4), main='mu=10',
 
 ### Patchiness
 
++ Mean crowding divided by the sample mean
+
++ _Crowding_ on single host from the perspective of any one parasite, in units of the
+mean abundance. 
+
++ Could be considered as how many times more _crowded_ an average parasite is, compared with if the same parasites were distributed randomly among hosts 
+
 \[ P = \dfrac{m*}{\mu} \]
 
 
@@ -564,9 +787,47 @@ hist(rnbinom(1000, size=10, prob=0.4), main='mu=10',
 
 ---
 
-### Poulin's D
+### Poulin's D (discrepancy)
+
++ Compares observed aggregation with the case of all the sampled parasites being on a single host
+
++ Based around the Lorenz curve (not unique to this measure) 
+
++ This measure is also called the Gini index in economics 
+
 
 \[ D = 1 - \dfrac{2\sum^N_i=1 \sum^i_j=1 x_j}{\mu N(N+1)} \]
+
+
+
+
+---
+
+### Lorenz curve 
+
++ Developed in economics to describe wealth inequality 
+
+![](figs/lorenzCurve.png){width="80%"}
+
+<sub>McVinish & Lester 2020 _Interface_ </sub>
+
+
+
+
+
+
+---
+
+### A note about Poulin's D (the Gini index)
+
++ So the Gini index, based on the Lorenz curve, is an attempt to get at inequality 
+
++ The overall goal is to say something about _super_ heavy-tailed distributions 
+
++ But the Gini index does not get at these heavy tails _as good as it could_ 
+
++ And we will stop before we go down this statistics rabbit hole
+
 
 
 
@@ -576,10 +837,11 @@ hist(rnbinom(1000, size=10, prob=0.4), main='mu=10',
 
 ### Hoover's index 
 
++ proportion of parasites that would need to be redistributed to achieve an even distribution among hosts 
+
++ e.g., value of 0.7 indicates that 70% of the parasites would need to be redistributed in the sample to achieve evenness
+
 \[ H = \dfrac{\sum^N_i=1 |x_i - \mu | }{2\sum^N_i=1 x_i}  \]
-
-
-
 
 
 
@@ -592,7 +854,22 @@ hist(rnbinom(1000, size=10, prob=0.4), main='mu=10',
 
 ### Collinearity among aggregation indices 
 
-![](figs/aggregationCollinear.png){width="80%"}
+![](figs/aggregationCollinear.png){width="90%"}
+
+<sub>Morill et al. 2023 _Int J for Parasitology </sub> 
+
+
+
+
+
+
+---
+
+### This is not good 
+
++ Some have good relationships, but some are only weakly correlated
+
+> Why is this a problem? 
 
 
 
@@ -618,16 +895,14 @@ hist(rnbinom(1000, size=10, prob=0.4), main='mu=10',
 
 ### What causes variation in infection intensity between host species for the same parasite?
 
-
-+ other stuff. 
++ host immune profiles
 
 + trait distributions of hosts 
 
-+ phylogenetic bits 
-
 + parasite specificity 
 
-+ 
++ shared habitat use 
+
 
 <div class="notes">
 This is not just aggregated burden in a single host population, but trying to compare variation in infection intensity across host species, where the parasite is the same, but can infect a bunch of different host species. 
@@ -635,10 +910,45 @@ This is not just aggregated burden in a single host population, but trying to co
 </div>
 
 
+---
+
+### Evidence for differential host use 
+
+![](figs/intenseDiffs.png){width="60%"}
+
+<sub> Fenton et al. 2015 _Am Nat_</sub> 
+
+
+
+
 
 ---
 
-### other stuff
+### host immune profiles 
+
++ Differences among host immune response could mean some host species have higher (lower) infection intensities 
+
++ Variable host condition (ability to mount immune response) could drive variation in infection intensity (Beldomenico & Begon2010 _TREE_)
+
+<div class="notes">
+
+</div>
+
+
+
+---
+
+### Bats are weirdos 
+
+![](figs/bats.png){width="100%"}
+
+<div class="notes">
+We'll talk later about how bats are weirdos, but they tend to be more _tolerant_ to parasite infections, leading to high infection intensity without as much cost as other species may see. This relates to how their immune systems work. I searched for like 30 minutes and couldn't find a good clear figure from a paper to demonstrate this though. 
+
+</div>
+
+
+
 
 
 
@@ -646,11 +956,22 @@ This is not just aggregated burden in a single host population, but trying to co
 
 ### trait distributions of hosts
 
++ Host traits influence both prevalence and intensity 
+
++ So different distributions of host traits will influence encounter ($c$) and susceptibility ($a$)
 
 
 ---
 
-### phylogenetic bits
+### trait distributions of hosts
+
+![](figs/traitsIntensity.png){width="60%"}
+
+<sub>Greenberg et al. 2017 _Evolutionary Applications_</sub>
+
+
+
+
 
 
 
@@ -658,7 +979,38 @@ This is not just aggregated burden in a single host population, but trying to co
 
 ### parasite specificity 
 
++ Parasites are better at infecting some hosts than others 
 
+  
+![](figs/varHostSpec.png){width="80%"}
+
+<sub>Dallas et al. 2019 _PRSB_</sub>
+
+
+
+
+---
+
+### parasite specificity 
+
++ This could be for a number of reasons 
+  
+  + parasites infecting fewer host species might be better suited to infect those particular host species 
+  
+  + distantly related host species may be harder to infect for a given parasite (phylogenetic distance is important!)
+
+
+
+
+
+
+---
+
+### shared habitat use 
+
++ intensity could increase when contact increases (provided superinfection possible)
+
++ e.g., if host prefers same microclimate as parasite, could lead to higher intensities for that species, and potentially shifts in distribution of infection intensity 
 
 
 
@@ -671,9 +1023,63 @@ This is not just aggregated burden in a single host population, but trying to co
 
 ---
 
-### Are aggregated burdens comparable across host species? 
+### A fun side note 
 
-Not really
++ Mean-variance scaling relationships in infection intensity 
+
++ Mean burden is related to the variation in burden 
+
+![](figs/meanVarIntensity.png){width="80%"}
+
+<sub>Johnson & Hoverman 2014 _J Animal Ecology_</sub>
+
+
+
+
+
+
+
+---
+
+### What causes variation in infection intensity for the same host species across parasites?
+
++ It's not just about host differences 
+
++ Parasites differ in their transmission, ecology, habitat preferences, tissue infected, etc. etc. etc. 
+
++ All of these things influence the resulting infection intensity possible for a given parasite
+
++ Even if it's infecting the same host
+
+
+
+---
+
+### But this is pretty obvious
+
++ If this is a shock, it shouldn't really be 
+
++ More similar parasite species should have similar infection intensities in the same host though 
+
+
+
+---
+
+### A holistic view of prevalence and intensity
+
+![](figs/conceptPrevIntens.png){width="100%"}
+
+<sub>Holian & Dallas 2023 _in prep_ </sub>
+
+
+---
+
+### Hosts are less variable in their parasite intensities
+
+![](figs/varPrevIntens.png){width="100%"}
+
+<sub>Holian & Dallas 2023 _in prep_ </sub>
+
 
 
 
@@ -684,38 +1090,15 @@ Not really
 
 ---
 
-### Are aggregated burdens comparable across parasite species? 
+### Standing questions for thought 
 
-Not really
+<br> 
+<br> 
 
+> Are aggregated burdens comparable across host species? 
 
+> Are aggregated burdens comparable across parasite species? 
 
+> Are aggregated burdens a property of the host, the parasite, or the location? 
 
-
-
----
-
-### Are aggregated burdens a property of the host or the parasite? 
-
-+ 
-
-
-
-
-
----
-
-### 
-
-
-
----
-
-### 
-
-
-
----
-
-### 
 

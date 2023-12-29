@@ -22,30 +22,652 @@ h3 {
 ```{r setup, include=FALSE} 
 knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
 ```
----
+
+
 
 
 <!-- (mosquito/tick/etc., vector biology, modeling issues, R0, human health impacts, env constraints, ) week 9 from Park 2019 --> 
 
 
 
+<!--
+importance of vectors 
+  + vectors control who gets disease
+  + they put pathogens in different species (flying syringes)
+  + human health 
+  + 
+
+why vectors make disease hit different
+  + importance of vector communities
+  + importance of vector presence for infection 
+  + the pathogen is sort of along for the ride 
+  + pathogen can influence vector behavior 
+  + 
+
+modeling vector-borne disease 
+  + vector models
+  + R0 weird shit
+  + 
+
+
+
+
+-->
+
 
 
 
 ---
 
-### Title
+### What is vector-borne disease? 
+
++ A micro- or macroparasite transmitted among vertebrate hosts by an arthropod vector 
+
++ Vector-borne diseases represent some of the deadliest, most impoverishing diseases of mankind and wildlife
 
 
-![](figs/parasites.jpg){width="90%"}
 
 
+---
+
+### Vectors 
+
+![](figs/vectors.jpg){width="100%"}
+
+
+
+
+---
+
+### Vectors 
+
+![](figs/vectors.png){width="100%"}
+
+
+
+
+
+
+---
+
+### Importance of vector-borne disease 
+
++ Vectors are flying syringes 
+
++ Host preference determines encounter 
+
++ Huge economic cost 
+
++ Some rough diseases 
+
+
+
+
+---
+
+### Vectors are flying syringes 
+
++ Vectors take blood or host tissue (including pathogen) and transmit to same (or different) species
+
++ Means reservoir hosts are really important 
+
+
+
+---
+
+### Host preference determines encounter 
+
++ Vectors prefer certain hosts, and host preference determines the resulting disease burden 
+
+![](figs/vectorPref.png){width="100%"}
+
+<sub> Eigenbrode & Gomulkiewicz 2022 _J Economic Entomology_</sub> 
+
+
+
+
+---
+
+### Huge economic cost 
+
++ $12 billion per year (Chilakam et al. 2023 doi:10.2196/50985)
+
++ $100 billion economic costs per year ([USDA-ARS report](https://www.ars.usda.gov/research/annual-report-on-science-accomplishments/fy-2019/mitigating-impacts-of-vector-borne-diseases/))
+
++ More important is the cost in terms of impacts to human and wildlife 
+
+
+
+---
+
+### Should we 'extinct' some species? 
+
+> "Keep their (_Anopheles gambiae_) DNA for future research and let them go" -EO Wilson 
+
+![](figs/worldWoMosq.png){width="80%"}
+
+<sub> Fang 2010 _Nature_; and associated 4+ replies </sub> 
+
+
+
+
+
+---
+
+### Some rough diseases 
+
+Mosquitos 
+
++ Malaria, Dengue, West Nile, Chikv, Zika, yellow fever, 
+
+Ticks:
+
++ Lyme, E equine encephalitis, Ehrlichiosis, Rocky Mtn spotted fever, Tularemia 
+
+Other: 
+
++ Plague (fleas), Chagas (Tiatome bugs), Schisto (aquatic snails), Sleeping sickness (Tsetse flies)
+
+
+
+
+
+---
+
+### Plague
+
++ _Yersinia pestis_, a bacterial pathogen
+
++ Vectored by fleas 
+
++ Killed 25% of Europe's pop in 1300's
+
++ Exists in enzootic cycles with transmission between rodents and fleas
+
+
+---
+
+### Lyme disease
+
++ _Borrelia burgdorferi_, a bacterial pathogen 
+
++ Vectored by ticks (_Ixodes scapularis_ as main vector)
+
++ Ancient disease (plagued humans prior to European Colonization)
+
++ Disappeared around 1850's due to deforestation
+
+
+
+---
+
+### Lyme disease
+
+![](figs/lymeMap.png){width="70%"}
+
+
+
+---
+
+### Mosquito-borne disease is different 
+
++ Dengue (33%+ of world pop at risk) 
+
++ Chikungunya (45 countries affected)
+
++ Zika (61 countries affected, 47 in Americas) 
+
++ Malaria (kills ~1 million people per year)
+
+
+---
+
+### Mosquito-borne disease is different 
+
+ 
+![](figs/vectorDiseaseGlobal.png){width="100%"}
+
+<sub> Flores & O'Neill 2018 _Nature Reviews Microbiology_ </sub> 
+
+
+
+
+
+
+---
+
+### And we should be worried 
+
+![](figs/mosqDistro.gif){width="50%"}
+
+<sub> Ainsworth 2023 _Nature_ </sub> 
+
+
+
+
+
+---
+
+![](figs/deadlyMosq.png){width="80%"}
+
+
+
+
+
+
+
+
+
+---
+
+### How do we model vector-borne disease? 
+
++ Recall the SIR model 
+
+![](figs/sirModel.png){width="60%"}
+
+
+
+
+
+
+---
+
+### Ross-MacDonald model 
+
+![](figs/rossMacModel.png){width="100%"}
+
+
+---
+
+### Ross-MacDonald model 
+
+![](figs/rossMacModel2.png){width="100%"}
+
+
+
+---
+
+### Ross-MacDonald model 
+
+![](figs/rossMacModel3.png){width="60%"}
+
++ Host and vector terms are both in there 
+
++ We can look across probable parameter ranges to see the effect of each component
+
++ Is it more important to reduce vector infection probability (<font color='red'> $b_v$ </font>) or host duration of infection (<font color='blue'> $1/r$ </font>)
+
+---
+
+### Ross-MacDonald model 
+
+![](figs/rossMacModel4.png){width="100%"}
+
+
+---
+
+### Ross-MacDonald model 
+
++ Controlling mosquitoes has largest effect 
+
+![](figs/rossMacModel5.png){width="80%"}
+
+
+
+---
+
+### Let's kill the mosquitoes 
+
+<div class="columns-2">
++ $R_0$ is most sensitive to changes in mosquito survival
+
+![](figs/mosqSurvR0.png){width="50%"}
+
+</div> 
+
+
+
+---
+
+### Let's *not* kill the mosquitoes (or at least find better ways)
+
+![](figs/insecticideResist.jpeg){width="90%"}
+
+<sub> Hancock et al. 2018 _PNAS_ </sub>
+
+
+
+
+
+
+---
+
+### What about the other terms in $R_0$? 
+
+![](figs/rossMacModel6.png){width="70%"}
+
+
+
+
+
+
+---
+
+### What about the other terms in $R_0$? 
+
+![](figs/rossMacModel7.png){width="100%"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+<br> 
+<br> 
+<br> 
+
+<h2> <center> End of lecture 1 </center> </h2> 
+
+
+
+---
+
+### What have we learned? 
+
++ Vector-borne disease is pretty rough 
+
++ We have a decent model of vector-borne disease 
+
++ It can help identify suitable mitigation strategies 
+
+
+
+
+
+
+---
+
+### The role of environment on vector-borne disease 
+
+![](figs/vectorEnv1.png){width="100%"}
+
+
+
+---
+
+### The role of environment on vector-borne disease 
+
+![](figs/vectorEnv2.png){width="100%"}
+
+
+
+---
+
+### The role of environment on vector-borne disease 
+
+![](figs/vectorEnv3.png){width="100%"}
+
+
+
+
+
+
+---
+
+### Does this mean climate change is 'good'? 
+
++ Mixed, but probably not 
+
++ 
+
++ 
+
++ 
+
+
+
+
+
+
+
+--- 
+
+###
+
+
+
+---
+
+###
+
+
+
+
+---
+
+###
+
+
+
+
+---
+
+###
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+### The role of vector preference on resulting disease dynamics 
+
+![](figs/vectorSpec.png){width="90%"}
+
+
+
+
+---
+
+### The role of vector preference on resulting disease dynamics 
+
+![](figs/vectorSpec2.png){width="85%"}
+
+
+
+
+
+
+---
+
+### The role of vector preference on resulting disease dynamics 
+
+<font color='green'> Important</font> because:
+
++ Vector feeding preferences are particularly important for multi-host systems
+
++ Can introduce variation in exposure across different groups of individuals within a host population
+
++ Vector preference can inform intervention strategies based on vector and reservoir communities 
+
+
+
+
+---
+
+### But let's not be silly about it 
+
+![](figs/treeBatEbola.png){width="100%"}
+
+
+---
+
+### But let's not be silly about it 
+
++ Response to this (and other bat-vectored disease) is to try to kill bats 
+
++ Often killed the wrong bats
+
++ Some efforts potentially increased disease in humans 
+
+
+---
+
+### But let's not be silly about it 
+
+![](figs/treeBatEbola2.png){width="100%"}
+
+<sub> https://www.reuters.com/investigates/section/global-pandemic-bats-overview/ </sub> 
 
 
 <div class="notes">
-This is my *note*.
+Bats may be likely for more infectious diseases in humans. There are many emerging diseases that start in bats. But this article details how land use change is one of the largest drivers of this emergence. So burning trees is not really a solution. 
+</div>
+
+
+
+
+
+---
+
+### Plus bats are pretty cool
+
+![](figs/treeBatEbola1.png){width="80%"}
+
+<sub> https://www.batcon.org/ </sub> 
+
+
+
+
+---
+
+### The role of pathogen infection on vector behavior
+
+![](figs/malaria1.png){width="100%"}
+
+
+---
+
+### The role of pathogen infection on vector behavior
+
+![](figs/malaria2.png){width="100%"}
+
+
+---
+
+### The role of pathogen infection on vector behavior
+
+![](figs/malaria3.png){width="100%"}
+
+---
+
+### The role of pathogen infection on vector behavior
+
+![](figs/malaria4.png){width="100%"}
+
+
+
+
+
+
+---
+
+### 
+
+Infected malaria mosquitoes prefer warmer environments 
+
+An example of host manipulation by the a pathogen? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+### The role of vector behavior in response to interventions 
+
+![](figs/malariaInt1.png){width="100%"}
+
+
+---
+
+### The role of vector behavior in response to interventions 
+
+![](figs/malariaInt2.png){width="100%"}
+
+---
+
+### The role of vector behavior in response to interventions 
+
+![](figs/malariaInt3.png){width="100%"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+--- 
+
+### 
+
+![](figs/parasites.jpg){width="90%"}
+
+<sub> </sub> 
+
+<div class="notes">
+
 
 </div>
 
 
+
+--- 
+
+### 
+
+![](figs/parasites.jpg){width="90%"}
+
+<sub> </sub> 
+
+<div class="notes">
+
+
+</div>
 
