@@ -26,7 +26,8 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 
 
-<!-- (within host competition, pederson's work, priority effects, altered susceptibility, competition changing outcomes for host, )  week 11 from Park 2019 --> 
+<!-- (within host competition, pederson's work, priority effects, altered susceptibility, competition changing outcomes for host, )  
+week 11 from Park 2019; include bits of parasite extinction stuff from week 14 as well --> 
  
 
 

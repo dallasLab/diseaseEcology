@@ -361,9 +361,25 @@ Other:
 
 
 
+---
+
+### How variable is $R_0$? 
+
+![](figs/varR0.png){width="90%"}
+
+<sub> Liu et al. 2020 _Environmental Research_</sub> 
 
 
 
+
+
+---
+
+### Is this variability related to transmission mode? 
+
+![](figs/covidR0.png){width="40%"}
+
+<sub> Dhungel et al. 2022 _Int J Environ Res Public Health_</sub> 
 
 
 
@@ -430,12 +446,72 @@ Other:
 
 + Mixed, but probably not 
 
-+ 
++ How could it be _good_? 
 
-+ 
++ Why is it especially _not good_ for us? 
 
-+ 
 
+
+
+
+
+---
+
+### Climate change could cause disease shifts 
+
+![](figs/climateVectors.png){width="80%"}
+
+
+
+
+---
+
+### or vector distribution shifts
+
+![](figs/alboDistro.png){width="40%"}
+
+
+<div class="notes">
+Yellow dots on light grey means a known occurrence was not predicted by the model. And projected distributions under climate shifts don't generally move the vector into much more new territory. Points to need for better models. 
+</div>
+
+
+---
+
+### or vector distribution shifts
+
+_Anopheles gambiae_ is the biggest malaria vector, currently limited in distribution
+
+![](figs/gamboDist0.png){width="90%"}
+
+<sub> Li et al. 2021 _J Biosafety & Biosecurity_ </sub> 
+
+
+
+
+
+---
+
+### or vector distribution shifts
+
+Projected distribution is a bit scarier
+
+![](figs/gamboDist1.png){width="80%"}
+
+<sub> Li et al. 2021 _J Biosafety & Biosecurity_ </sub> 
+
+
+
+
+
+
+---
+
+### but the vectors are already here in the USA 
+
+![](figs/vectorsUS.png){width="80%"}
+
+<sub> Evans et al. 2017 _eLife_ </sub> 
 
 
 
@@ -444,29 +520,26 @@ Other:
 
 --- 
 
-###
+### the bigger question is...
 
+<br> 
+> if the vector species are already here, why is the pathogen not found as often? 
 
+This points to either the importance of the <font color='green'> reservoir host community </font> or <font color='green'> environmental control of pathogen presence </font> 
 
----
-
-###
-
-
-
-
----
-
-###
 
 
 
 
 ---
 
-###
+### This is not to say that vector-borne disease is not increasing in the US 
 
++ Some diseases we were already struggling with (e.g., Lyme; 20-30k cases per year) 
 
++ Some we are now starting to grapple with (e.g., Zika; local transmission back in 2016-2017, but not since) 
+
++ Some are right around the corner (e.g, Dengue; local transmission in Florida, Texas and Arizona)
 
 
 
@@ -592,14 +665,16 @@ Bats may be likely for more infectious diseases in humans. There are many emergi
 
 ---
 
-### 
+### Parasite manipulation of host behavior
 
-Infected malaria mosquitoes prefer warmer environments 
+1. _Plasmodium_ can direct uninfected mosquito blood-seeking and feeding behavior via alteration of vertebrate-host odor profiles and production of phagostimulants 
 
-An example of host manipulation by the a pathogen? 
+2. Plasmodium also manipulates its vector during the sporogony cycle to increase transmission (infected mosquitos bite more and take longer bloodmeals)
 
 
+> So the malaria pathogen can shift host preferences and increase transmission rates through manipulation of host behavior
 
+<sub> Emami et al. 2019 _Pathog Glob Health_ </sub> 
 
 
 
@@ -645,29 +720,16 @@ An example of host manipulation by the a pathogen?
 
 --- 
 
-### 
+### Questions to think about
 
-![](figs/parasites.jpg){width="90%"}
++ What determines how widespread a vector-borne pathogen can be? 
 
-<sub> </sub> 
++ Why are vector-borne diseases so tough to control? 
+
 
 <div class="notes">
 
 
 </div>
 
-
-
---- 
-
-### 
-
-![](figs/parasites.jpg){width="90%"}
-
-<sub> </sub> 
-
-<div class="notes">
-
-
-</div>
 

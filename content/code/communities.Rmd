@@ -22,29 +22,730 @@ h3 {
 ```{r setup, include=FALSE} 
 knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
 ```
----
 
 
 
 
- <!-- (diversity-disease relationships, host invasion/enemy release, host suitability,  ) dilution effect is week 11 from Park 2019.  --> 
+
+
+
+ <!-- 
+  reservoir hosts/importance of community 
+  multi-host parasites (modeling multi-host parasites; dobson paper maybe my daphnia ecology paper)
+  apparent competition through shared parasitism 
+  trying to get at parasite associations (prsb paper)
+  bit on parasite specificity at network level (structure of host-parasite networks) 
+  maybe go into prediction of host-parasite associations? 
+  
+  diversity-disease relationships (basics, theory, lyme, then genetic diversity bits)
+
+
+  week 11 from Park 2019.  --> 
  
 
+
+
+
 ---
 
-### Title
+### Bits to recall from previous lectures 
+
++ Parasites can infect multiple hosts 
+
++ Prevalence and infection intensity can differ across host species
+
++ So the same host-parasite interaction may look quite different in different host communities, or through time as the host community changes 
+
+
+
+
+
+
+
+---
+
+### Multi-host parasites 
+
++ What do you think the host range is of the average...
+  + ectoparasite? 
+  + virus? 
+  + bacteria?
+  + protozoan? 
+  + fungi? 
+
++ Do you think host range captures specificity? 
+
+
+
+--- 
+
+### Host specificity of primate parasites 
+
+![](figs/multiHost3.png){width=100%}
+
+
+
+
+
+
+---
+
+### Phylogenetic host specificity of parasites
+
+<div class="columns-2">
+
++ Negative values indicate more phylogenetically-specific parasites 
+
+![](figs/parkPhyloSpec.png){width=100%}
+
+<sub> Park et al. 2018 _PRSB_ </sub> 
+</div> 
+
+
+
+
+
+
+---
+
+### Some notable outliers 
+
++ Rabies virus can infect all mammals, but only a few species are important reservoirs 
+
++ poxviruses also tend to have large host ranges (cowpox can infect 27 groups of hosts)
+
++ Cucumber mosaic virus can infect 1000+ plant species 
+
+> What's up with all the viruses? 
+
+
+
+
+
+---
+
+### Viruses 
+
+![](figs/multiHost2.png){width=100%}
+
+
+
+
+
+---
+
+### Helminths 
+
+![](figs/multiHost1.png){width=100%}
+
+
+
+
+
+
+
+---
+
+### What do we gain by looking at the entire community? 
+
++ If you want to study West Nile Virus in humans, you need data on reservoir hosts, right? 
+
++ Even for non-vector-borne parasites, the host community is _very important_ 
+
++ So how do we do it? 
+  + model a single pathogen in a host population 
+  + examine the entire community of interacting species as a network 
+
+
+---
+
+### Comparison of approaches 
+
+<div class="columns-2">
+
+### single pathogen 
++ tractable for fun math and prediction 
+
++ ignores parasite-parasite interactions 
+
++ predictions only good for single parasite 
+
+<br>
+
+### entire community 
+
++ not super tractable (generally need to make some simplifying assumptions)
+
++ can incorporate parasite-parasite interactions (but rare to do so) 
+
++ predictions are for an entire system
+
+</div> 
+
+
+
+
+
+
+
+
+---
+
+### Single pathogen in multi-host community 
+
+Recall the SIR model 
+
+\[
+ \begin{aligned}
+ \frac{dS}{dt}   &=  S\lambda - \beta SI  \\
+ \frac{dI}{dt}   &=  \beta SI - dI - \alpha I  \\
+ \frac{dR}{dt}  &=  dI - \alpha R 
+ \end{aligned}
+\]
+
+> Let's extend this to look at multiple host species 
+
+
+
+
+
+
+
+---
+
+### SIR model for all host species 
+
++ Host species is identified as $i$
++ Competition only occurs within host species (intraspecific limitation, but no interspecific)
++ What does this _really_ mean? 
+
+![](figs/dobsonMulti6.png){width=70%}
+
+<sub> Dobson 2004 _Am Nat_ </sub> 
+
+
+
+---
+
+### Table of parameter values that we will refer back to
+
+![](figs/dobsonMulti4.png){width=100%}
+
+<sub> Dobson 2004 _Am Nat_ </sub> 
+
+
+---
+
+### Carrying capacity 
+
+This means that the <font color='green'> carrying capacity</font> of each host species $i$ is set only through interactions with itself 
+
+![](figs/dobsonMulti5.png){width=30%}
+
+<sub> Dobson 2004 _Am Nat_ </sub> 
+
+
+
+
+---
+
+### But transmission of the parasite depends on the entire host community 
+
++ $c_ij$ is a modifier to change the cross-species transmissibility relative to the transmission of the parasite from species $i$ to itself 
+
+
+![](figs/dobsonMulti3.png){width=30%}
+
+<sub> Dobson 2004 _Am Nat_ </sub> 
+
+
+
+
+
+
+---
+
+### Scaling between-species transmission 
+
+
+![](figs/dobsonMulti8.png){width=100%}
+
+
+
+
+
+
+---
+
+### What hypotheses does this model generate? 
+
+![](figs/dobsonMulti1.png){width=50%}
+
++ Can estimate the force of infection: 
+  + exerted on species $j$ by rest of community
+  + placed on the community due to infections in species $j$ 
+
+<sub> Dobson 2004 _Am Nat_ </sub> 
+
+
+
+---
+
+### What hypotheses does this model generate? 
+
+![](figs/dobsonMulti9.png){width=50%}
+
++ The sensitivity of the dynamics to who gets infected first could be explored 
+
++ Allows modeling of entire pathogen burden in a community 
+
+<sub> Dobson 2004 _Am Nat_ </sub> 
+
+
+
+
+
+---
+
+### Allows us to create different host communities
+
+![](figs/dobsonMulti2.png){width=100%}
+
+> What is this figure telling us? 
+
+
+
+
+
+
+
+
+---
+
+### There's one key assumption in the model
+
++ caveat: if I'm not just wrong 
+
++ The overall size of the community is not fixed
+
++ Adding more species means adding more individuals and increasing overall community size 
+
++ Is this why we're seeing diversity increase $R_0$? 
+
+
+
+
+---
+
+### Dobson discusses this a bit 
+
+<br> 
+
+> "_First, in the density-dependent case, increases in species diversity lead to increases in the number of contacts between infected individuals and potentially susceptible hosts. Increased host diversity will always lead to increased values of R0 and a greater potential for disease outbreaks..._"
+<sub> Dobson 2004 _Am Nat_ </sub> 
+
++ So since contact is density-dependent, increasing diversity leads to more individuals and more contact
+
++ Solution to this would be to enforce an overall maximum community size somehow 
+
+
+
+
+
+
+
+---
+
+### And 8 years later does a similar thing 
+
+![](figs/roche2.png){width=80%}
+
+<sub> Roche 2012 _Phil Trans_ </sub> 
+
+
+
+---
+
+### And 8 years later does a similar thing 
+
++ Force of infection for each species $i$ ($\lambda_i$) is
+
+![](figs/roche1.png){width=30%}
+
+<sub> Roche 2012 _Phil Trans_ </sub> 
+
+
+---
+
+### What is the difference between this model and the previous one? 
+
+<br> 
+
+<div class="columns-2">
+
+<font color='green'> Roche et al. 2012</font>
+
+![](figs/roche2.png){width=100%}
+
+
+<br> 
+
+
+<font color='green'>  Dobson 2004 </font>
+
+![](figs/dobsonMulti6.png){width=100%}
+
+</div> 
+
+
+---
+
+### What is the difference between this model and the previous one? 
+
++ Tough to parse apart, but 
+
+  + force of infection $\lamba$ is simplified, where it was previously in the $\beta_ij$ matrix 
+  + intraspecific competition term is absent in Roche et al. 2012
+  + recovery rate $\sigma$ same for all host species in Roche et al. 2012
+
+> Could be really interesting to let that contact matrix $c$ be used to model interspecific competition 
+
++ <font color='green'> assumption</font>: individuals that contact each other a lot tend to also compete more strongly
+
+
+
+
+
+
+
+---
+
+### Going back to this figure from Dobson 
+
+![](figs/dobsonMulti9.png){width=50%}
+
++ Why does frequency-dependent $R_0$ decrease with more species? 
+
+<sub> Dobson 2004 _Am Nat_ </sub> 
+
+
+
+
+---
+
+### NOTE 
+
+<br> 
+<br> 
+<br> 
+
+### The Roche et al. 2012 paper is required reading
+
+
+
+
+
+
+---
+
+### Influence of the environment
+
++ the effect of the community on resulting infection dynamics may be influenced by the environment 
+
++ thinking about competition, we can think about two host species that compete for a resource 
+
++ how does resource availability influence resulting population and infection dynamics? 
+
+
+
+
+
+---
+
+### An example system where this occurs 
+
++ Daphnia communities compete for phytoplankton food resources 
+
++ The density of these resources determines their feeding rate 
+
++ Their feeding rate is directly related to pathogen exposure 
+
++ Environmentally-transmitted pathogen can be removed by non-competent hosts 
+
++ <font color='green'> Possible 'friendly competition' </font> 
+
+<sub> Hall et al. 2009 _Ecology_</sub> 
+
+
+
+
+---
+
+### Host species varied in their suitability 
+
+<div class="columns-2">
+
+![](figs/hall2.png){width=60%} 
+
+
++ plus panel D shows that one host may be removing pathogen from the environment! 
+<sub> Hall et al. 2009 _Ecology_</sub> 
+
+</div> 
+
+
+
+
+---
+
+### Decreased prevalence in two lakes when "diluters" present 
+
++ Panel B shows this
+
+![](figs/hall1.png){width=60%} 
+
+<sub> Hall et al. 2009 _Ecology_</sub> 
+
+
+
+
+---
+
+### Super cool! 
+
++ They have a model as well in that paper 
+
++ So species interactions and the amount of algal resource can influence disease dynamics! 
+
+
+
+
+
+---
+
+### But what if we change feeding rate to be a function of resources 
+
++ If the competitor reduces resources, this could increase feeding rate of other species, increasing transmission 
+
+<font color='green'> So I made an overcomplicated model </font> 
+
+![](figs/dallasDaphnia.png){width=60%} 
+
+<sub> Dallas et al. 2016 _Ecology_</sub> 
+
+
+
+
+
+
+
+---
+
+...which predicted that competitor density was non-linearly related to infection prevalence in a susceptible host 
+
+![](figs/dallasDaphnia3.png){width=60%} 
+<sub> Dallas et al. 2016 _Ecology_</sub> 
+
+
+---
+
+...even though competitor density reduced the susceptible host density through competition 
+
+![](figs/dallasDaphnia2.png){width=60%} 
+<sub> Dallas et al. 2016 _Ecology_</sub> 
+
+
+
+
+
+---
+
+### Two-host one-pathogen experiment 
+
+![](figs/dallasDaphnia1.png){width=60%} 
+
+<sub> Dallas et al. 2016 _Ecology_</sub> 
+
+
+
+
+
+---
+
+### Neat, right!? 
+
++ This is not to say that Hall et al. missed something 
+
++ The point of this was to demonstrate the complexity of understanding disease dynamics in multi-host single-parasite systems
+
+<font color='green'> Species interactions and environmental forces are important</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+### The importance of the community 
+
+
+
+
+
+
+
+
+
+---
+
+### Apparent host competition 
+
+
+
+
+
+
+
+
+
+---
+
+### Detecting parasite-parasite associations 
+
+
+
+
+
+
+
+
+
+
+---
+
+###   bit on parasite specificity at network level 
+
++ structure of host-parasite networks
++ Are they just random (or driven by abundance?) 
++ Do they show consistent structure? 
++ Is this structure different than other networks? 
+
+
+
+
+
+
+
+
+
+---
+
+### Predicting host-parasite associations 
+
++ Can we leverage community-level information on species traits to get an idea of who might be able to infect whom? 
+
+
+
+
+
+
+
+
+
+
+
+---
+
+### 
+
+
+
+
+
+
+
+
+
+
 
 
 ![](figs/parasites.jpg){width="90%"}
 
 
 
+<font color='green'>  </font> 
 
+<sub> </sub> 
 <div class="notes">
-This is my *note*.
+
 
 </div>
 
 
 
+
+
+
+
+
+
+
+---
+
+<br/>
+<br/>
+<br/>
+<br/>
+<div class='centered'>  End of lecture 1 </div>
+
+
+
+
+
+---
+
+### Diversity-disease relationships 
+
++ basics, theory, lyme, then genetic diversity bits 
+
+
+
+
+---
+
+### 
+
+
+
+---
+
+### 
+
+
+
+
+
+![](figs/parasites.jpg){width="90%"}
+
+
+
+<font color='green'>  </font> 
+
+<sub> </sub> 
+<div class="notes">
+
+
+</div>
 
