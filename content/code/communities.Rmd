@@ -400,11 +400,11 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 
 ---
 
-### What is the difference between this model and the previous one? 
+### What's the difference between this model and the other? 
 
 + Tough to parse apart, but 
 
-  + force of infection $\lamba$ is simplified, where it was previously in the $\beta_ij$ matrix 
+  + force of infection $\lambda$ is simplified, where it was previously in the $\beta_ij$ matrix 
   + intraspecific competition term is absent in Roche et al. 2012
   + recovery rate $\sigma$ same for all host species in Roche et al. 2012
 
@@ -422,7 +422,7 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 
 ### Going back to this figure from Dobson 
 
-![](figs/dobsonMulti9.png){width=50%}
+![](figs/dobsonMulti2.png){width=50%}
 
 + Why does frequency-dependent $R_0$ decrease with more species? 
 
@@ -439,7 +439,7 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 <br> 
 <br> 
 
-### The Roche et al. 2012 paper is required reading
+<font color='green'> The Roche et al. 2012 paper is required reading </font> 
 
 
 
@@ -485,10 +485,11 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 
 <div class="columns-2">
 
-![](figs/hall2.png){width=60%} 
+![](figs/hall2.png){width=90%} 
 
 
 + plus panel D shows that one host may be removing pathogen from the environment! 
+
 <sub> Hall et al. 2009 _Ecology_</sub> 
 
 </div> 
@@ -499,8 +500,6 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 ---
 
 ### Decreased prevalence in two lakes when "diluters" present 
-
-+ Panel B shows this
 
 ![](figs/hall1.png){width=60%} 
 
@@ -562,7 +561,7 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 
 ### Two-host one-pathogen experiment 
 
-![](figs/dallasDaphnia1.png){width=60%} 
+![](figs/dallasDaphnia1.png){width=30%} 
 
 <sub> Dallas et al. 2016 _Ecology_</sub> 
 
@@ -590,31 +589,37 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 
 
 
-
-
-
-
-
-
 ---
 
-### The importance of the community 
+### Apparent host competition 
 
+<font color='green'> Apparent competition </font>: corresponding fluctuations in abundance between two species that appears as if the species are interacting, when they are not. 
 
-
-
-
-
-
++ e.g., a predator which feeds on two prey species. An increase in the abundance of one host might increase predator populations, to the detriment of another prey species. 
 
 
 ---
 
 ### Apparent host competition 
 
++ This can be mediated by parasites as well, as multi-host parasites have negative impacts on host fitness, such that an increase in parasite populations (and density-dependent transmission) would cause a higher burden for all hosts of a multi-host parasite 
+
++ This is part of what Dobson was getting at! 
+
+  + We need to consider the host community to really understand the force of infection and the role of host community dynamics on parasite pressure 
 
 
 
+
+---
+
+### Apparent parasite competition 
+
++ Parasites may also be in apparent competition through the modification of the host immune system 
+
++ Two co-infecting parasites may have different (or similar) immune responses from hosts, resulting in changes to parasite abundance within the infected host 
+
++ This would appear as if parasites are interacting, when they could be in different host tissues entirely
 
 
 
@@ -624,51 +629,32 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 
 ### Detecting parasite-parasite associations 
 
++ It may be possible to detect potential parasite-parasite associations 
 
++ Using models that fit entire parasite communities instead of just presence-absence of single parasite 
 
++ One output from such a model would be a residual covariance matrix which is basically what the model couldn't explain about parasite joint distributions 
 
-
-
-
-
-
-
----
-
-###   bit on parasite specificity at network level 
-
-+ structure of host-parasite networks
-+ Are they just random (or driven by abundance?) 
-+ Do they show consistent structure? 
-+ Is this structure different than other networks? 
-
-
-
-
-
-
++ These are potential parasite associations. If parasites were competing, we'd expect more negative values for parasites infecting the same host tissue 
 
 
 
 ---
 
-### Predicting host-parasite associations 
+### Detecting parasite-parasite associations 
 
-+ Can we leverage community-level information on species traits to get an idea of who might be able to infect whom? 
+![](figs/parasiteAssoc2019.png){width=80%} 
 
-
-
-
-
-
-
-
-
+<sub> Dallas et al. 2019 _PRSB_</sub> 
 
 
 ---
 
-### 
+### Detecting parasite-parasite associations 
+
++ From this analysis, it almost seems like parasites infecting the same tissue have a facilitative association 
+
++ e.g., the presence of one gut parasite might actually increase the probability of having another gut parasite 
 
 
 
@@ -677,21 +663,6 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 
 
 
-
-
-
-
-![](figs/parasites.jpg){width="90%"}
-
-
-
-<font color='green'>  </font> 
-
-<sub> </sub> 
-<div class="notes">
-
-
-</div>
 
 
 
@@ -704,11 +675,28 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 
 ---
 
-<br/>
-<br/>
-<br/>
-<br/>
-<div class='centered'>  End of lecture 1 </div>
+<br> 
+<br> 
+<br> 
+
+<h2> <center> End of lecture 1 </center> </h2> 
+
+
+
+
+---
+
+### What have we learned? 
+
++ Multi-host parasites are interesting
+
++ To understand the force of infection, we need to consider the entire host community 
+
++ Environmental factors and competition (both between hosts and parasites) might influence resulting disease dynamics 
+
++ Increasing host diversity might increase or decrease parasite burden 
+
+
 
 
 
@@ -718,34 +706,327 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 
 ### Diversity-disease relationships 
 
-+ basics, theory, lyme, then genetic diversity bits 
++ Around 2000 or so, Keesing and Ostfeld coined the term <font color='green'> dilution effect </font> 
+
++ The idea was that adding hosts to a community would tend to reduce disease pressure _in a focal host_ 
+
++ So Dobson focused on the $R_0$ of the parasite as a function of the community, but what if we only cared about one species? 
+
+
+---
+
+### Diversity-disease relationships 
+
++ But the <font color='green'> dilution effect </font> term is a bit one-sided, as the addition of host diversity could increase the force of infection to a focal host, right? 
+  + we saw this in terms of the Dobson model 
+
++ So let's just call these <font color='purple'> diversity-disease relationships </font> instead, with the two bounds being a <font color='green'> dilution effect </font> and an <font color='red'> amplification effect </font> 
+
+
+> What are the underlying mechanisms!?
+
+
+---
+
+![](figs/keesing5.png){width=100%} 
+
+---
+
+![](figs/keesing4.png){width=100%} 
+
+---
+
+![](figs/keesing3.png){width=100%} 
+
+---
+
+![](figs/keesing2.png){width=100%} 
+
+---
+
+![](figs/keesing1.png){width=100%} 
+
+
 
 
 
 
 ---
 
-### 
+### The nuance of the thing 
+
++ This paper was focused on how the addition of a <font color='green'> non-host </font> could influence disease in a focal host 
+
++ Since then, it's been mangled by many to suggest that host diversity in general will reduce parasite burdens in some focal host (or sometimes in the entire community) 
+
++ But the potential mechanisms are murky
+
+
+---
+
+<div class="columns-2">
+
+### Amplification effect 
+
++ added species are competent (either at getting infected, contacting susceptible hosts, or shedding pathogen)
+
++ added species simply increase the overall community size (density-dependent transmission) 
+
+
+
+<br> 
+
+
+### Dilution effect 
+
++ added species are not as competent (dead-end hosts, competition, behavior changes, groom lots?)
+
++ added species reduce abundance of a focal host (density-dependent transmission)
+
+</div>
+
+
+---
+
+### 'Dilution effect' came from a vector-borne disease system 
+
++ But the focus on mechanisms for directly-transmitted parasites does not align well with how the initial idea was created 
+
++ Folks wanted to know how infection prevalence in black-legged ticks was related to the host community 
+
+
+
+
 
 
 
 ---
 
-### 
+### Lyme disease 
+
++ A bacterial pathogen (_Borrelia burgdorferi_) transmitted by the blacklegged tick (_Ixodes scapularis_)
+
++ The tick is a three-host tick, taking a bloodmeal as larvae, nymph, and adult
+
++ Who the tick bites determines risk of getting the pathogen 
+
+
+
+
+---
+
+![](figs/lyme1.png){width=100%} 
+
+
+---
+
+
+![](figs/lyme2.png){width=100%} 
+
+
+
+
+---
+
+### The types of hosts in less diverse communities matters 
+
++ Less diverse communities tend to be occupied by really competent host species (white-footed mice) 
+
++ Adding other hosts (especially opossums) reduces infection prevalence in ticks for two reasons 
+  + opossums are less competent hosts for the pathogen 
+  + opossums groom lots and lots (killing tons of ticks) 
 
 
 
 
 
-![](figs/parasites.jpg){width="90%"}
+---
+
+### But opossums are not actually the host with the greatest 'dilution potential'
+
+![](figs/lyme3.png){width=90%} 
+
+<sub> LoGiudice et al. 2003 _PNAS_ </sub> 
 
 
 
-<font color='green'>  </font> 
 
-<sub> </sub> 
-<div class="notes">
+
+---
+
+
+<div class="columns-2">
+
+### But negative diversity-disease relationships have been found for directly-transmitted parasites 
+
+![](figs/ostfeld0.png){width=100%} 
+
+</div>  
+
+
+
+---
+
+### But not really 
+
+![](figs/ostfeld3.png){width=100%} 
+
+
+---
+
+### But sometimes ...
+
+![](figs/johnson3.png){width=100%} 
+
+<sub> Johnson et al. 2013 _Nature_ </sub> 
+
+
+
+
+---
+
+### But sometimes ...
+
+![](figs/johnson2.png){width=70%} 
+
+<sub> Johnson et al. 2013 _Nature_ </sub> 
+
+
+
+---
+
+### But sometimes ...
+
+![](figs/johnson1.png){width=50%} 
+
+<sub> Johnson et al. 2013 _Nature_ </sub> 
+
+
+
+
+---
+
+### This gets at a neat thing about land use change 
+
++ Fragmentation of habitats tends to favor certain species 
+
++ These species, due to life history tradeoffs or just our bad luck, tend to be the most competent hosts 
+
++ Other species are lost from these fragments, resulting in <font color="green"> more potential for disease in fragmented landscapes </font> 
+
+
+---
+
+### This is independent of other effects of land use change 
+
++ Land use change also tends to bring humans into closer contact with wildlife, and there numerous studies showing how land use change can lead to emerging or re-emerging infectious diseases in humans 
+
+<br> 
+
+<sub> Wilkinson et al. 2018 _Interface_; McCallum & Dobson 2002 _PRSB_; Allan et al. 2003 _Conservation Bio_ </sub> 
+
+
+
+
+---
+
+### Then it went off the rails 
+
++ Translating host diversity, ignoring the vector, and just counting human cases as response 
+
++ Increased host diversity reduces Lyme disease cases in humans? 
+
+
+
+
+
+
+---
+
+<div class="columns-2">
+
+![](figs/ostfeld2.png){width=90%} 
+
+<br> 
+<br> 
+<br> 
+
++ Ground-dwelling richness increased disease? 
+
++ This figure is largely cited for panel b, in support of dilution effect ideas 
+
 
 
 </div>
+
+
+
+
+
+--- 
+
+### Where are we now with diversity-disease relationships? 
+
++ Seem system-specific, with little generality 
+
++ Bit of a nerd ~~fight~~ discussion 
+  + "Pangloss revisited: a critique of the dilution effect and the biodiversity-buffers-disease paradigm"
+  + "Does biodiversity protect humans against infectious disease?"
+  + "Straw men don't get Lyme disease: Response to Wood and Lafferty"
+  + "It's a myth that protection against disease is a strong and general service of biodiversity conservation: Response to Ostfeld and Keesing"
+
+
+
+
+--- 
+
+### Still a super neat area of research
+
++ Can lead to other hypotheses 
+
+> Is there an analogy between host diversity to genetic diversity? 
+
+
+<font color='green'> Do populations of more genetically diverse host species have lower pathogen pressure? </font> 
+
+
+
+---
+
+### A story of rice 
+
++ intercropping is a practice where crops are not planted in large <font color='green'> monocultures </font>, but are planted with other crops
+
++ Why intercrop? 
+  + some plants may provide nutrients/shade/etc. that help the other plant 
+  + volatiles produced by one plant might reduce pests 
+  + potential reduction in disease transmission through some of the mechanisms we've talked about 
+
+
+---
+
+### A story of rice 
+
++ Rice infected by a fungus (_Oryzae sativa_)
++ Intercroppped rice had less disease prevalence and infection intensity of infected plants 
+
+![](figs/riceDilution.png){width=100%} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

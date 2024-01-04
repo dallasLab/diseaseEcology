@@ -22,29 +22,122 @@ h3 {
 ```{r setup, include=FALSE} 
 knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
 ```
+
+
+
+
+
+
+
+<!-- 
+
+what is macroecology? 
++ mcgill slide 
+
+
+how do we do it? 
++ mostly observations 
++ tough to actually get at mechanism (show a bunch of proposed mechanisms for stuff)
+
+how can we test macroecological ideas with parasite communities? 
++ and why? they provide good tests 
++ go into stephens paper and highlight different things that could be tested 
+
+
+types of parasite macroecology we will cover 
++ standard macro patterns in space (ldr, range size shit, etc. )
++ host-parasite networks (large in terms of taxonomic diversity of host and parasite)
+
+
+standard macro 
++ introduce helminthR data
++ ldr
++ pull all of them from the helminth paper
++ helmBiogeog 
++ helmVirus 
++ maybe prevIntensity 
++ parasite distance decay
+
+
+host-parasite networks
++ show some networks 
++ link-species scaling relationships
++ network complexity across space (helmBiogeog)
++ species role conservation 
++ end on fun link prediction?
+
+
+end lecture 1 
+
+networked populations is related to macroecology 
++ large spatial scale 
++ considers movement of hosts and pathogens
+
+introduce metapopulation concepts 
+
+parasites in metapopulations 
++ hall and becker work 
+
++ other bits? spectralSpread bits? 
+
++ 
+
+
+
+conclusions 
++ macroecology isn't all just finding patterns (zoonotic host risk prediction) https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0350
++ comparison to other interaction types could lead to neat diffs 
++ useful for moving away from single host single parasite systems (zooming out reduces resolution and mecnanistic bits but could actually help with prediction and such (Dallas and Becker paper? Albery? ))
+
+check out this special issue for some neat parasite macroecology 
+https://royalsocietypublishing.org/toc/rstb/2021/376/1837
+
+--> 
+
+
+
+
+
 ---
 
-
-
-
-(latitudinal scaling of richness etc., temperature and macros/mosqs, network models, contact networks/centrality/transmission type matters, link back to superspreader) 
-
----
-
-### Title
+### 
 
 
 ![](figs/parasites.jpg){width="90%"}
 
 
+---
+
+<div class="columns-2">
+
+</div> 
+
+<font color='green'>  </font> 
+
+<sub> Dallas et al. 2019 _PRSB_</sub> 
 
 
-<div class="notes">
-This is my *note*.
-
-</div>
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+<br> 
+<br> 
+<br> 
+
+<h2> <center> End of lecture 1 </center> </h2> 

@@ -397,14 +397,15 @@ Some behaviors predispose host to things that benefit the parasite
 
 
 
+
+
 ---
 
-<br/>
-<br/>
-<br/>
-<br/>
-<div class='centered'>  End of lecture 1 </div>
+<br> 
+<br> 
+<br> 
 
+<h2> <center> End of lecture 1 </center> </h2> 
 
 
 
@@ -618,10 +619,6 @@ Class 2: tagging extracellular pathogens
 + total failure to control pathogen (novel pathogens, immuncompromise) 
 
 
-<div class="notes">
-
-</div> 
-
 
 
 
@@ -639,9 +636,6 @@ Class 2: tagging extracellular pathogens
 <sub> See work from Amy Pederson and Vanessa Ezenwa looking at some cool natural examples of coinfection </sub> 
 
 
-<div class="notes">
-
-</div> 
 
 
 
@@ -655,13 +649,6 @@ Class 2: tagging extracellular pathogens
 + Selective force is on the parasite to evolve ways to bypass host immune defenses 
 
 + Selective force is on the host to effectively respond to parasites
-
-
-
-<div class="notes">
-
-</div> 
-
 
 
 ---
@@ -795,9 +782,6 @@ Cost = fitness of S - fitness of R
 
 
 <sub> reviewed in Burrington 2000; good critique from Lenormand et al. 2018 _Rethinking Ecology_ </sub>
-
-<div class="notes">
-</div>
 
 
 

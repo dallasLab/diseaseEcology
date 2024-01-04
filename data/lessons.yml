@@ -155,17 +155,12 @@ lessons:
     date: ""
     topics: "<b>MODULE 5: Closing thoughts </b>"
    
-
   - module: "<i class='fa fa-lg fa-star'></i>"
-    date: "Week 16"
+    date: "Week 15"
     topics: "Final exam review + "
     code: "code/examreview"
-    
-
-
-
 
   - module: "<i class='material-icons'>school</i>"
-    date: "Week 18"
+    date: "Final exam week"
     topics: "Final exam"
    

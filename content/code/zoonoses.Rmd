@@ -27,7 +27,25 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 
 
-<!-- (climate change/land use/human-wildlife interface, what are zoonoses and how do they happen, define emergence/re-emergence/outbreak, risk factors for zoonoses - phylo relationship to reservoir, interaction with reservoir, routes of spillover) week 12 and week 13 from Park 2019-->
+<!-- 
+  Split this with final exam review, so this becomes just one lecture to finish it off. 
+
+  what are zoonoses and how do they happen, 
+
+  define emergence/re-emergence/outbreak, 
+  
+  climate change/land use/human-wildlife interface, 
+
+  risk factors for zoonoses - phylo relationship to reservoir, interaction with reservoir, routes of spillover) 
+  
+  predicting zoonotic potential 
+
+  week 12 and week 13 from Park 2019
+-->
+
+
+
+
 
 
 
@@ -41,10 +59,21 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 
 
-<div class="notes">
-This is my *note*.
 
-</div>
+---
+
+<div class="columns-2">
+
+</div> 
+
+<font color='green'>  </font> 
+
+<sub> Dallas et al. 2019 _PRSB_</sub> 
+
+
+
+
+
 
 
 

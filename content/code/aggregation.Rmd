@@ -503,7 +503,6 @@ hist(sample(df$burden, 1000, replace=TRUE),
 
 
 
-
 ---
 
 <br> 
@@ -511,7 +510,6 @@ hist(sample(df$burden, 1000, replace=TRUE),
 <br> 
 
 <h2> <center> End of lecture 1 </center> </h2> 
-
 
 
 
