@@ -5,14 +5,18 @@
     <link>/</link>
     <description>Recent content on Parasitology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title></title>
       <link>/policies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/policies/</guid>
-      <description>Parasitology This document contains more information about the class and course policies. For more detailed information on course structure, click on syllabus tab above, or go to the pdf syllabus on GitHub
+      <description>Parasitology This document contains more information about the class and course policies. For more detailed information on course structure, click on syllabus tab above, or go to the [pdf syllabus on GitHub]()
 Instructor | Tad Dallas Location | Jones 101 Times | T &amp;amp; TH 2:50pm - 4:05pm Drop-in hours | Th from 1:00pm - 2:40pm Prerequisites Important dates:    Date Event     Jan 30 first homework due   March 10    April 4 second homework due   April 30 third homework due   May 1 fourth homework due    Instructional Methods This course will be lecture-based, with 4 homework assignments, 2 exams, weekly quizes, and some attendance/participation points.</description>
     </item>
     
@@ -22,7 +26,7 @@ Instructor | Tad Dallas Location | Jones 101 Times | T &amp;amp; TH 2:50pm - 4:0
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/syllabus/</guid>
-      <description> Syllabus    Date Module Topics Read Code Lab Homework   Week 1 home Course design, goals, introduction, and setup          MODULE 1: Parasite diversity        Week 2   Life history strategies and host-parasite coevolution       Week 3  Parasite richness, specificity, and host range       Week 4  Behavioral and immunological responses           MODULE 2: Directly-transmitted parasites        Week 5  Biology of microparasites       Week 6  Epidemics and interventions       Week 7  Parasite aggregation and burden       Spring break  ---           MODULE 3: Non-direct transmission        Week 9  Biology of macroparasites       Week 10  Vector-borne disease       Week 11  Environmentally-transmitted disease and sexually-transmitted diseases          MODULE 4: Disease across scales        Week 12  Infectious diseases in communities       Week 13  Coinfection       Week 14  Macroecology of infectious disease and networked populations       Week 15  Zoonoses, spillover, emergence, and One Health          MODULE 5: Closing thoughts        Week 16  Final exam review +        Week 18 school Final exam         </description>
+      <description> Syllabus    Date Module Topics Read Code Lab Homework   Week 1 home Course design, goals, introduction, and setup          MODULE 1: Parasite diversity        Week 2   Life history strategies and host-parasite coevolution       Week 3  Parasite richness, specificity, and host range       Week 4  Behavioral and immunological responses           MODULE 2: Directly-transmitted parasites        Week 5  Biology of microparasites       Week 6  Epidemics and interventions       Week 7  Parasite aggregation and burden       Spring break  ---           MODULE 3: Non-direct transmission        Week 9  Biology of macroparasites       Week 10  Vector-borne disease       Week 11  Environmentally-transmitted disease and sexually-transmitted diseases          MODULE 4: Disease across scales        Week 12  Infectious diseases in communities       Week 13  Coinfection       Week 14  Macroecology of infectious disease and networked populations       Week 15  Zoonoses, spillover, emergence, and One Health          MODULE 5: Closing thoughts        Week 15  Final exam review +        Final exam week school Final exam         </description>
     </item>
     
     <item>
@@ -126,12 +130,7 @@ link to paper
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/setup/</guid>
-      <description>Introductions Go around and introduce yourselves, what year you are, and what made you decide to take the course (could take many forms, including what you want to learn, what you&amp;rsquo;re interested in, etc. etc.)
-Syllabus Go over syllabus
-What are we doing in this class? Theory provides us a lens to generalize.
-Theory provides us a way to predict.
-Theory provides link between lab systems and natural systems.
-What this course is not A programming course.</description>
+      <description>Reading None for this week.</description>
     </item>
     
     <item>
@@ -160,7 +159,7 @@ What this course is not A programming course.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module1/</guid>
-      <description>Homework problems    Chapter Problems     1 1,4   2 2,5,7   3 5   5 5,7,9   6 3    </description>
+      <description>Homework problems </description>
     </item>
     
     <item>
@@ -169,7 +168,7 @@ What this course is not A programming course.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module2/</guid>
-      <description>Homework problems    Chapter Problems     7 2,4,9   8 4   9 3,4    </description>
+      <description>Homework problems </description>
     </item>
     
     <item>
@@ -178,7 +177,7 @@ What this course is not A programming course.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module3/</guid>
-      <description>Homework problems    Chapter Problems     10 2,3   11 5   12 3,5   14 2,6   15 3,4    </description>
+      <description>Homework problems </description>
     </item>
     
     <item>
@@ -187,8 +186,8 @@ What this course is not A programming course.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module4/</guid>
-      <description>Metapopulation questions 1 What is the equilibrium fraction of occupied patches for the mainland-island model with a colonization rate of 0.5, and an extinction rate of 0.3? How does this change compared to the standard Levin&amp;rsquo;s model? What explains this change?
-2 Incorporate a rescue effect into the above model and calculate the equilibrium fraction of occupied patches. What is this new value, and how does it compare to the mainland-island and Levin&amp;rsquo;s equilibrium values?</description>
+      <description>1 Calculate $R_0$ for a pathogen with transmission rate of 0.5 and recovery rate of 0.4, assuming $SIR$ style dynamics. What happens to $R_0$ when we introduce an exposed class and set the transition from exposed to infected ($\omega$) to be 0.6?
+2 Add vaccination into the SEIR model as presented in the lecture notes, show how to format the F and V matrices for the next-generation method of estimating $R_0$, and estimate $R_0$ given the parameters $\beta$ = 1.</description>
     </item>
     
     <item>
@@ -208,7 +207,8 @@ What this course is not A programming course.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/specificity/</guid>
-      <description>Reading  Costello. 2016. Parasite Rates of Discovery, Global Species Richness and Host Specificity. Integrative and Comparative Biology.
+      <description>Reading  Poulin, R., Krasnov, B. R., &amp;amp; Mouillot, D. (2011). Host specificity in phylogenetic and geographic space. Trends in parasitology, 27(8), 355-361.
+  Carlson CJ, Dallas TA, Alexander LW, Phelan AL, Phillips AJ. 2020. What would it take to describe the global diversity of parasites? Proc Biol Sci.
  </description>
     </item>
     

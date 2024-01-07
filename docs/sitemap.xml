@@ -1,61 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/policies/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/syllabus/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/archives/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/behavior/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/macroparasites/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/microparasites/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/coinfection/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/disease/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/env/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/epidemics/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/examreview/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/homework/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/communities/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/setup/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/lifehistory/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/macrodisease/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/homework/module1/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/homework/module2/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/homework/module3/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/homework/module4/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/aggregation/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/specificity/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/vectors/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/read/zoonoses/</loc>
   </url>
+  
 </urlset>

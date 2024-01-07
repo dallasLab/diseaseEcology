@@ -8,9 +8,9 @@ markup: "mmark"
 
  
 #### Instructor | [Tad Dallas](https://taddallas.github.io)  
-#### Location   |   Jones 214  
-#### Times      |  T & TH 2:50pm - 4:05pm     
-#### Drop-in hours |  Th from 1:00pm - 2:40pm  
+#### Location   |   Coker Life Sciences 202
+#### Times      |  T & TH 10:05am - 11:20am     
+#### Drop-in hours |  Th from 1:00pm - 2:30pm  
 
 ---
 

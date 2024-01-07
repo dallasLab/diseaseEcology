@@ -82,13 +82,6 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 
 
-<div class="notes">
-This is my *note*.
-
-</div>
-
-
-
 
 
 
@@ -100,16 +93,37 @@ This is my *note*.
 
 ### Diversity in phylogenetics 
 
++ A host is infected with two parasite species
+  + they could be closely related parasites, or quite distantly related parasites 
+
++ So when quantifying parasite diversity (either within a region or within a host species), considering the phylogenetic distance between parasites can be used as a measure of diversity 
 
 
 
 
 
-<div class="notes">
-This is my *note*.
+---
 
-</div>
+### Phylogenetic diversity for free-living animals 
 
++ 
+
++ 
+
+
+
+
+
+
+---
+
+### Quantifying phylogenetic diversity for parasites 
+
++ 
+
++ 
+
++ 
 
 
 
@@ -131,10 +145,7 @@ This is my *note*.
 
 
 
-<div class="notes">
-This is my *note*.
 
-</div>
 
 
 
@@ -182,10 +193,7 @@ This is my *note*.
 
 
 
-<div class="notes">
-This is my *note*.
 
-</div>
 
 
 ---
@@ -276,11 +284,10 @@ Parasitoids are insects which sooner or later kill their hosts, placing their re
 
 Idiobiont parasitoids sting their often large prey on capture, either killing them outright or paralyzing them immediately. The immobilized prey is then carried to a nest, sometimes alongside other prey if it is not large enough to support a parasitoid throughout its development. An egg is laid on top of the prey and the nest is then sealed. The parasitoid develops rapidly through its larval and pupal stages, feeding on the provisions left for it 
 </div>
+
+
+
 ---
-
-
-
-
 
 ### micropredation
 
@@ -315,13 +322,19 @@ A micropredator attacks more than one host, reducing each host's fitness by at l
 
 
 
-<div class="notes">
-This is my *note*.
-
-</div>
 
 
+---
 
+
+### More on tissue tropism 
+
+
++ 
+
++ 
+
++ 
 
 
 
@@ -383,11 +396,18 @@ But what about things like anthrax, rabies, or ebola?
 
 
 
-<div class="notes">
-This is my *note*.
 
-</div>
 
+
+
+
+---
+
+<br> 
+<br> 
+<br> 
+
+<h2> <center> End of lecture 1 </center> </h2> 
 
 
 
@@ -411,10 +431,6 @@ This is my *note*.
 
 
 
-<div class="notes">
-This is my *note*.
-
-</div>
 
 
 
@@ -429,19 +445,6 @@ This is my *note*.
 + number of host species infected (host range)
 + relative utilization of different host species 
 + [maybe weighted by phylogenetic distance between hosts](https://pubmed.ncbi.nlm.nih.gov/12793652/)
-
-
-
-
-<div class="notes">
-This is my *note*.
-
-</div>
-
-
-
-
-
 
 
 
@@ -491,7 +494,7 @@ http://dx.doi.org/10.1086/423716
 
 + Infection is costly to hosts in terms of fitness, leading to evolution of host defenses 
 
-+ Parasites want to infect, leading to evolution of novel infection strategies 
++ Parasites _want_ to infect, leading to evolution of novel infection strategies 
 
 > We will discuss this later in much more detail 
 
@@ -559,12 +562,6 @@ Ties into resistance-tolerance tradeoffs but don't bring this up yet. Or if you 
 ![](figs/myxo.jpg){width="90%"}
 
 
-<div class="notes">
-
-
-</div>
-
-
 
 
 
@@ -577,16 +574,18 @@ Ties into resistance-tolerance tradeoffs but don't bring this up yet. Or if you 
 
 ### What parasites would not follow this general pattern? 
 
-+ Fungal pathogens, generally
-+ Pathogens with a long-lived environmental stage (e.g., anthrax)
+>- Fungal pathogens, generally
+>- Pathogens with a long-lived environmental stage (e.g., anthrax)
 
 
 
 
-<div class="notes">
-This is my *note*.
 
-</div>
+---
+
+### moar
+
+
 
 
 

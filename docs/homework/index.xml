@@ -5,14 +5,18 @@
     <link>/homework/</link>
     <description>Recent content in Homeworks on Parasitology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/homework/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="/homework/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Module 1 homework</title>
       <link>/homework/module1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module1/</guid>
-      <description>Homework problems    Chapter Problems     1 1,4   2 2,5,7   3 5   5 5,7,9   6 3    </description>
+      <description>Homework problems </description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module2/</guid>
-      <description>Homework problems    Chapter Problems     7 2,4,9   8 4   9 3,4    </description>
+      <description>Homework problems </description>
     </item>
     
     <item>
@@ -30,7 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module3/</guid>
-      <description>Homework problems    Chapter Problems     10 2,3   11 5   12 3,5   14 2,6   15 3,4    </description>
+      <description>Homework problems </description>
     </item>
     
     <item>
@@ -39,8 +43,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module4/</guid>
-      <description>Metapopulation questions 1 What is the equilibrium fraction of occupied patches for the mainland-island model with a colonization rate of 0.5, and an extinction rate of 0.3? How does this change compared to the standard Levin&amp;rsquo;s model? What explains this change?
-2 Incorporate a rescue effect into the above model and calculate the equilibrium fraction of occupied patches. What is this new value, and how does it compare to the mainland-island and Levin&amp;rsquo;s equilibrium values?</description>
+      <description>1 Calculate $R_0$ for a pathogen with transmission rate of 0.5 and recovery rate of 0.4, assuming $SIR$ style dynamics. What happens to $R_0$ when we introduce an exposed class and set the transition from exposed to infected ($\omega$) to be 0.6?
+2 Add vaccination into the SEIR model as presented in the lecture notes, show how to format the F and V matrices for the next-generation method of estimating $R_0$, and estimate $R_0$ given the parameters $\beta$ = 1.</description>
     </item>
     
   </channel>
