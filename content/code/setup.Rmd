@@ -5,6 +5,7 @@ highlight: "pygments"
 output: ioslides_presentation
 ---
 
+
 <style type="text/css">
 .main-container {
   max-width: 800px;
@@ -19,12 +20,11 @@ h3 {
 }
 </style>
 
-```{r setup, include=FALSE} 
-knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
-```
+
+
+
+
 ---
-
-
 
 ### Introductions 
 
@@ -106,14 +106,127 @@ Go through the course website and make sure everyone has easy access and is clea
 
 
 
-
 ---
 
 ### What is parasitology? 
 
 + The study of parasites and parasite-related disease
+
 + The difference between parasites and disease
+
 + Parasitology, disease ecology, and epidemiology 
+
+
+
+
+
+--- 
+
+### Parasitology, epidemiology, ecology
+
++ Parasitology: the study of parasites 
+
++ Epidemiology: study of human infectious disease 
+
++ Ecology: study of interactions with organisms and their environment 
+
+> So how would we define disease ecology? 
+
+
+
+
+
+
+
+
+
+
+--- 
+
+### What's the difference between disease ecology and epidemiology? 
+
+> Raise your hand if you've taken an epidemiology course 
+
++ What were the big takeaways? 
+  + Focus on mitigation, less on complexity?
+  + Incorporating individual heterogeneity or environmental impacts?
+  + Model environmental pathogen or vector populations, or were human case counts the main data? 
+
+
+
+
+--- 
+
+### What's the difference between disease ecology and epidemiology? 
+
++ Disease ecology uses some of the underlying theoretical models from epidemiology, but incorporates the role of species interactions and environmental drivers of infection dynamics 
+
+
+
+
+
+---
+
+### What this looks like in practice 
+
++ Measles across England and Wales (1944-1994) 
+
++ Time series of case counts in largest 10 cities reveals the clear effect the development and uptake of the vaccine
+
+![](figs/rohaniMeasles1.png){width=80%}
+
+
+
+---
+
+### But it also changes the synchrony in case counts 
+
++ synchrony is the tendency to have correlated fluctuations between two neighboring systems 
+
++ here, the synchrony was driven by disease spreading across cities pre-vaccination 
+
++ the synchrony went away after the vaccine was developed, because vaccine uptake through time tended to not be correlated between cities (and probably for other reasons) 
+
+![](figs/rohaniMeasles3.png){width=80%}
+
+
+
+
+
+
+
+---
+
+> What parts of that study are more epidemiological, and what parts are more ecological? 
+
+
+
+
+---
+
+### What about ecology and parasitology? 
+
+> During a job interview I was once called a parasitologist 
+
++ Why I am not a parasitologist 
+  + I don't study individual parasites
+  + I can't identify parasites to species 
+  + I've rarely handled parasites 
+  + I don't care about what many parasitologists care about 
+
+
+
+
+
+---
+
+### But you could call me a parasite ecologist 
+
++ I care less about describing parasites and more about 
+  + how they infect their hosts 
+  + how this process is mediated by the environment 
+  + what the costs to host fitness are 
+  + if I can generalize across systems and gain common insight 
 
 
 
@@ -161,6 +274,95 @@ Go through the course website and make sure everyone has easy access and is clea
 + [Use of parasites as biocontrol](https://csiropedia.csiro.au/myxomatosis-to-control-rabbits/)
 
 + An interesting ecological interaction (why study plant-pollinator interactions?)
+
+
+
+
+
+---
+
+### What is the worst parasite? 
+
+> 5 minutes chatting in small groups
+
+> But every person gets 1 answer 
+
+I want
+  + name of parasite 
+  + why it's the worst 
+
+
+
+
+
+
+
+
+
+--- 
+
+### Microparasites 
+
++ Generally microscopic 
+
++ e.g., viruses, protozoans, bacteria, fungi 
+
+
+
+
+--- 
+
+### Macroparasites 
+
++ Visible with naked eye
+
++ Generally rely less on the host for everything 
+
++ e.g., helminths, ticks 
+
+
+
+
+---
+
+### Microparasites versus macroparasites 
+
++ Microparasites mulitply within the host, macroparasites release juveniles outside 
+
++ So...botflies are microparasites?
+
++ But enough people use this as a definition to where we should at least recognize it. 
+ 
++ So macroparasite (e.g., cestode worm releases proglottids from host) different from microparasite (e.g., _Yersenia pestis_ bacterial life cycle tons of times in same infected host). 
+
+
+
+
+
+
+
+--- 
+
+### Zoonotic parasites
+
++ A zoonotic parasite is a parasite that can infect humans. 
+
++ A lot of the examples we'll use in class will be on infectious diseases of humans 
+
++ But this is not solely a human infectious disease course, so we'll be pulling plenty of wildlife examples 
+
++ Let's name some zoonotic parasites 
+
++ Let's define some terms
+  + spillover
+  + emergence
+  + re-emergence
+
+
+
+
+
+
 
 
 
@@ -218,11 +420,6 @@ Go through the course website and make sure everyone has easy access and is clea
 
 
 
-
-
-
-
-
 ---
 
 ### Impact on biodiversity 
@@ -268,23 +465,6 @@ Go through the course website and make sure everyone has easy access and is clea
 
 
 
---- 
-
-### Zoonotic parasites
-
-+ A zoonotic parasite is a parasite that can infect humans. 
-
-+ Let's name some zoonotic parasites 
-
-+ Let's define some terms
-  + spillover
-  + emergence
-  + re-emergence
-
-
-
-
-
 
 
 
@@ -306,19 +486,63 @@ Go through the course website and make sure everyone has easy access and is clea
 
 
 
-
 ---
 
 ### Limitations of Koch's postulates
 
 + Super important when originally introduced for characterizing disease (TB, cholera, etc.)
 
-+ Many infectious diseases subvert the posulates
++ Many infectious diseases subvert the postulates
   + some pathogens can't be cultured yet (e.g., many prion diseases)
   + asymptomatic folks (e.g., Koch himself saw this with cholera)
   + low prevalence of infection given inoculation (hence the 'should' in postulate 3, which was previously 'must')
   
   
+
+
+---
+
+### Even Koch had to bend his own postulates 
+
++ Asymptomatic carriers of _Vibrio cholera_ exist, so first postulate was already bent before it's first application 
+
+
+
+
+
+---
+
+### Start of the wrap-up for the easy week 1 introduction 
+
+
+
+
+
+
+
+
+--- 
+
+### Welcome to parasite ecology or disease ecology 
+
+![](figs/parasitez.png){width=100%}
+
+
+
+
+
+
+---
+
+### But we will also learn 
+
++ some epidemiological modeling bits 
+
++ a fair bit of ecology 
+
++ a decent amount of human infectious diseases 
+
++ some definite fun wildlife diseases
 
 
 
@@ -337,12 +561,3 @@ Go through the course website and make sure everyone has easy access and is clea
 + Ask when you have questions
 
 + Have fun
-
-
-
-
-
-
-
-
-

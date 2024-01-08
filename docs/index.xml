@@ -8,78 +8,184 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Lab 10: Tick Data Collection &#43; Vector-borne Disease Paper Discussion</title>
+      <link>/lab/lab10/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab10/</guid>
+      <description> This lab is still being built; check back in later for the complete information!
+Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
+    </item>
+    
+    <item>
+      <title>Lab 11: Environmental Risk Mapping: A Case study with a Waterborne Disease</title>
+      <link>/lab/lab11/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab11/</guid>
+      <description> This lab is still being built; check back in later for the complete information!
+Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
+    </item>
+    
+    <item>
+      <title>Lab 12: Diagnostic Testing for Helminth Parasites</title>
+      <link>/lab/lab12/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab12/</guid>
+      <description> This lab is still being built; check back in later for the complete information!
+Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+First LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
+    </item>
+    
+    <item>
+      <title>Lab 12: Parasite Life Histories</title>
+      <link>/lab/lab2/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab2/</guid>
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+Define common vocabulary used to describe parasite life cycles (Simple complex, tropic transmission, parasitic castrator, parasitoid, vector-borne).
+ Describe the life histories of a few major parasites of importance to human or wildlife health (malaria, schistosomiasis, trophically transmitted cestode, simple life cycle nematode, Guinea Worm, Chytrid…)
+ Apply their knowledge of parasite life cycles to develop targeted intervention strategies, and develop methods to evaluate their performance</description>
+    </item>
+    
+    <item>
+      <title>Lab 13: Wrapup</title>
+      <link>/lab/lab13/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab13/</guid>
+      <description> This lab is still being built; check back in later for the complete information!
+Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
+    </item>
+    
+    <item>
       <title>Lab 1: Lab Setup/Parasite Diversity/Microscope Basics</title>
       <link>/lab/lab1_diversity/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab1_diversity/</guid>
       <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-Describe the overall structure of the laboratory course, expectations for laboratory conduct, and how their grade is assessed Successfully demonstrate how to use a compound light microscope, including loading specimen slides, focusing at multiple magnifications, calculating total magnification, and to accurately measure the size of objects under magnification Label the basic parts of a compound microscope and be able to explain their function Define parasitism (in an ecological sense), identify major parasitic groups of interest, and outline some of the life history strategies lumped together under the term “parasite” Distinguish morphological differences separating major groups of helminth parasites across multiple life stages, and apply that knowledge to identify unknown specimens Pre-Lab Materials Review the course syllabus before coming to lab.</description>
+Describe the overall structure of the laboratory course, expectations for laboratory conduct, and how their grade is assessed Successfully demonstrate how to use a compound light microscope, including loading specimen slides, focusing at multiple magnifications, calculating total magnification, and to accurately measure the size of objects under magnification Label the basic parts of a compound microscope and be able to explain their function Define parasitism (in an ecological sense), identify major parasitic groups of interest, and outline some of the life history strategies lumped together under the term “parasite” Distinguish morphological differences separating major groups of helminth parasites across multiple life stages, and apply that knowledge to identify unknown specimens   Pre-Lab Materials Review the course syllabus before coming to lab.</description>
     </item>
     
     <item>
-      <title>Lab X:</title>
-      <link>/lab/lab2/</link>
+      <title>Lab 3: Host Range and Parasite Specificity</title>
+      <link>/lab/lab3/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>/lab/lab2/</guid>
-      <description> Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials Review the course syllabus before coming to lab. In the future, it’ll be important to look over this heading before lab this week, as it will contain information you’ll need to know for the lab quiz!
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources </description>
+      <guid>/lab/lab3/</guid>
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+Perform the necessary steps to begin analyzing data in the R language (open a development environment, Create a new analysis file, load in analysis packages, load data into the environment).
+ Create basic linear models in R and interpret their outputs.
+ Create scatter plots and histograms in R and add lines of best fit</description>
     </item>
     
     <item>
-      <title>Lab X:</title>
-      <link>/lab/lab2_lifehistory/</link>
+      <title>Lab 4:Immune Responses</title>
+      <link>/lab/lab4/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>/lab/lab2_lifehistory/</guid>
-      <description> Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials Review the course syllabus before coming to lab. In the future, it’ll be important to look over this heading before lab this week, as it will contain information you’ll need to know for the lab quiz!
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources </description>
+      <guid>/lab/lab4/</guid>
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+First LO Second LO   Pre-Lab Materials Review the course syllabus before coming to lab. In the future, it’ll be important to look over this heading before lab this week, as it will contain information you’ll need to know for the lab quiz!
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in</description>
     </item>
     
     <item>
-      <title>Lab X:</title>
-      <link>/lab/lab2lifehistory/</link>
+      <title>Lab 5: Microparasites I</title>
+      <link>/lab/lab5/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>/lab/lab2lifehistory/</guid>
-      <description> Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials Review the course syllabus before coming to lab. In the future, it’ll be important to look over this heading before lab this week, as it will contain information you’ll need to know for the lab quiz!
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources </description>
+      <guid>/lab/lab5/</guid>
+      <description> This lab is still being built; check back in later for the complete information!
+Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
     </item>
     
     <item>
-      <title>Lab X:</title>
-      <link>/lab/lab3_hostrange/</link>
+      <title>Lab 6: Microparasites II</title>
+      <link>/lab/lab6/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>/lab/lab3_hostrange/</guid>
-      <description> Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials Review the course syllabus before coming to lab. In the future, it’ll be important to look over this heading before lab this week, as it will contain information you’ll need to know for the lab quiz!
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources </description>
+      <guid>/lab/lab6/</guid>
+      <description> This lab is still being built; check back in later for the complete information!
+Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
     </item>
     
     <item>
-      <title>Lab X:</title>
-      <link>/lab/lab3hostrange/</link>
+      <title>Lab 7: Microparasites III</title>
+      <link>/lab/lab7/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>/lab/lab3hostrange/</guid>
-      <description> Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials Review the course syllabus before coming to lab. In the future, it’ll be important to look over this heading before lab this week, as it will contain information you’ll need to know for the lab quiz!
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources </description>
+      <guid>/lab/lab7/</guid>
+      <description> This lab is still being built; check back in later for the complete information!
+Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
+    </item>
+    
+    <item>
+      <title>Lab 8: Macroparasite Aggregation</title>
+      <link>/lab/lab8/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab8/</guid>
+      <description> This lab is still being built; check back in later for the complete information!
+Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
+    </item>
+    
+    <item>
+      <title>Lab 9: Tick Field Trip</title>
+      <link>/lab/lab9/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab9/</guid>
+      <description> This lab is still being built; check back in later for the complete information!
+Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
     </item>
     
     <item>
@@ -97,7 +203,7 @@ Resources </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/syllabus/</guid>
-      <description> Syllabus Date Module Topics Read Code Lab Homework Week 1 home Course design, goals, introduction, and setup MODULE 1: Parasite diversity Week 2 Life history strategies and host-parasite coevolution Week 3 Parasite richness, specificity, and host range Week 4 Behavioral and immunological responses MODULE 2: Directly-transmitted parasites Week 5 Biology of microparasites Week 6 Epidemics and interventions Week 7 Parasite aggregation and burden MODULE 3: Non-direct transmission Week 9 Biology of macroparasites Spring break --- Week 10 Vector-borne disease Week 11 Environmentally-transmitted disease and sexually-transmitted diseases MODULE 4: Disease across scales Week 12 Infectious diseases in communities Week 13 Coinfection Week 14 Macroecology of infectious disease and networked populations Week 15 Zoonoses, spillover, emergence, and One Health MODULE 5: Closing thoughts Week 15 Final exam review + Final exam week school Final exam </description>
+      <description> Syllabus    Date Module Topics Read Code Lab Homework   Week 1 home Course design, goals, introduction, and setup          MODULE 1: Parasite diversity        Week 2   Life history strategies and host-parasite coevolution       Week 3  Parasite richness, specificity, and host range       Week 4  Behavioral and immunological responses           MODULE 2: Directly-transmitted parasites        Week 5  Biology of microparasites       Week 6  Epidemics and interventions       Week 7  Parasite aggregation and burden          MODULE 3: Non-direct transmission        Week 9  Biology of macroparasites       Spring break  ---        Week 10  Vector-borne disease       Week 11  Environmentally-transmitted disease and sexually-transmitted diseases          MODULE 4: Disease across scales        Week 12  Infectious diseases in communities       Week 13  Coinfection       Week 14  Macroecology of infectious disease and networked populations       Week 15  Zoonoses, spillover, emergence, and One Health          MODULE 5: Closing thoughts        Week 15  Final exam review +        Final exam week school Final exam         </description>
     </item>
     
     <item>
@@ -106,8 +212,9 @@ Resources </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/behavior/</guid>
-      <description>Reading Ezenwa, V. O., Etienne, R. S., Luikart, G., Beja-Pereira, A., &amp;amp; Jolles, A. E. (2010). Hidden consequences of living in a wormy world: nematode-induced immune suppression facilitates tuberculosis invasion in African buffalo. The American Naturalist, 176(5), 613-624.
-de Roode, J. C., Lefèvre, T., &amp;amp; Hunter, M. D. (2013). Self-medication in animals. Science, 340(6129), 150-151.</description>
+      <description>Reading  Ezenwa, V. O., Etienne, R. S., Luikart, G., Beja-Pereira, A., &amp;amp; Jolles, A. E. (2010). Hidden consequences of living in a wormy world: nematode-induced immune suppression facilitates tuberculosis invasion in African buffalo. The American Naturalist, 176(5), 613-624.
+  de Roode, J. C., Lefèvre, T., &amp;amp; Hunter, M. D. (2013). Self-medication in animals. Science, 340(6129), 150-151.
+ </description>
     </item>
     
     <item>
@@ -116,7 +223,8 @@ de Roode, J. C., Lefèvre, T., &amp;amp; Hunter, M. D. (2013). Self-medication i
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/macroparasites/</guid>
-      <description>Reading Fenton, A., Viney, M. E., &amp;amp; Lello, J. (2010). Detecting interspecific macroparasite interactions from ecological data: patterns and process. Ecology letters, 13(5), 606-615.</description>
+      <description>Reading  Viney M, Cable J. Macroparasite life histories. Curr Biol. 2011 Sep 27;21(18):R767-74. doi: 10.1016/j.cub.2011.07.023. PMID: 21959167.
+ </description>
     </item>
     
     <item>
@@ -125,7 +233,8 @@ de Roode, J. C., Lefèvre, T., &amp;amp; Hunter, M. D. (2013). Self-medication i
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/microparasites/</guid>
-      <description>Reading Hopkins, S. R., Fleming-Davies, A. E., Belden, L. K., &amp;amp; Wojdak, J. M. (2020). Systematic review of modelling assumptions and empirical evidence: does parasite transmission increase nonlinearly with host density?. Methods in Ecology and Evolution, 11(4), 476-486.</description>
+      <description>Reading  Hopkins, S. R., Fleming-Davies, A. E., Belden, L. K., &amp;amp; Wojdak, J. M. (2020). Systematic review of modelling assumptions and empirical evidence: does parasite transmission increase nonlinearly with host density?. Methods in Ecology and Evolution, 11(4), 476-486.
+   </description>
     </item>
     
     <item>
@@ -134,17 +243,8 @@ de Roode, J. C., Lefèvre, T., &amp;amp; Hunter, M. D. (2013). Self-medication i
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/coinfection/</guid>
-      <description>Reading Viney, M. E., &amp;amp; Graham, A. L. (2013). Patterns and Processes in Parasite Co-Infection.</description>
-    </item>
-    
-    <item>
-      <title>Disease</title>
-      <link>/code/disease/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/code/disease/</guid>
-      <description>Title This is my note.
-Modeling host-parasite interactions Despite the variety of parasite life history and transmission modes, one flexible model which can capture many fundamental aspects of host-parasite infection dynamics is the SIR model. This is a compartmental model where host individuals can be either susceptible (S), infected (I), or recovered/removed (R). Other forms of this simple model exist, including latent periods after transmission but before the host becomes infectious (E for exposed), as well as extensions for multi-host scenarios, recovery with waning immunity (i.</description>
+      <description>Reading  Viney, M. E., &amp;amp; Graham, A. L. (2013). Patterns and Processes in Parasite Co-Infection.
+ </description>
     </item>
     
     <item>
@@ -153,9 +253,10 @@ Modeling host-parasite interactions Despite the variety of parasite life history
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/disease/</guid>
-      <description>Reading Anderson, R. M. and May, R. M., Population biology of infectious diseases I Nature 280 (5721), 361 (1979). pdf available here
-Kilpatrick, A. M. &amp;amp; Altizer, S. (2010) Disease Ecology. Nature Education Knowledge 3(10):55
-link to paper</description>
+      <description>Reading   Anderson, R. M. and May, R. M., Population biology of infectious diseases I Nature 280 (5721), 361 (1979). pdf available here
+  Kilpatrick, A. M. &amp;amp; Altizer, S. (2010) Disease Ecology. Nature Education Knowledge 3(10):55
+link to paper
+  </description>
     </item>
     
     <item>
@@ -164,9 +265,10 @@ link to paper</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/env/</guid>
-      <description>Reading Nordvik, M. K., &amp;amp; Liljeros, F. (2006). Number of sexual encounters involving intercourse and the transmission of sexually transmitted infections. Sexually transmitted diseases, 342-349.
-Lanzas C, Davies K, Erwin and Dawson D. 2020. On modelling environmentally transmitted pathogens. Interface Focus.1020190056
-STD rates in Columbia, SC News article on Columbia as no. 3 rank</description>
+      <description>Reading  Nordvik, M. K., &amp;amp; Liljeros, F. (2006). Number of sexual encounters involving intercourse and the transmission of sexually transmitted infections. Sexually transmitted diseases, 342-349.
+  Lanzas C, Davies K, Erwin and Dawson D. 2020. On modelling environmentally transmitted pathogens. Interface Focus.1020190056
+ STD rates in Columbia, SC  News article on Columbia as no. 3 rank
+ </description>
     </item>
     
     <item>
@@ -175,8 +277,9 @@ STD rates in Columbia, SC News article on Columbia as no. 3 rank</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/epidemics/</guid>
-      <description>Reading McLean AR. Infectious Disease Modeling. Infectious Diseases. 2012 Dec 5:99–115. doi: 10.1007/978-1-4614-5719-0_5. PMCID: PMC7121366.
-Relevant video content Introduction to modeling infectious diseases</description>
+      <description>Reading  McLean AR. Infectious Disease Modeling. Infectious Diseases. 2012 Dec 5:99–115. doi: 10.1007/978-1-4614-5719-0_5. PMCID: PMC7121366.
+ Relevant video content  Introduction to modeling infectious diseases
+ </description>
     </item>
     
     <item>
@@ -194,7 +297,8 @@ Relevant video content Introduction to modeling infectious diseases</description
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/communities/</guid>
-      <description>Reading Roche, B., Dobson, A. P., Guégan, J. F., &amp;amp; Rohani, P. (2012). Linking community and disease ecology: the impact of biodiversity on pathogen transmission. Philosophical Transactions of the Royal Society B: Biological Sciences, 367(1604), 2807-2813.</description>
+      <description>Reading  Roche, B., Dobson, A. P., Guégan, J. F., &amp;amp; Rohani, P. (2012). Linking community and disease ecology: the impact of biodiversity on pathogen transmission. Philosophical Transactions of the Royal Society B: Biological Sciences, 367(1604), 2807-2813.
+ </description>
     </item>
     
     <item>
@@ -212,7 +316,8 @@ Relevant video content Introduction to modeling infectious diseases</description
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/lifehistory/</guid>
-      <description>Reading General background on parasite life history</description>
+      <description>Reading  General background on parasite life history
+ </description>
     </item>
     
     <item>
@@ -221,8 +326,8 @@ Relevant video content Introduction to modeling infectious diseases</description
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/macrodisease/</guid>
-      <description>Reading Stephens, P. R., Altizer, S., Smith, K. F., Alonso Aguirre, A., Brown, J. H., Budischak, S. A., &amp;hellip; &amp;amp; Poulin, R. (2016). The macroecology of infectious diseases: A new perspective on global-scale drivers of pathogen distributions and impacts. Ecology letters, 19(9), 1159-1171.
-Dallas, T. A., Aguirre, A. A., Budischak, S., Carlson, C., Ezenwa, V., Han, B., &amp;hellip; &amp;amp; Stephens, P. R. (2018). Gauging support for macroecological patterns in helminth parasites.</description>
+      <description>Reading  Stephens, P. R., Altizer, S., Smith, K. F., Alonso Aguirre, A., Brown, J. H., Budischak, S. A., &amp;hellip; &amp;amp; Poulin, R. (2016). The macroecology of infectious diseases: A new perspective on global-scale drivers of pathogen distributions and impacts. Ecology letters, 19(9), 1159-1171.
+  Dallas, T. A., Aguirre, A. A., Budischak, S., Carlson, C., Ezenwa, V., Han, B., &amp;hellip; &amp;amp; Stephens, P. R. (2018). Gauging support for macroecological patterns in helminth parasites.</description>
     </item>
     
     <item>
@@ -268,7 +373,8 @@ Dallas, T. A., Aguirre, A. A., Budischak, S., Carlson, C., Ezenwa, V., Han, B., 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lab/setup/</guid>
-      <description>No labs this week! Our first lab will be next week (01/17/2024) in Coker Life Sciences, room 201. Before coming to lab, make sure to review the syllabus and come excited to look at some parasites!</description>
+      <description> No labs this week! Our first lab will be next week (01/17/2024) in Coker Life Sciences, room 201. Before coming to lab, make sure to review the syllabus and come excited to look at some parasites!
+ </description>
     </item>
     
     <item>
@@ -277,8 +383,9 @@ Dallas, T. A., Aguirre, A. A., Budischak, S., Carlson, C., Ezenwa, V., Han, B., 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/aggregation/</guid>
-      <description>Reading Poulin, R. (2013). Explaining variability in parasite aggregation levels among host samples. Parasitology, 140(4), 541-546.
-Shaw, D. J., Grenfell, B. T., &amp;amp; Dobson, A. P. (1998). Patterns of macroparasite aggregation in wildlife host populations. Parasitology, 117(6), 597-610.</description>
+      <description>Reading  Poulin, R. (2013). Explaining variability in parasite aggregation levels among host samples. Parasitology, 140(4), 541-546.
+  Shaw, D. J., Grenfell, B. T., &amp;amp; Dobson, A. P. (1998). Patterns of macroparasite aggregation in wildlife host populations. Parasitology, 117(6), 597-610.
+ </description>
     </item>
     
     <item>
@@ -287,8 +394,9 @@ Shaw, D. J., Grenfell, B. T., &amp;amp; Dobson, A. P. (1998). Patterns of macrop
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/specificity/</guid>
-      <description>Reading Poulin, R., Krasnov, B. R., &amp;amp; Mouillot, D. (2011). Host specificity in phylogenetic and geographic space. Trends in parasitology, 27(8), 355-361.
-Carlson CJ, Dallas TA, Alexander LW, Phelan AL, Phillips AJ. 2020. What would it take to describe the global diversity of parasites? Proc Biol Sci.</description>
+      <description>Reading  Poulin, R., Krasnov, B. R., &amp;amp; Mouillot, D. (2011). Host specificity in phylogenetic and geographic space. Trends in parasitology, 27(8), 355-361.
+  Carlson CJ, Dallas TA, Alexander LW, Phelan AL, Phillips AJ. 2020. What would it take to describe the global diversity of parasites? Proc Biol Sci.
+ </description>
     </item>
     
     <item>
@@ -297,7 +405,8 @@ Carlson CJ, Dallas TA, Alexander LW, Phelan AL, Phillips AJ. 2020. What would it
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/vectors/</guid>
-      <description>Reading LaDeau, S. L., Allan, B. F., Leisnham, P. T., &amp;amp; Levy, M. Z. (2015). The ecological foundations of transmission potential and vector-borne disease in urban landscapes. Functional ecology, 29(7), 889-901.</description>
+      <description>Reading  LaDeau, S. L., Allan, B. F., Leisnham, P. T., &amp;amp; Levy, M. Z. (2015). The ecological foundations of transmission potential and vector-borne disease in urban landscapes. Functional ecology, 29(7), 889-901.
+ </description>
     </item>
     
     <item>
@@ -306,8 +415,9 @@ Carlson CJ, Dallas TA, Alexander LW, Phelan AL, Phillips AJ. 2020. What would it
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/zoonoses/</guid>
-      <description>Reading Plowright, R. K., Parrish, C. R., McCallum, H., Hudson, P. J., Ko, A. I., Graham, A. L., &amp;amp; Lloyd-Smith, J. O. (2017). Pathways to zoonotic spillover. Nature Reviews Microbiology, 15(8), 502-510.
-Cunningham, A. A., Daszak, P., &amp;amp; Wood, J. L. (2017). One Health, emerging infectious diseases and wildlife: two decades of progress?. Philosophical Transactions of the Royal Society B: Biological Sciences, 372(1725), 20160167.</description>
+      <description>Reading  Plowright, R. K., Parrish, C. R., McCallum, H., Hudson, P. J., Ko, A. I., Graham, A. L., &amp;amp; Lloyd-Smith, J. O. (2017). Pathways to zoonotic spillover. Nature Reviews Microbiology, 15(8), 502-510.
+  Cunningham, A. A., Daszak, P., &amp;amp; Wood, J. L. (2017). One Health, emerging infectious diseases and wildlife: two decades of progress?. Philosophical Transactions of the Royal Society B: Biological Sciences, 372(1725), 20160167.
+ </description>
     </item>
     
   </channel>

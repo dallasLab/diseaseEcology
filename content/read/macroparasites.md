@@ -6,4 +6,4 @@ title: "Biology of macroparasites"
 
 ### Reading
 
-> [Fenton, A., Viney, M. E., & Lello, J. (2010). Detecting interspecific macroparasite interactions from ecological data: patterns and process. Ecology letters, 13(5), 606-615.](https://doi.org/10.1111/j.1461-0248.2010.01458.x)
+> [Viney M, Cable J. Macroparasite life histories. Curr Biol. 2011 Sep 27;21(18):R767-74. doi: 10.1016/j.cub.2011.07.023. PMID: 21959167.](https://doi.org/10.1016/j.cub.2011.07.023)

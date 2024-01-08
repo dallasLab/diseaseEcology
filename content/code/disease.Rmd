@@ -403,15 +403,6 @@ The SIR model which we introduced assumes a well-mixed population, which doesn't
 
 
 
-
-```{r}
-
-
-```
-
-
-
-
 **Why are social contact networks essential in some situations?**
 
 Sexual contact networks are often really variable in terms of number of links per person, and considering the structure of the network is super important to understanding the spread of sexually-transmitted infections.
