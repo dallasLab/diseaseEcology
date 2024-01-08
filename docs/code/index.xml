@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codes on Parasitology</title>
+    <link>/code/</link>
+    <description>Recent content in Codes on Parasitology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disease</title>
+      <link>/code/disease/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code/disease/</guid>
+      <description>Title This is my note.
+Modeling host-parasite interactions Despite the variety of parasite life history and transmission modes, one flexible model which can capture many fundamental aspects of host-parasite infection dynamics is the SIR model. This is a compartmental model where host individuals can be either susceptible (S), infected (I), or recovered/removed (R). Other forms of this simple model exist, including latent periods after transmission but before the host becomes infectious (E for exposed), as well as extensions for multi-host scenarios, recovery with waning immunity (i.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,58 +1,15 @@
 ---
-title: "Introduction to the course"
-theme: "cosmo"
-highlight: "pygments"
-output: ioslides_presentation
+title: "No Lab this Week"
+
 ---
 
-<style type="text/css">
-.main-container {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
 
 ```{r setup, include=FALSE} 
 knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
 ```
 ---
 
-### Introductions 
 
-I can start this off. Then we can go around the room, thinking about
+## No labs this week!
 
-+ what you want to get out of the course
-+ how theory fits into your current research (if you are currently doing research)
-+ any worries/feelings/questions/concerns about the course
-
-
----
-
-
-### Syllabus
-
-Work through syllabus, clarify structure, etc. 
-
-- [syllabus](https://ecoinformatix.github.io/syllabus/)
-
-
-
----
-
-
-### Course website 
-
-Go through the course website and make sure everyone has easy access and is clear on how to get the lecture notes, readings, and homeworks. 
-
----
-
-
-
-### Notes
-
-- You may want to [download R](https://www.r-project.org/) as we will be using it to simulate some of the models we go over. However, we will not be learning how to use R during the course (as this would be a bit much to learn at the same time as the theory), but I definitely encourage folks to check out the resources available for working in R, as scientific research tends to need a bit of programming. 
-
-
-
-
+Our first lab will be next week (01/17/2024) in Coker Life Sciences, room 201. Before coming to lab, make sure to review the syllabus and come excited to look at some parasites!

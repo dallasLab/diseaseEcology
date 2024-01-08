@@ -18,21 +18,21 @@ lessons:
     topics: "Life history strategies and host-parasite coevolution"
     reading: "read/lifehistory"
     code: "code/lifehistory"
-    lab: "lab/lifehistory"
+    lab: "lab/lab1_diversity"
 
   - module: "<i class='fa fa-lg fa-terminal'></i>"
     date: "Week 3"
     topics: "Parasite richness, specificity, and host range"
     reading: "read/specificity"
     code: "code/specificity"
-    lab: "lab/specificity"
+    lab: "lab/lab2"
 
   - module: "<i class='fa fa-lg fa-terminal'></i>"
     date: "Week 4"
     topics: "Behavioral and immunological responses"
     reading: "read/behavior"
     code: "code/behavior"
-    lab: "lab/behavior"
+    lab: "lab/lab3"
     homework: "homework/module1" 
 
 
@@ -56,32 +56,22 @@ lessons:
     topics: "Biology of microparasites"
     reading: "read/microparasites"
     code: "code/microparasites"
-    lab: "lab/microparasites"
+    lab: "lab/lab4"
 
   - module: "<i class='fa fa-lg fa-user-plus'></i>"
     date: "Week 6"
     topics: "Epidemics and interventions"
     reading: "read/epidemics"
     code: "code/epidemics"
-    lab: "lab/epidemics"
+    lab: "lab/lab5"
 
   - module: "<i class='fa fa-lg fa-user-plus'></i>"
     date: "Week 7"
     topics: "Parasite aggregation and burden"
     reading: "read/aggregation"
     code: "code/aggregation"
-    lab: "lab/aggregation"
+    lab: "lab/lab6"
     homework: "homework/module2" 
-
-
-  - module: "<i class='fa fa-lg fa-thumbs-o-up'></i>"
-    date: "Spring break"
-    topics: " --- "
-
-
-
-
-
 
 
   - module: " "
@@ -94,22 +84,25 @@ lessons:
     topics: "Biology of macroparasites"
     reading: "read/macroparasites"
     code: "code/macroparasites"
-    lab: "lab/macroparasites"
+    lab: "lab/lab7"
 
+  - module: "<i class='fa fa-lg fa-thumbs-o-up'></i>"
+    date: "Spring break"
+    topics: " --- "
 
   - module: "<i class='fa fa-lg fa-line-chart'></i>"
     date: "Week 10"
     topics: "Vector-borne disease"
     reading: "read/vectors"
     code: "code/vectors"
-    lab: "lab/vectors"
+    lab: "lab/lab8"
 
   - module: "<i class='fa fa-lg fa-line-chart'></i>"
     date: "Week 11"
     topics: "Environmentally-transmitted disease and sexually-transmitted diseases"
     reading: "read/env"
     code: "code/env"
-    lab: "lab/env"
+    lab: "lab/lab9"
     homework: "homework/module3" 
 
 
@@ -127,28 +120,28 @@ lessons:
     topics: "Infectious diseases in communities"
     reading: "read/communities"
     code: "code/communities"
-    lab: "lab/communities"
+    lab: "lab/lab10"
 
   - module: "<i class='fa fa-lg fa-map'></i>"
     date: "Week 13"
     topics: "Coinfection"
     reading: "read/coinfection"
     code: "code/coinfection"
-    lab: "lab/coinfection"
+    lab: "lab/lab11"
 
   - module: "<i class='fa fa-lg fa-map'></i>"
     date: "Week 14"
     topics: "Macroecology of infectious disease and networked populations"
     reading: "read/macrodisease"
     code: "code/macrodisease"
-    lab: "lab/macrodisease"
+    lab: "lab/lab12"
 
   - module: "<i class='fa fa-lg fa-map'></i>"
     date: "Week 15"
     topics: "Zoonoses, spillover, emergence, and One Health"
     reading: "read/zoonoses"
     code: "code/zoonoses"
-    lab: "lab/zoonoses"
+    lab: "lab/lab13"
     homework: "homework/module4" 
 
   - module: " "

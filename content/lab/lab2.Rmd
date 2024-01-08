@@ -1,0 +1,37 @@
+---
+title: "Lab 12: Parasite Life Histories"
+author: "Grant Foster"
+date: "2024-01-08"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Student Learning Outcomes
+
+At the end of this lab, a successful learner should be able to…
+
+1. Define common vocabulary used to describe parasite life cycles (Simple complex, tropic transmission, parasitic castrator, parasitoid, vector-borne). 
+
+2. Describe the life histories of a few major parasites of importance to human or wildlife health (malaria, schistosomiasis, trophically transmitted cestode, simple life cycle nematode, Guinea Worm,  Chytrid…)
+
+3. Apply their knowledge of parasite life cycles to develop targeted intervention strategies, and develop methods to evaluate their performance
+
+4. Identify samples of *schistosoma spp* across life stages and the tissues or environments they are likely to be found in
+
+5. Describe major transmission strategies parasites use to infect hosts (trophic, direct, environmental, vector-borne, sexual), and give real-world examples of parasites using those strategies.
+
+
+## Pre-Lab Materials
+Review the course syllabus before coming to lab. In the future, it'll be important to look over this heading before lab this week, as it will contain information you'll need to know for the lab quiz!
+
+## Presentation
+[Lab 1 Presentation Stand-in](/lab/lab2_lifeHistory/Lab1Notes.pdf)
+
+## Worksheet
+[Lab 1 Worksheet Stand-in](/lab/lab2_lifeHistory/531L_Lab1Notes.docx)
+
+## Resources
