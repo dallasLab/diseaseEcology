@@ -288,7 +288,9 @@ Go through the course website and make sure everyone has easy access and is clea
 > But every person gets 1 answer 
 
 I want
+
   + name of parasite 
+
   + why it's the worst 
 
 
