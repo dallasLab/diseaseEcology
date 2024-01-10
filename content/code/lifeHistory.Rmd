@@ -47,7 +47,23 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 ### Parasite diversity 
 
-![Carlson et al. 2020 PRSB](figs/rspb2020.jpg){width=50%}
+![](figs/byersGMPD.png){width=100%}
+
+<sub> Byers et al. 2019 _PRSB_ </sub> 
+
+
+
+
+---
+
+### Parasite diversity 
+
+![](figs/dallasHelminthR.png){width=100%}
+
+<sub> Dallas et al. 2018 _GEB_ </sub> 
+
+
+
 
 
 
@@ -58,8 +74,9 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 **Diversity in:**
 
-+ numbers
-+ phylogenetics
++ number (taxonomic)
++ phylogenetic
++ functional 
 + infection modes
 + tissue infected 
 + impacts
@@ -106,9 +123,12 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 ### Phylogenetic diversity for free-living animals 
 
-+ 
++ Take the tree of free-living species 
++ Calculate some index of dispersion for species found in the local community 
++ Mean pairwise distance is a common one 
 
-+ 
+![](figs/phyloDiv.png){width=60%}
+
 
 
 
@@ -119,11 +139,74 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 ### Quantifying phylogenetic diversity for parasites 
 
-+ 
+<div class="columns-2">
 
-+ 
++ For a given host community, what is the distance between host species that a given parasite infects? 
 
-+ 
++ So it still uses the host phylogeny 
+
+![](figs/phyloSpec2.png){width=100%}
+
+</div> 
+
+
+
+
+---
+
+### Phylogenetic specificity across parasite groups
+
+> What parasites would be most (or least) phylogenetically specific? 
+
+
+---
+
+### Phylogenetic specificity across parasite groups
+
++ This is broken down by parasite group and transmission mode 
+
++ More negative values indicate higher phylo-specificity 
+
+![](figs/parkPhyloSpec.png){width=40%}
+
+<sub> Park et al. 2018 _PRSB_ </sub>
+
+
+
+---
+
+### Phylogenetic specificity versus phylogenetic diversity 
+
++ The last slide was phylogenetic specificity (single parasite in host community) 
+
++ Phylogenetic diversity could be defined at the parasite community level, so it would use the parasite phylogeny
+
++ So keep in mind the distinction here between <font color='green'> diversity </font> and <font color='green'> specificity </font>
+
+
+
+---
+
+### Functional diversity 
+
++ Scientists have been obsessed with functional diversity for the last 15 years or so 
+
++ Argument: quantifying the differences in species traits provides information that the phylogeny may not 
+
++ In free-living species, this would be the variance in host body size or plant height or feeding mode
+
+
+
+---
+
+### Functional diversity/specificity 
+
++ For parasite species, it is some measure of the variance in the traits of infected host species (<font color='green'> specificity </font>)
+
++ For entire parasite communities, it is the variance in traits of the parasites (<font color='green'> diversity </font>)
+
+> Can you give me an example of both of these? 
+
 
 
 
@@ -202,14 +285,23 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 + remove the host's ability to reproduce
 + take that energy and/or space 
++ tradeoff between consumption and longevity faced by parasites
 
-
-
+![](figs/parasiteCastrat.png){width=100%}
 
 <div class="notes">
 
 Parasitic castrators partly or completely destroy their host's ability to reproduce, diverting the energy that would have gone into reproduction into host and parasite growth, sometimes causing gigantism in the host. The host's other systems remain intact, allowing it to survive and to sustain the parasite
 </div>
+
+
+---
+
+### parasitic castrators
+
+![](figs/parasiteCastrat2.png){width=100%}
+
+
 
 
 
@@ -218,7 +310,7 @@ Parasitic castrators partly or completely destroy their host's ability to reprod
 ### directly transmitted parasitism 
 
 + do not require vector 
-+ this includes environmentally-transmitted pathogens (e.g., cholera, many intestinal helmiths)
++ this includes environmentally-transmitted pathogens (e.g., cholera)
 
 ![](figs/direct.jpg){width=50%}
 
@@ -230,13 +322,17 @@ Directly-transmitted parasites, not requiring a vector to reach their hosts, inc
 
 
 
+
+
+
+
 ---
 
 ### trophically-transmitted parasitism
 
 + transmitted through predation of the host 
 + complex life cycle parasites 
-+ can modify host behavior 
++ can modify host behavior (why?)
 
 
 ![](figs/trophic.jpg){width=50%}
@@ -249,6 +345,8 @@ Trophically-transmitted parasites are transmitted by being eaten by a host. They
 
 
 
+
+
 ---
 
 ### vector-transmitted parasitism
@@ -256,7 +354,7 @@ Trophically-transmitted parasites are transmitted by being eaten by a host. They
 + Rely on other organisms for transmission (e.g., mosquitos, ticks, lice, fleas, etc.) 
 + Sometimes reproduce in vector, sometimes only reproduce in definitive host 
 
-![](figs/vectors.jpg){width=50%}
+![](figs/vectors.jpg){width=70%}
 
 
 <div class="notes">
@@ -287,13 +385,16 @@ Idiobiont parasitoids sting their often large prey on capture, either killing th
 
 
 
+
+
+
 ---
 
 ### micropredation
 
 + attacks more than one host (reducing each host individual fitness by small amount)
-+ e.g., leeches, mosquitos, fleas, ticks, lice
 
++ e.g., leeches, mosquitos, fleas, ticks, lice
 
 
 <div class="notes">
@@ -327,16 +428,27 @@ A micropredator attacks more than one host, reducing each host's fitness by at l
 ---
 
 
-### More on tissue tropism 
+### How much diversity is there in tissue tropism? 
+
++ A fair bit, often related to transmission mode
+
++ <font color='green'>Tissue specialist</font>: mumps (parotid salivary glands)
+
++ <font color='green'>Tissue generalist</font>: ebola (monocytes, macrophages, dendritic cells, endothelial cells, fibroblasts, hepatocytes, adrenal cortical cells, and epithelial cells)
 
 
-+ 
 
-+ 
+---
 
-+ 
+### Defining tissue tropism is hard 
 
++ Could define by system (e.g., circulatory, hepatic, respiratory, etc.) 
 
++ By organ (e.g., stomach) 
+
++ Or by cell type (e.g., endothelial)
+
++ Or probably some other ways 
 
 
 
@@ -383,14 +495,12 @@ But what about things like anthrax, rabies, or ebola?
 
 + **Host specificity**: range and diversity of types of hosts a parasite can infect 
 
-
 + Generalism versus specialism 
 
++ We've talked about specialism in a couple of ways (taxonomic, phylogenetic, and functional)
 
-+ Hosts can specialize 
-  + in number of hosts
-  + in diversity of hosts 
 
+<br> 
 
 > What's the most generalist parasite you can think of? 
 
@@ -411,6 +521,18 @@ But what about things like anthrax, rabies, or ebola?
 
 
 
+
+---
+
+### What have we learned
+
++ Parasites are cool 
+
++ Parasite diversity can be defined in a bunch of different ways 
+
++ Parasites can be specialists or generalits in different ways 
+
+> today we will dive into parasite specificity 
 
 
 
@@ -442,9 +564,13 @@ But what about things like anthrax, rabies, or ebola?
 
 ### How do we quantify parasite specialism? 
 
-+ number of host species infected (host range)
-+ relative utilization of different host species 
-+ [maybe weighted by phylogenetic distance between hosts](https://pubmed.ncbi.nlm.nih.gov/12793652/)
++ number of host species infected (host range; taxonomic)
++ functional dispersion of host community (functional) 
++ phylogenetic dispersion of host community (phylogenetic) 
+
+<br> 
+
++ relative utilization of different host species (tropism)?
 
 
 
@@ -462,7 +588,11 @@ But what about things like anthrax, rabies, or ebola?
 ### Specialism-generalism tradeoffs 
 
 + Jack of all trades, master of none? 
-  + Proposes a relationship between ability to infect and host specificity (e.g., low host specificity results in low average infection prevalence)
+
+  + Proposes a relationship between ability to infect and host specificity 
+
+  + Generalist parasites should tend to infect with low success (reduced prevalence or intensity)
+
 
 > But do we see evidence for this relationship? 
 
@@ -479,6 +609,41 @@ http://dx.doi.org/10.1086/423716
 
 
 
+---
+
+### Not really (at least for fleas)
+
++ Why does parasite type matter here? 
+
+![](figs/jackOfAll.png){width="70%"}
+
+<sub> Krasnov et al. 2004 _Am Nat_ </sub>
+
+
+
+
+---
+
+### We don't see it for Plasmodium in birds either 
+
+![](figs/jackOfAll2.png){width="70%"}
+
+
+
+
+
+---
+
+### But there's a caveat here 
+
++ These figures differ a bit
+  + First was mean abundance of flea parasite 
+  + Second was maximum prevalence in most common host 
+
++ The distribution of prevalence is important here
+  + If I infect one host really well, but 5 other hosts less well, how much of a generalist am I? 
+
+> The costs of being a generalist are difficult to clearly define and test 
 
 
 
@@ -496,9 +661,6 @@ http://dx.doi.org/10.1086/423716
 
 + Parasites _want_ to infect, leading to evolution of novel infection strategies 
 
-> We will discuss this later in much more detail 
-
-
 
 
 <div class="notes">
@@ -510,6 +672,84 @@ Be sure to not imply 'want' (e.g., hosts do not want to become infected), as it'
 
 
 
+
+---
+
+### Host-parasite coevolution 
+
++ Possible trajectories of host-parasite coevolution 
+
+![](figs/coEvo1.png){width="50%"}
+
+<sub> Buckingham & Ashby 2022 _J Evol Biol_ </sub> 
+
+
+
+
+---
+
+### Host-parasite coevolution 
+
++ The difference between deterministic and stochastic systems 
+
+![](figs/coEvo2.png){width="50%"}
+
+<sub> Buckingham & Ashby 2022 _J Evol Biol_ </sub> 
+
+
+
+
+---
+
+### Host-parasite coevolution 
+
++ Resistance evolution as a function of the cost on host fitness 
+
+![](figs/coEvo3.png){width="70%"}
+
+<sub> Buckingham & Ashby 2022 _J Evol Biol_ </sub> 
+
+
+
+
+
+
+---
+
+### Host-parasite coevolution 
+
++ This cyclic pattern of selection/evolution is often referred to as <font color='green'> Red Queen </font> dynamics 
+
++ Idea comes from _Through the Looking Glass_, where the Alice was running just to keep her place 
+
+![](figs/redQueenPaper.png){width="90%"}
+
+
+
+
+---
+
+### What happens when resistance is either cheap or hugely beneficial? 
+
+![](figs/myxo.jpg){width="90%"}
+
+
+
+---
+
+### What happens when resistance is either cheap or hugely beneficial? 
+
+![](figs/myxo2.png){width="60%"}
+
+<sub> Cooke et al. 2023 _Epidemiol Infect_</sub>
+
+
+
+
+
+---
+
+### Why is this not a great example of Red Queen dynamics? 
 
 
 
@@ -527,9 +767,7 @@ Be sure to not imply 'want' (e.g., hosts do not want to become infected), as it'
 
 + There's a conflicting balance between 
   + trying to reproduce (which causes harm to host) 
-  + flying under the rader (transmission to the next host) 
-
-> We will go into more detail on this later as well
+  + flying under the radar (transmission to the next host) 
 
 
 <div class="notes">
@@ -545,22 +783,54 @@ Ties into resistance-tolerance tradeoffs but don't bring this up yet. Or if you 
 
 
 
-
-
-
-
-
 ---
 
 ### optimal virulence 
 
 + **Virulence**: pathogen-induced mortality of infected host
 
-+ Dead hosts don't transmit
++ Pathogen needs to grow in infected host, but dead hosts don't transmit
+
++ So the optimal strategy is not maximal virulence, but some intermediate (or even low) virulence 
 
 
-![](figs/myxo.jpg){width="90%"}
 
+
+
+---
+
+### What examples do you know of related to changes in virulence in an evolving pathogen? 
+
+
+
+
+
+
+
+--- 
+
+### Many SARS-COV2 strains through time 
+
+![](figs/covidStrains.png){width="80%"}
+
++ Initial strain had highest pathogenicity (even though we saw greatest mortality with Alpha)
++ Omicron has the lowest pathogenicity 
+
+
+
+
+
+
+
+---
+
+### How have we used virulence evolution to our benefit? 
+
++ the creation of live attenuated vaccines 
+
++ live vaccines use avirulent strains of the pathogen to induce host immune memory 
+
++ e.g., Sabin (oral) polio vaccine; the measles, mumps, rubella, yellow fever, and chicken pox (varicella) vaccines; one of the influenza vaccines (flu mist); the tuberculosis (BCG) vaccine; etc. etc. 
 
 
 
@@ -572,7 +842,7 @@ Ties into resistance-tolerance tradeoffs but don't bring this up yet. Or if you 
 
 ---
 
-### What parasites would not follow this general pattern? 
+### What parasites would not follow this general pattern of virulence attenuation? 
 
 >- Fungal pathogens, generally
 >- Pathogens with a long-lived environmental stage (e.g., anthrax)
@@ -583,7 +853,111 @@ Ties into resistance-tolerance tradeoffs but don't bring this up yet. Or if you 
 
 ---
 
-### moar
+### optimal virulence 
+
++ Essentially a balance between parasite growth and host exploitation 
+
++ Idea in this tradeoff model is to maximize lifetime transmission success (LTS)
+
++ This leads to a non-linear relationship between LTS and virulence 
+
+> the ideal parasite maximizes LTS 
+
+
+
+
+
+---
+
+### optimal virulence 
+
++ LTS is y-axis, virulence is x-axis
+
+![](figs/daphniaOptVir.png){width="60%"}
+
+<sub> Jensen et al. 2006 _PLoS Biology_ </sub> 
+
+
+
+
+
+
+
+---
+
+### But we've only been thinking about parasite evolution 
+
++ It takes two to Red Queen, so we might expect hosts to evolve resistance 
+
++ And they do, but sometimes they don't
+
+
+
+
+---
+
+### Why would a host not evolve resistance to a parasite? 
+
+>- parasite does not impact host fitness _too much_ 
+
+>- resistance is costly 
+
+>- they simply can't (it's not really a choice, right?) 
+
+
+
+
+---
+
+### Resistance-tolerance tradeoffs 
+
++ A host can evolve to resist the effects of a parasite or to reduce parasite impacts 
+
++ These are often depicted as two separate responses to parasite pressure 
+
++ <font color='green'> Resistance </font>: infected hosts actively reduce parasite burden
+
++ <font color='green'> Tolerance </font>: infected hosts try to limit damage to host fitness 
+
+
+
+
+
+
+---
+
+### Resistance-tolerance tradeoffs 
+
++ This happens at individual level, but with implications to evolutionary trajectories 
+
++ Host fitness at one generation determines the allele frequency in the next 
+
++ So if tolerant hosts have highest fitness, it might result in evolution towards tolerating the parasite 
+
++ But at the population-level, this is a bad strategy (unless you're a bat) 
+
+> Why is tolerance a bad population-level strategy? 
+
+
+
+
+---
+
+### Let's end on a community note 
+
++ Parasites can exert pressures on host communities 
+
++ Differential effects on host species can drive interesting dynamics 
+
+![](figs/fitnessBurden.png){width="100%"}
+
+<sub> Rohr & Best 2010 _Functional Ecology_ </sub> 
+
+
+
+
+
+
 
 
 

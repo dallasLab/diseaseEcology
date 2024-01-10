@@ -38,15 +38,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 + Sickness behavior (e.g., fever)
 
-
-
 <sub> </sub> 
-
-<div class="notes">
-This is my *note*.
-
-</div>
-
 
 
 
@@ -61,7 +53,7 @@ This is my *note*.
 + Removal of ectoparasites
   + which can vector some rough parasites
 
-
+<br> 
 
 > Humans groom, but what are other related activities that we do? 
 
@@ -98,10 +90,8 @@ Birds will use their beaks to reorient their feathers, clean plumage, and check 
 
 
 
-<div class="notes">
-This is my *note*.
 
-</div>
+
 
 
 
@@ -128,16 +118,16 @@ This is my *note*.
 
 ### Bird bill size influences ability to remove parasites 
 
-Parasites specialize on certain host species. 
 
-Lice specialize on birds they can parasitize. 
++ Parasites specialize on certain host species. 
 
-Tends to lead a relationship where bigger birds have bigger lice. 
++ Lice specialize on birds they can parasitize. 
 
-<div class="notes">
-This is my *note*.
++ Tends to lead a relationship where bigger birds have bigger lice. 
 
-</div>
+
+
+
 
 
 
@@ -291,7 +281,6 @@ Typically manifests in two ways:
 
 --- 
 
-
 ### Parasite manipulation of host behavior 
 
 Some behaviors predispose host to things that benefit the parasite
@@ -345,6 +334,21 @@ Some behaviors predispose host to things that benefit the parasite
 
 
 
+---
+
+### What types of parasites would benefit most from manipulating host behavior? 
+
+
+> And what parasites would really not want to directly manipulate host behavior? 
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -380,6 +384,24 @@ Some behaviors predispose host to things that benefit the parasite
 
 
 ![](figs/behaviorCog.png){width="50%"}
+
+
+
+
+
+
+--- 
+
+### Questions to think about 
+
++ When are sickness behaviors maladaptive to the parasite? 
+
++ What parts of the transmission process (encounter + susceptibility) do each of these behaviors (grooming, sickness, manipulation) affect? 
+
++ Where would self-medication of hosts fall in the continuum of resistance and tolerance tradeoffs? 
+
+
+
 
 
 
@@ -657,10 +679,21 @@ Class 2: tagging extracellular pathogens
 
 + ability to prevent or limit parasite infection (inverse of susceptibility) 
 
-*resistant*: rarely or never infected 
-*susceptible*: commonly infected 
++ *'resistant'*: rarely or never infected 
+
++ *susceptible*: commonly infected 
 
 + *tolerance*: perform well despite infection (in terms of survival/growth/reproduction) 
+
+
+---
+
+### Note that resistant is differently defined than how we previously talked about 
+
++ A <font color='green'> resistant </font> host is rarely infected, but when we talk about resistance-tolerance tradeoffs, it is assumed that the parasite has infected the host, and the host can respond to this in at least two ways; <font color='red'> resistance </font> or <font color='red'> tolerance </font> 
+
+
+
 
 
 
@@ -702,11 +735,18 @@ Imagine the host has a choice in how it can respond to a pathogen
 
 One paper you read this week was from Ezenwa et al. _Am Nat_. This is a clear empirical demonstration of apparant facilitation between two coinfecting parasites (Tuberculosis and an intestinal helminth in African buffalo). 
 
+<br> 
+
 > Anybody want to summarize this paper for the class? 
 
 
+<div class="notes">
 
+Infection by helminths triggers Th2 response over Th1 (important for microparasites), so being infected by a helminth can actually enhance infection by microparasites like Tuberculosis. They tested this in a wild buffalo population and some fun modeling. Demonstration of synergistic effects that parasites can have through regulation of host immune system. Cool genetic work showed that there is a 'resistant' phenotype to nematodes. 
 
+More info here: https://ezenwalab.yale.edu/research
+
+</div> 
 
 
 
@@ -714,6 +754,8 @@ One paper you read this week was from Ezenwa et al. _Am Nat_. This is a clear em
 --- 
 
 ### Why don't have more examples of evolution of host resistance? 
+
+<br> 
 
 Given strong selection, why don't all hosts evolve resistance? 
 
@@ -761,7 +803,7 @@ The devil, a marsupial carnivore native only to Tasmania, has had an up-and-down
 
 
 <div class="notes">
-Daphnia magna and the bacteria Pasteuria ramosa.  No host clone is resrtant to all parasite isolates, and no parasite isolate can infect all host clones
+Daphnia magna and the bacteria Pasteuria ramosa. No host clone is resistant to all parasite isolates, and no parasite isolate can infect all host clones
 </div>
 
 
@@ -778,7 +820,7 @@ Daphnia magna and the bacteria Pasteuria ramosa.  No host clone is resrtant t
 
 + Some good papers on when these should occur and if they are even _really_ a thing. 
 
-Cost = fitness of S - fitness of R 
+Cost = <font color='green'> S fitness</font> - <font color='red'> R fitness</font>
 
 
 <sub> reviewed in Burrington 2000; good critique from Lenormand et al. 2018 _Rethinking Ecology_ </sub>

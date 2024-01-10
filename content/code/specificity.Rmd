@@ -31,6 +31,18 @@ h3 {
 
 
 
+--- 
+
+### Parasite diversity 
+
++ Previous lectures have gone over parasite diversity a bit 
+
++ Here, we will focus on two things: 
+  + Parasite species richness 
+  + Parasite specificity (host range) 
+
+
+
 
 ---
 
@@ -54,8 +66,39 @@ Does not consider:
 
 
 
+---
+
+> Parasite species richness is not all the parasites found in a given location. 
+
++ It is dependent on the host species considered 
+
++ <font color='red'>The parasite species richness of France is 100 (weird to say, let's avoid this)</font>
+
++ <font color='green'>The parasite species richness of the white-footed mouse is 23 (less weird, let's do this) </font> 
 
 
+---
+
+### The scale of how we talk about parasite species richness 
+
++ It can be location-specific, as we expect parasite species richness to change across the host's geographic range
+
++ It's more about being deliberate and clear with the scale of the estimate than anything else
+
+
+
+
+
+
+---
+
+### What are some challenges in estimating parasite species richness? 
+
++ Cryptic infections (low prevalence or hard to find parasites) 
+
++ Undescribed species 
+
++ Biased sampling of host species 
 
 
 
@@ -81,10 +124,7 @@ Does not consider:
 + etc. 
 
 
-<div class="notes">
-This is my *note*.
 
-</div>
 
 
 
@@ -94,9 +134,15 @@ This is my *note*.
 
 ---
 
-### Parasite host range 
+### What are some potential challenges in estimating parasite host range? 
 
-What are some potential challenges in estimating parasite host range? 
++ Low prevalence
+
++ Biased sampling of host community 
+
++ Transient infections 
+
+
 
 
 <div class="notes">
@@ -108,21 +154,26 @@ Parasites often infect with low infection prevalence, so estimating parasite hos
 
 
 
+---
+
++ So parasite species richness is a property of the host, and parasite host range is a property of the parasite 
+
++ Both can be scale dependent, meaning they could be global estimates, or they could be regional estimates
+
+
+
+
 
 
 
 
 ---
 
-### Predicting parasite host range 
+### Estimating parasite host range 
 
 + What are some approaches to estimating parasite host range? 
+
 + At what scale is host range defined (a country? a species?)
-
-<div class="notes">
-This is my *note*.
-
-</div>
 
 
 
@@ -138,10 +189,7 @@ This is my *note*.
 
 <sub> Dallas et al. 2017 _PRSB_ </sub> 
 
-<div class="notes">
-This is my *note*.
 
-</div>
 
 
 
@@ -162,9 +210,40 @@ This is my *note*.
 
 
 
+---
+
+### How do we do this? 
+
++ An estimator used for free-living species but adapted to parasites 
+
++ The type of data you have is records of a single parasite across a number of hosts 
+
+\[ S = S_{a} + \frac{S_{r}}{C}+\frac{f_1}{C}\gamma^{2} \]
+
+> Let's break this down 
 
 
 
+---
+
+### How do we do this? 
+
+\[ S = S_{a} + \frac{S_{r}}{C}+\frac{f_1}{C}\gamma^{2} \]
+
+$S_a$: Number of abundant host species (above some threshold)
+$S_r$: Number of rare host species (below some threshold)
+$C$: the coverage estimator ($1-\frac{f_1}{n_r}$)
+$\gamma^2$: the coefficient of variation 
+
+---
+
+### You will not be calculating anything 
+
++ What I want you to get a sense of is how it is estimating host range 
+
++ It is adding the common species, and trying to use information about the distribution of those rare species (including <font color='green'> singletons</font>) to infer the true host range given unlimited sampling
+
++ The same estimator can be used to estimate parasite species richness
 
 
 
@@ -173,12 +252,17 @@ This is my *note*.
 
 ### What determines parasite host range? 
 
-+ physical factors (skin thickeness)
-+ environmental factors?!
++ host functional traits (e.g., skin thickness)
+
 + host phylogenetics
+
++ environmental factors
+
+
 
 
 <div class="notes">
+
 Env ties into geographic specificity and host availability.
 
 </div>
@@ -198,11 +282,13 @@ Env ties into geographic specificity and host availability.
 
 ### Host range is just a number 
 
-The number of host species a parasite infects. How might this not be a good measure of specificity? 
+The number of host species a parasite infects. 
 
+> How might this not be a good measure of specificity? 
 
 
 <div class="notes">
+
 could infect lots of host within the same genus. could infect the same tissue across all host species, so it may be a taxonomic generalist, but a tissue specialist. 
 
 </div>
@@ -233,10 +319,10 @@ could infect lots of host within the same genus. could infect the same tissue ac
 + Broad term related to the diversity of host species a parasite can infect 
 + Parasites may be specific in multiple ways 
   + number of hosts (host range)
+  + phylogenetic specificity 
+  + functional specificity 
   + tissue tropism 
-  + morphological specificity 
-  + 
-
+  
 
 
 
@@ -267,13 +353,6 @@ Talk about tissue tropism as a measure of specificity, as well as phylogenetic c
 <sub> Dallas et al. 2020 _J Animal Ecology_ </sub> 
 
 
-<div class="notes">
-Use this figure as a way to talk about different forms of specificity. 
-
-</div>
-
-
-
 
 
 
@@ -291,16 +370,32 @@ Use this figure as a way to talk about different forms of specificity.
 
 ### What are the benefits and costs of specializing? 
 
-When would specificity be good/bad? 
+<br> 
+<br> 
 
+<h2> When would specificity be good/bad, and at what scales?  </h2>
 
 
 
 <div class="notes">
-
 Tie into Park's ideas about reliability of host. 
-
 </div>
+
+
+
+
+
+
+
+---
+
+### Depends on parasite type and transmission mode, right? 
+
++ Parasitoids should tend to specialize (cost of getting into a non-suitable host is high)
+
++ Environmentally-transmitted pathogens should be fairly generalist 
+
++ Parasites with high tissue tropism are more likely to generalize 
 
 
 
@@ -315,8 +410,7 @@ Tie into Park's ideas about reliability of host.
 
 ---
 
-### Maybe specificity does not exist? 
-
+### Maybe specificity does not _really_ exist? 
 
 ![](figs/canard2014.png){width="100%"}
 
@@ -330,11 +424,25 @@ Tie into Park's ideas about reliability of host.
 
 ### ...but it does. 
 
-
 <br> 
 <br> 
 
 How do we know that it does? 
+
++ Sometimes it's not just driven by species abundance 
+
++ Canard et al. is not _exactly_ a null model 
+
++ Canard is only for ectoparasitic fleas 
+  + So what would happen if we tossed viruses into the mix? 
+
++ Canard's analysis still shows variation in both parasite species richness and host range, so specificity still exists, it's just solely driven by species abundance 
+
+
+
+
+
+
 
 
 
@@ -345,7 +453,7 @@ How do we know that it does?
 
 ### What other ways can we think about specificity? 
 
-+ structural specificity 
++ structural specificity (distribution of prevalence and intensity)
 
 ![](figs/structuralSpec.png){width="80%"}
 
@@ -373,11 +481,13 @@ How do we know that it does?
 
 ### What other ways can we think about specificity? 
 
-+ specificity across space
++ geographic specificity
 
-![](figs/geogSpec.png){width="80%"}
+![](figs/geogSpec.png){width="70%"}
 
 <sub> Dallas & Jordano 2022 _Global Ecology and Biogeography_ </sub> 
+
+
 
 
 
@@ -403,39 +513,16 @@ Structural specificity (differentially using host species) should be negatively 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- maybe stop here for first lecture? --> 
-
-
-
-
-
-
 ---
 
-<br> 
-<br> 
-<br> 
+### What other ways can we think about specificity? 
 
-<h2> <center> End of lecture 1 </center> </h2> 
++ How specific a parasite is (geographically) depends on the available host community 
+
++ This gets at the underlying question <font color='green'> at what level should we estimate specificity? </font> 
+
+
+
 
 
 
@@ -449,39 +536,19 @@ Structural specificity (differentially using host species) should be negatively 
 
 + Parasite species richness is from the host's perspective. 
 
-
-
-<div class="notes">
-Be clear about this distinction. 
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-### What controls parasite species richness? 
-
 ![](figs/dallas2020JAE.png){width="100%"}
+
+
+> So what control's parasite species richness? 
 
 <sub> Dallas et al. 2020 _J Animal Ecology_ </sub> 
 
 
-<div class="notes">
 
-So there has been a lot of work done on this, and I'll mainly point to host traits here. 
 
-</div>
+
+
+
 
 
 
@@ -500,8 +567,6 @@ So there has been a lot of work done on this, and I'll mainly point to host trai
 + Geographic range size 
 + Host population density 
 
-+ Host immune function?
-
 <sub> Kamiya et al. 2013 _Biological Reviews_ </sub> 
 
 
@@ -509,6 +574,33 @@ So there has been a lot of work done on this, and I'll mainly point to host trai
 Kamiya finds meta-analytical evidence for positive effects of body size, geographic range size, and host population density. Try to link to the actual underlying traits that are driving these compared to the neutral process of encounter (geographic range size and body size could just be encounter, but hosts with large body size and big geographic ranges might also tend to have physiological traits which make them susceptible)
 </div>
 
+
+
+---
+
+### Do these host traits always increase parasite species richness? 
+
++ Think about what types of parasites would (and would not!) be influenced by things like body size, geographic range size, and population density 
+
+
+
+
+
+
+---
+
+### Does parasite species richness depend on the type of parasite? 
+
+<div class="columns-2">
+
++ Probably, but recall that parasite species richness is more of a host-level measure 
+
++ Hosts that are susceptible to helminths may also be susceptible to viruses, even with vast differences in transmission modes and life history
+
+
+![](figs/helmVar.png){width="100%"}
+
+</div> 
 
 
 
@@ -520,14 +612,16 @@ Kamiya finds meta-analytical evidence for positive effects of body size, geograp
 
 ---
 
-### A note about parasite diversity 
+### A note about parasite diversity and parasite species richness
 
 
 <br> 
 
 <br> 
 
-Have we sampled host species well enough to know who infects who? 
++ Have we sampled host species well enough to know who infects who? 
+
++ What ways did we previously talk about to try to get around biased sampling and such? 
 
 
 <div class="notes">
@@ -535,8 +629,6 @@ Have we sampled host species well enough to know who infects who?
 Nope. So we don't know who infects who, but we also don't even have a good estimate of how many parasite species there are! 
 
 </div> 
-
-
 
 
 
@@ -571,6 +663,50 @@ Nope. So we don't know who infects who, but we also don't even have a good estim
 
 
 
+---
+
+<br> 
+<br> 
+<br> 
+
+<h2> <center> End of lecture 1 </center> </h2> 
+
+
+
+
+
+---
+
+### What have we learned? 
+
++ Parasites may specialize on a subset of hosts 
+
++ This specialism may come with a cost, but a lot of times it doesn't 
+
++ Parasite species richness is determined by host traits 
+
++ Defining the scale at which specificity is estimated is tough 
+
+
+
+
+
+
+
+---
+
+### Differences in parasite community composition across hosts? 
+
+
+The second part of this lecture is too light. 
+
+
+
+
+
+
+
+---
 
 
 
@@ -582,30 +718,54 @@ Nope. So we don't know who infects who, but we also don't even have a good estim
 
 
 
+---
 
+### Given limited sampling, how can we estimate parasite species richness or host range? 
 
++ We went over a model to predict host range previously 
 
-<!-- This is the dividing line for the two classes (fill the entire second lecture with predicting host-pathogen interactions) probably need about 20-30 slides per class.  --> 
+![](figs/hostRange.png){width="60%"}
 
-
-
-
-
-
-
-
-
+<sub> Dallas et al. 2017 _PRSB_ </sub> 
 
 
 
 
+--- 
+
+### There's an interesting caveat to this model 
+
++ It can predict host ranges larger than the overall number of sampled host species in the community 
+
++ Rare, but it can do it 
+
++ <font color='green'> That's not ideal </font> 
+
+
+
+
+---
+
+### What are other ways to get at parasite species richness and host range? 
+
++ What if we assumed that all species were sampled, and it's just that we don't know who interacts with who? 
 
 
 
 
 
+---
+
+### Construct a network of known interactions between host and parasite species 
+
+<div class="columns-2">
+ 
+![](figs/hpNetworkSimple.png){width="100%"}
 
 
++ We have host species connected to parasite species by links of known parasitism
+
+</div> 
 
 
 
@@ -697,6 +857,22 @@ Nope. So we don't know who infects who, but we also don't even have a good estim
 
 
 
+---
+
+### Some questions for thought 
+
+
++ How do we go from probabilistic predictions to actual host range/parasite species richness?
+
++ Why do the interactions appear to be in a kind of 'triangle'?
+
++ How could these predictions be used to target sampling? 
+
+
+
+
+
+
 
 
 
@@ -757,28 +933,26 @@ There are different ways to go about predicting interactions. We could care abou
 
 
 
-<div class="notes">
-
-</div> 
-
-
 
 
 
 
 ---
 
-### What have we learned? 
+### Let's loop back to ideas around parasite species richness and host range 
 
-+ What is parasite host range, specificity, and parasite species richness. 
-+ Different ways to measure parasite specificity 
-+ How we can predict unknown host-parasite interactions (and what this means for specificity)
++ How do these models help us understand parasite species richness and host range 
+
++ <font color='green'> What do they tell us about parasite specificity? </font> 
 
 
 
-<div class="notes">
 
-</div> 
+
+
+
+
+
 
 
 
