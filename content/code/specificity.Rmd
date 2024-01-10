@@ -231,8 +231,11 @@ Parasites often infect with low infection prevalence, so estimating parasite hos
 \[ S = S_{a} + \frac{S_{r}}{C}+\frac{f_1}{C}\gamma^{2} \]
 
 $S_a$: Number of abundant host species (above some threshold)
+
 $S_r$: Number of rare host species (below some threshold)
+
 $C$: the coverage estimator ($1-\frac{f_1}{n_r}$)
+
 $\gamma^2$: the coefficient of variation 
 
 ---
