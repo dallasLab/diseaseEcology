@@ -109,7 +109,9 @@ This is my *note*.
 
 ### A relevant bacterial microparasite 
 
-Cholera (_Vibrio cholerae_)
+<br> 
+
+<font color='green'> Cholera (_Vibrio cholerae_)</font> 
 
 + water-borne or contaminated food 
 
@@ -149,7 +151,7 @@ Cholera (_Vibrio cholerae_)
 
 ### A relevant fungal microparasite 
 
-White nose syndrome (_Geomyces destructans_)
+<font color='green'> White nose syndrome (_Geomyces destructans_) </font>
 
 + external fungal pathogen 
 
@@ -166,7 +168,7 @@ White nose syndrome (_Geomyces destructans_)
 
 White nose syndrome (_Geomyces destructans_)
 
-![](figs/whiteNose.jpg){width="90%"}
+![](figs/whiteNose.jpg){width="80%"}
 
 
 
@@ -197,7 +199,7 @@ White nose syndrome (_Geomyces destructans_)
 
 ### A relevant virus 
 
-Dengue (DENV) 
+<font color='green'> Dengue (DENV) </font> 
 
 + mosquito-transmitted (100-400 million infections per year) 
 
@@ -214,7 +216,7 @@ Dengue (DENV)
 
 ### Another virus just for fun 
 
-West Nile Virus (WNV) 
+<font color='green'> West Nile Virus (WNV) </font> 
 
 + Most common mosquito-borne disease in USA 
 
@@ -228,6 +230,31 @@ West Nile Virus (WNV)
 
 
 
+---
+
+### So I guess all viruses are just vector-borne? 
+
+<br> 
+
++ No, just the coolest ones. 
+
++ Influenza virus is directly transmitted and comes in a nice variety of flavors
+
+
+
+
+---
+
+### Influenza 
+
+![](figs/fluFlavors.png){width="80%"}
+
+
+---
+
+### Influenza 
+
+![](figs/fluTrends.png){width="100%"}
 
 
 
@@ -254,7 +281,7 @@ West Nile Virus (WNV)
 
 ### A relevant protozoan 
 
-Leishmaniasis
+<font color='green'>Leishmaniasis</font> 
 
 + 3 main forms (visceral, cutaneous, and mucocutaneous) 
 
@@ -304,6 +331,9 @@ Leishmaniasis
   + successful parasite establishment ($a$)
 
 
+
+
+
 ---
 
 ### Density dependent transmission 
@@ -321,7 +351,8 @@ Leishmaniasis
 
 
 <div class="notes">
-Be clear about S and I terminology, as it's going to be used at the end of this lecture to introduce the SIR model and such. 
+
+Be clear about S and I terminology, as it's going to be used at the end of this lecture to introduce the SIR model and such. How did I go from cNa(S/I) to bSI? ca is beta, the N cancels.
 
 </div>
 
@@ -342,11 +373,6 @@ Be clear about S and I terminology, as it's going to be used at the end of this 
 
 + Transmission = $c\frac{S}{N}Ia$ = $\beta\frac{SI}{N}$
 
-
-<div class="notes">
-This is my *note*.
-
-</div>
 
 
 
@@ -376,6 +402,8 @@ and this is because $\beta$ is a combination of contact $c$ and parasite establi
 ---
 
 ### Density dependent transmission assumes that you contact everyone
+
+<br> 
 
 + Density-dependent transmission = $cN\frac{S}{N}Ia$ 
 
@@ -699,9 +727,27 @@ This is my *note*.
 
 + Campylobacter: bacterial pathogen (infection comes from animals or animal feces, mainly poulty) 
 
-+ Campylobacter cases in Germany from 2001-2011 
+![](figs/campy0.png){width="70%"}
 
-![](figs/campy.png){width="70%"}
+
+
+---
+
+### Don't eat chicken liver pâté at holiday parties 
+
+![](figs/campy1.png){width="85%"}
+
+
+<sub> O'Leary et al. 2009 _Epidemiology and Infection_ </sub> 
+
+
+
+
+---
+
+### Campylobacter cases in Germany from 2001-2011 
+
+![](figs/campy.png){width="80%"}
 
 
 
@@ -779,10 +825,46 @@ Fit a statistical model just based on case counts over time
 > Before next class, think about when you would expect to see sequential epidemics or endemic infections 
 
 
-<div class="notes">
-This is my *note*.
 
-</div>
+---
+
+### Modeling infectious disease : S-I-R
+
+*S* : susceptible individuals
+
+*I* : infectious individuals
+
+*R* : recovered (and immune) individuals
+
+
+
+> Costs of parasitism do not have to involve death
+
+
+
+
+
+
+---
+
+### S-I-R model
+
+\[
+ \begin{aligned}
+  \frac{dS}{dt}   &=  -\beta SI  \\
+  \frac{dI}{dt}   &=  \beta SI - dI  \\
+  \frac{dR}{dt}  &=  dI 
+ \end{aligned}
+\]
+
+
+
+---
+
+### SIR curves
+![](figs/SIR.png){width="50%"}
+
+
 
 
 

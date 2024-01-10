@@ -259,9 +259,12 @@ $\gamma^2$: the coefficient of variation
 
 + host phylogenetics
 
++ parasite transmission mode 
+
 + environmental factors
 
 
+> Important note: parasite infection intensity is not necessarily related to host range 
 
 
 <div class="notes">
@@ -271,6 +274,85 @@ Env ties into geographic specificity and host availability.
 </div>
 
 
+
+
+
+---
+
+### Host functional traits 
+
++ Parasites may have a range of host 'types' that they can infect 
+
++ So a host community with similar functional traits (body size, habitat use, etc.) could lead to a parasite with a broader host range (if defined at a single location) than a host community with divergent traits 
+
+
+
+
+
+
+---
+
+### Host phylogenetics 
+
++ Phylogenetic information is just host trait information plus some fun evolutionary history 
+
++ So more evolutionarily similar host species should have similar parasite communities, resulting in those parasites having similar host ranges 
+
+
+
+
+
+---
+
+### Parasite sharing probability as function of taxonomic rank 
+
+![](figs/datillo1.png){width="50%"}
+
+<sub> Dáttilo et al. 2020 _J Animal Ecology_ </sub> 
+
+
+
+
+
+
+
+---
+
+### Parasite transmission mode 
+
++ There will be differences in host range as a function of the parasite 
+
++ e.g., parasites that can survive well in the environment and rely on encounter may be more generalist and have broader host range (like fleas and ticks) 
+
+
+
+
+
+---
+
+### Would complex life cycle parasites have a broad or narrow host range? 
+
+
+![](figs/complexRange.png){width="90%"}
+
+<sub> Benesh et al. 2021 _Am Nat_ </sub> 
+
+
+
+
+
+
+
+
+---
+
+### Environmental factors 
+
++ Environmental factors can determine if a parasite can infect 
+
+![](figs/mosqTherm.png){width="100%"}
+
+<sub> Mordecai et al. 2019 _Ecology Letters_ </sub> 
 
 
 
@@ -376,13 +458,51 @@ Talk about tissue tropism as a measure of specificity, as well as phylogenetic c
 <br> 
 <br> 
 
-<h2> When would specificity be good/bad, and at what scales?  </h2>
+<h3> When would specificity be good/bad, and at what scales?  </h3>
 
 
 
 <div class="notes">
 Tie into Park's ideas about reliability of host. 
 </div>
+
+
+---
+
+### Reliability of host species 
+
++ Parasites may be completely obligate, needing an available host for transmission 
+
++ Andrew Park has referred to this as 'reliability'. Parasites should preferentially parasitize 'reliable' hosts. How does this relate to Canard's work? 
+
+
+
+
+
+---
+
+### Specialism-generalism tradeoff 
+
++ Should generalism come at a cost? In what units is that cost paid? 
+
++ There doesn't tend to be much evidence for a cost 
+
+![](figs/jackOfAll.png){width="60%"}
+
+<sub> Krasnov et al. 2004 _Am Nat_ </sub> 
+
+
+
+
+---
+
+### Except when you consider host phylogenetic distance 
+
++ Specialists were more abundant on hosts shared with generalists, but only if specialism was measured considering host taxonomic distance. 
+
+![](figs/aphidParasitoid.png){width="60%"}
+
+<sub>Straub et al. 2011 _Am Nat_ </sub> 
 
 
 
@@ -528,9 +648,6 @@ Structural specificity (differentially using host species) should be negatively 
 
 
 
-
-
-
 ---
 
 ### Host range versus parasite species richness 
@@ -564,6 +681,66 @@ Structural specificity (differentially using host species) should be negatively 
 
 ---
 
+<br> 
+<br> 
+<br> 
+
+<h2> <center> End of lecture 1 </center> </h2> 
+
+
+
+
+
+---
+
+### What have we learned? 
+
++ Parasites may specialize on a subset of hosts 
+
++ This specialism may come with a cost, but a lot of times it doesn't 
+
++ Parasite species richness is determined by host traits 
+
++ Defining the scale at which specificity is estimated is tough 
+
+
+
+
+
+---
+
+### Host range versus parasite species richness 
+
++ Host range is from the parasite's perspective. 
+
++ Parasite species richness is from the host's perspective. 
+
+![](figs/dallas2020JAE.png){width="100%"}
+
+
+> So what control's parasite species richness? 
+
+<sub> Dallas et al. 2020 _J Animal Ecology_ </sub> 
+
+
+
+
+
+---
+
+### Parasite species richness is pretty variable 
+
+![](figs/datillo3.png){width="60%"}
+
+<sub> Dáttilo et al. 2020 _J Animal Ecology_ </sub> 
+
+
+
+
+
+
+---
+
 ### What controls parasite species richness? 
 
 + Body size
@@ -581,9 +758,72 @@ Kamiya finds meta-analytical evidence for positive effects of body size, geograp
 
 ---
 
+### Also metabolic rate and host longevity
+
+<div class="columns-2">
+
+![](figs/morandPSR.png){width="100%"}
+
++ Note that the authors tried to correct for other variables. Why? 
+
+
+<sub> Morand & Harvey 2000 _PRSB_ </sub> 
+
+</div> 
+
+
+
+
+---
+
+### Why is host longevity negatively related to parasite species richness? 
+
+>- long-lived species may invest more in immune response 
+
+>- maybe parasite species richness is driving host longevity (virulence!)
+
+>- How would we test that second hypothesis? 
+
+
+
+
+
+
+
+
+
+---
+
 ### Do these host traits always increase parasite species richness? 
 
-+ Think about what types of parasites would (and would not!) be influenced by things like body size, geographic range size, and population density 
++ Think about what types of parasites would (and would not!) be influenced by things like body size, geographic range size, and population density
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+### Even the ones you think would do the thing...
+
+
+<div class="columns-2">
+
+![](figs/datillo2.png){width="65%"}
+
++ Why don't ectoparasites of bats and rodents seem to follow the richness-body size relationship? 
+
+<sub> Dáttilo et al. 2020 _J Animal Ecology_ </sub> 
+
+</div> 
+
 
 
 
@@ -660,56 +900,6 @@ Nope. So we don't know who infects who, but we also don't even have a good estim
 
 
 
-
-
-
-
-
-
----
-
-<br> 
-<br> 
-<br> 
-
-<h2> <center> End of lecture 1 </center> </h2> 
-
-
-
-
-
----
-
-### What have we learned? 
-
-+ Parasites may specialize on a subset of hosts 
-
-+ This specialism may come with a cost, but a lot of times it doesn't 
-
-+ Parasite species richness is determined by host traits 
-
-+ Defining the scale at which specificity is estimated is tough 
-
-
-
-
-
-
-
----
-
-### Differences in parasite community composition across hosts? 
-
-
-The second part of this lecture is too light. 
-
-
-
-
-
-
-
----
 
 
 

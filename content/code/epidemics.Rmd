@@ -292,6 +292,9 @@ $$R_0 = \frac{\beta S}{d}$$
 - $S$ ?
 
 
+
+
+
 ---
 
 ### Let's play around with the SIR 
@@ -317,8 +320,9 @@ $c > 1 - \frac{d}{\beta S} = 1 - \frac{1}{R_0}$
 
 
 
+---
 
-_draw fraction vaccinated against R0 plot_ 
+![](figs/r0Vac.png){width="90%"}
 
 
 
@@ -452,6 +456,8 @@ Vaccinate to remove individuals, but we can also either increase recovery rate o
 https://marcoapintoo.shinyapps.io/sir-model/
 
 
++ Good at showing extensibility of the model, but a bit opaque 
+
 
 
 
@@ -551,6 +557,31 @@ A pathogen that is able to invade in this model may lead to endemic persistence 
 
 
 
+
+
+
+
+---
+
+### How do we mitigate infectious disease epidemics? 
+
+$\beta SI$, where $\beta$ is encounter * susceptibility 
+
++ So you reduce encounter or you reduce susceptibility 
+
+
+
+
+
+
+
+---
+
+### Methods to reduce transmission 
+
++ culling or vaccination 
+
++ other stuff? 
 
 
 
@@ -890,13 +921,6 @@ persp(mat2, theta=20, phi=15, r=10, zlim=c(0,betaF*S*I/N),
 
 
 
-<div class="notes">
-
-
-
-</div>
-
-
 
 
 
@@ -958,8 +982,8 @@ In 1988, Harbor seals were having massive die-offs (~60% of the colony) across m
 
 </div> 
 
-<div class="notes">
-</div>
+
+
 
 
 ---
@@ -988,11 +1012,6 @@ Each location experienced it's own epidemic, separated in time.
 
 
 
-<div class="notes">
-</div>
-
-
-
 
 
 ---
@@ -1000,11 +1019,6 @@ Each location experienced it's own epidemic, separated in time.
 ### Evidence for spatially-linked epidemics
 
 ![](figs/sealDisease2.png){width="90%"}
-
-
-
-<div class="notes">
-</div>
 
 
 
@@ -1026,11 +1040,6 @@ Each location experienced it's own epidemic, separated in time.
 + Because it's not meant for that
 
 + ...but within host dynamics are important and have consequences for population-level spread.
-
-
-
-<div class="notes">
-</div>
 
 
 
@@ -1100,6 +1109,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3959940/ </sub>
 
 
 
+
+
 ---
 
 ### So why use SIR given these things? 
@@ -1108,6 +1119,45 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3959940/ </sub>
 
 + Fitting these models to data is still one of the best tools we have to understand and mitigate epidemics 
 
-+ other reasons.
++ Sometimes it's the best we can do 
 
-+ 
+
+
+---
+
+### So let's incorporate some of these things 
+
+Start with superspreaders 
+
+
+
+
+---
+
+### Asymptomatic individuals 
+
+
+
+
+
+---
+
+### Transmission heterogeneity
+
+
+Agent based model where individuals vary in their ability to transmit 
+
+
+
+
+
+
+
+--- 
+
+### How models can inform mitigation efforts 
+
+Vaccination thresholds are based on SIR model, with everyone contacting everyone and everyone just as infectious as the next person. Even the exposed class doesn't really change R0, unless those that are exposed are also infectious. What happens then? Or incorporated asymptomatic carriers and see how that influences dynamics 
+
+Let's break that down and introduce some fun nuance 
+

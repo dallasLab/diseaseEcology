@@ -70,7 +70,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 <div class="notes">
 
-Point out differnces in grooming behavior at different host ages, and how juveniles appear to be "better groomers"? 
+Point out differences in grooming behavior at different host ages, and how juveniles appear to be "better groomers"? 
 
 </div>
 
@@ -91,6 +91,13 @@ Birds will use their beaks to reorient their feathers, clean plumage, and check 
 
 
 
+---
+
+### Preening can actually completely clear birds of feather lice 
+
+![](figs/preenLice.png){width="85%"}
+
+<sub> Bush & Clayton 2023 _J of Parasitology_ </sub> 
 
 
 
@@ -105,11 +112,6 @@ This gland contains oil that the birds use during preening, distributing it amon
 + anti-parasitic
 + anti-bacterial
 
-
-<div class="notes">
-This is my *note*.
-
-</div>
 
 
 
@@ -142,6 +144,8 @@ This is called "Harrison's rule" and has mixed support.
 
 
 
+
+
 --- 
 
 ### What's driving this? 
@@ -162,7 +166,6 @@ This is called "Harrison's rule" and has mixed support.
 
 Hosts will change their diet to combat parasites 
 
-
 ![](figs/behaviorMedicine1.jpg){width="70%"}
 
 
@@ -174,8 +177,6 @@ Hosts will change their diet to combat parasites
 --- 
 
 ### Monarchs and medicinal plant use (ish)
-
-
 
 ![](figs/behaviorMedicine2.jpg){width="70%"}
 
@@ -208,6 +209,17 @@ Hosts will change their diet to combat parasites
 
 
 
+--- 
+
+### Medicinal plant use is just one type of self-medication 
+
+![](figs/selfMed.png){width="50%"}
+
+<div class="notes"> 
+Baboons eat Vernonia amygdalina and swallow rough plant leaves, releasing anti-parasitic compounds and physically pushing out intestinal parasites. Fruit flies preferentially lay their eggs in high ethanol food when they detect parasitoid wasps. Wood ants incorporate anti-microbial resin into their nests, butterflies lay eggs on anti-parasitic milkweed. 
+
+</div>  
+
 
 ---
 
@@ -222,8 +234,9 @@ Hosts will change their diet to combat parasites
 
 ### _Entomophthora muscae_, fungal pathogen of house flies
 
-
 ![](figs/behaviorFly.png){width="100%"}
+
+
 
 
 
@@ -253,6 +266,44 @@ Typically manifests in two ways:
 + uninfected individuals spending more time "away" from parasites
 
 + uninfected individuals avoid infected individuals 
+
+
+
+---
+
+### Behavioral avoidance driven by chemical signals 
+
++ Behavioral avoidance in terrestrial systems relies more on visible signs of infection 
+
++ In aquatic systems, a lot of it may be chemo-sensory 
+
+
+
+---
+
+### Behavioral avoidance driven by chemical signals 
+
+![](figs/behaviorChemo1.png){width="80%"}
+
+
+
+
+
+
+
+---
+
+### Cues for behavioral avoidance 
+
++ visual cues 
+
++ chemical cues 
+
++ auditory cues 
+
+<sub> see Behringer et al. 2018 _Phil Trans B_ for a 4 page long table of examples </sub> 
+
+
 
 
 
@@ -338,11 +389,17 @@ Some behaviors predispose host to things that benefit the parasite
 
 ### What types of parasites would benefit most from manipulating host behavior? 
 
+<br> 
 
-> And what parasites would really not want to directly manipulate host behavior? 
+> And what parasites would really not _want_ to directly manipulate host behavior? 
 
 
+<div class="notes"> 
+Trophic transmission or parasites that really rely on host for transmission. 
 
+Wouldn't think chronic or persistent parasites would want to really mess with host behavior much. Same with many directly transmitted diseases that really rely on the host appearing asymptomatic or not exhibiting lots of sickness behaviors. 
+
+</div> 
 
 
 
@@ -378,14 +435,15 @@ Some behaviors predispose host to things that benefit the parasite
 
 ### Decreased cognitive ability 
 
+<div class="columns-2">
+<br> 
 + COVID brain fog (jk)
 
 + _Bombus impatiens_ infected by _Crithidia bombi_ (protozoan)
 
+![](figs/behaviorCog.png){width="100%"}
 
-![](figs/behaviorCog.png){width="50%"}
-
-
+</div> 
 
 
 
@@ -399,6 +457,21 @@ Some behaviors predispose host to things that benefit the parasite
 + What parts of the transmission process (encounter + susceptibility) do each of these behaviors (grooming, sickness, manipulation) affect? 
 
 + Where would self-medication of hosts fall in the continuum of resistance and tolerance tradeoffs? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -488,7 +561,6 @@ Some behaviors predispose host to things that benefit the parasite
 
 <div class="notes"> 
 
-
 In contrast to innate immunity, adaptive immunity recognizes small regions of parasite molecules which could be as small as 5 or 10 Amino acides of  a specific parasite cell wall protein.  
 This specificity means that different parasites species - and even different strains of the same parasite - often differ in terms of their recognition sites. 
 In addition to this specificity, there are three other hallmarks of adaptive immunity in vertebrates, and these include:  
@@ -497,10 +569,45 @@ In addition to this specificity, there are three other hallmarks of adaptive imm
 
 
 
+
+
+
+---
+
+### Immune priming 
+
++ Insects do not have adaptive immunity, so no immunity for them. 
+
++ However, they exhibit something called <font color='green'> immune priming </font>, in which previous exposure to a pathogen upregulates their innate immune system, giving them a waning protection from exposure to similar pathogen challenges 
+
+
+---
+
+### Immune priming 
+
+![](figs/immunePrime2.png){width="55%"}
+
+<sub> Sułek et al. 2021 _J Invert Path_ </sub> 
+
+
+
+
+---
+
+### Immune priming can be transgenerational 
+
+![](figs/immunePrime1.png){width="100%"}
+
+<sub> Sułek et al. 2021 _J Invert Path_ </sub> 
+
+
+
+
 ---
 
 ### Some jargon before we dive into adaptive immunity 
 
+<br> 
 *Antigen*
 
 + each pathogen generates multiple *antigens*, or molecule that stimulates an immune response 
@@ -517,9 +624,23 @@ Antigens are the general term for sites on a pathogen than can stimulate immune 
 Antibodies are immune molecules produced by the host’s immune system that serve several key functions. 
 Antibody binds to a single antigenic site
 A diversity of antibodies can recognize many pathogens
-Here is the typcial drawing of an anitbody and this is an immunoglobulin molecule with a general base and some specific arms, with the arms having a molecular structer that can bind to antigen kind of like a lock and key mechanism 
 Each antibody is specific to a pathogens’s antigen
 </div>
+
+
+---
+
+### Self-antigens or autoantigens
+
+<br> 
+
++ Thing that the body makes (totally normal), but that immune system responds to 
+
++ Leads to autoimmune disease 
+
++ You want your immune system to recognize outside attacks, but to be cool with the normal everyday stuff 
+
+
 
 
 
@@ -532,8 +653,12 @@ Each antibody is specific to a pathogens’s antigen
 
 ### Major histocompatiability complex 
 
+<br> 
+
 + labels foreign bodies for immune system to decide 'self' or 'not self' 
-+ reason why skin grants and transplanted organs get rejected 
+
++ reason why skin grafts and transplanted organs get rejected 
+
 + wide variation in MHC (2-3 people will share be close match out of every 100,000 people) 
 
 
@@ -543,6 +668,23 @@ There are more than 100 MHC genes on human Chromosome Six and so many versions o
 </div>
 
 
+
+
+---
+
+### Variation in MHC 
+
+<div class="columns-2">
+
++ There are hundreds of MHC alleles (MHC is fairly conserved across vertebrates, but allele frequency and copy number have changed) 
+
++ More helminths, more MHC gene copies (for birds)
+
+![](figs/mhc.png){width="100%"}
+
+<sub> Minias et al. 2020 _Biol Letters_ </sub> 
+
+</div>
 
 
 
@@ -565,11 +707,16 @@ There are more than 100 MHC genes on human Chromosome Six and so many versions o
 + necessary to destroy pathogens within host cells 
 
 2 types of T-lymphocytes
+
   + T-helper cells recognize antigens presented on surface of macrophages
+
     + Th1: assist with intracellular immunity 
+
     + Th2: assist with extracellular immunity 
 
+
   + cytotoxic T-cells
+
     + bind and destroy infected host cells (also called "killer T-cells")
 
 <div class="notes">
@@ -603,9 +750,9 @@ Finally, Cytotoxic T-cells, also called CD8 cells or Killer T-cells, bind to and
 
 <div class="notes">
 
-Antibodies are invovled in humoral immunity – which means extracellular immunity
+Antibodies are involved in humoral immunity – which means extracellular immunity
 
-These anitbodies are floating around in the blood serum and plasma, and if they find an appropriate pathogen and bind to it, other steps are initiated
+These antibodies are floating around in the blood serum and plasma, and if they find an appropriate pathogen and bind to it, other steps are initiated
 
 Antibodies are produced by B-cells – a special type of lymphocyte called B-cell because they are produced in the bursa of birds and bone marrow of mammals
 
@@ -620,10 +767,15 @@ Antibodies are produced by B-cells – a special type of lymphocyte called B-cel
 
 ### Major histocompatiability complex 
 
+<br> 
+
 Class 1: tagging intracellular pathogens 
 
 Class 2: tagging extracellular pathogens 
 
+<br> 
+
+> What MHC class was that avian-helminth paper I referenced earlier focused on? 
 
 
 
@@ -650,13 +802,12 @@ Class 2: tagging extracellular pathogens
 
 + Co-infection (being infected by two or more parasites at the same time) can be bad 
 
-+ Mounting a Th1 and Th2 response is demanding 
++ Mounting a Th1 (cell-mediated) and Th2 (humoral) response is demanding 
 
 + So challenges of a macroparasite and a microparasite might be worse off than two microparasites, right? 
 
 
 <sub> See work from Amy Pederson and Vanessa Ezenwa looking at some cool natural examples of coinfection </sub> 
-
 
 
 
@@ -690,9 +841,11 @@ Class 2: tagging extracellular pathogens
 
 ### Note that resistant is differently defined than how we previously talked about 
 
+<br> 
+
 + A <font color='green'> resistant </font> host is rarely infected, but when we talk about resistance-tolerance tradeoffs, it is assumed that the parasite has infected the host, and the host can respond to this in at least two ways; <font color='red'> resistance </font> or <font color='red'> tolerance </font> 
 
-
++ Try to keep this straight. Maybe even just think of 'resistant' as defined in the last slide as 'not susceptible' would probably be easier 
 
 
 
@@ -731,6 +884,16 @@ Imagine the host has a choice in how it can respond to a pathogen
 
 ---
 
+<h2> In what ways could this *not* be a tradeoff? </h2> 
+
+
+
+
+
+
+
+---
+
 ### Parasite facilitation through host immune costs 
 
 One paper you read this week was from Ezenwa et al. _Am Nat_. This is a clear empirical demonstration of apparant facilitation between two coinfecting parasites (Tuberculosis and an intestinal helminth in African buffalo). 
@@ -762,8 +925,11 @@ Given strong selection, why don't all hosts evolve resistance?
 <div class="notes">
 
 Lack of genetic variation in resistance
+
 Host-parasite genetic interactions 
+
 Red-queen dynamics (haven't gone over yet) 
+
 Costs of resistance 
 
 </div> 
@@ -776,7 +942,7 @@ Costs of resistance
 
 ### Tasmanian devil facial tumor disease 
 
-Transmissible cancer affecting devils 
++ Transmissible cancer from intraspecific interactions 
 
 > "Genetic impoverishment has made the immune system blind" 
 
@@ -792,18 +958,52 @@ The devil, a marsupial carnivore native only to Tasmania, has had an up-and-down
 </div> 
 
 
+---
+
+<h2> Does this disease follow frequency or density dependent transmission? </h2> 
+
+
+
+
+---
+
+### Why do the devils not mount an immune response? 
+
++ MHC in devils fails to recognize the cancer cells as foreign 
+
+![](figs/mhcCartoon.png){width="70%"}
+
+
+
+
+
+
+
+---
+
+<h3> So MHC is important, but there is also genetic variation in innate immunity </h3> 
+
++ This variation is important, and pathogen presence may shape the resulting genetic diversity of a given host population
+
++ How would this work? 
+
+
+
+
+
 
 
 ---
 
 ### Strain-specific immunity 
 
-
 ![](figs/behaviorDaphnia.png){width="100%"}
 
 
 <div class="notes">
-Daphnia magna and the bacteria Pasteuria ramosa. No host clone is resistant to all parasite isolates, and no parasite isolate can infect all host clones
+
+Daphnia magna and the bacteria Pasteuria ramosa. No host clone is resistant to all parasite isolates, and no parasite isolate can infect all host clones. This is the fodder for host-parasite coevolution, right? 
+
 </div>
 
 
@@ -822,9 +1022,18 @@ Daphnia magna and the bacteria Pasteuria ramosa. No host clone is resistant to a
 
 Cost = <font color='green'> S fitness</font> - <font color='red'> R fitness</font>
 
-
 <sub> reviewed in Burrington 2000; good critique from Lenormand et al. 2018 _Rethinking Ecology_ </sub>
 
+
+
+---
+
+### Costs of resistance versus cost of exposure 
+
+<br> 
+*Costs of resistance*: S - R 
+<br> 
+*Costs of exposure*: S - E 
 
 
 
@@ -833,9 +1042,13 @@ Cost = <font color='green'> S fitness</font> - <font color='red'> R fitness</fon
 
 ### What happens when we do see the evolution of host resistance? 
 
+<br> 
+
 We tend to see the co-evolution of the parasite. 
 
 *Red-queen dynamics*: co-evolutionary arms race between host and parasite. 
+
+<sub> We went over this previously in week 2 </sub> 
 
 
 
@@ -844,8 +1057,23 @@ We tend to see the co-evolution of the parasite.
 
 ---
 
-### A snail example
+### The importance of snail sex
 
-![](figs/behaviorRedQueen.png){width="90%"}
+![](figs/behaviorRedQueen.png){width="70%"}
+
+
+
+
+---
+
+### In summary 
+
++ Hosts can proactively (grooming) or reactively (immune) respond to pathogen challenges 
+
++ Host individuals vary in their ability to respond, shaping genetic diversity 
+
++ Resistance and tolerance are two mechanisms for host responses to a pathogen, with varying outcomes 
+
+
 
 
