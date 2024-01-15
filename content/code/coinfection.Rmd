@@ -139,7 +139,7 @@ week 11 from Park 2019; include bits of parasite extinction stuff from week 14 a
 
 ### Detecting parasite-parasite associations 
 
-![](figs/parasiteAssoc2019.png){width=80%} 
+![](figs/parasiteAssoc2019.png){width=70%} 
 
 <sub> Dallas et al. 2019 _PRSB_</sub> 
 
@@ -205,7 +205,10 @@ week 11 from Park 2019; include bits of parasite extinction stuff from week 14 a
 
 + They make really simple assumptions that provide good benchmarks 
 
-> What would the distribution of coinfection look like if all hosts were equally probable of getting infected and all parasites were distributed independently? 
+> What would the distribution of coinfection look like if all hosts were equally probable of getting infected and all parasites were distributed independently? (5 minute small group discussion) 
+
+
+
 
 
 
@@ -218,7 +221,7 @@ week 11 from Park 2019; include bits of parasite extinction stuff from week 14 a
 + All hosts equally likely to be infected 
 + All parasites are distributed independently 
 
-![](figs/paraRando.png){width=80%} 
+![](figs/paraRando.png){width=90%} 
 
 
 
@@ -245,9 +248,9 @@ week 11 from Park 2019; include bits of parasite extinction stuff from week 14 a
 
 + So what could we incorporate into our null to address this? 
 
-> - Covariance between parasite distributions (some hosts are more likely) 
-> - Incorporate host traits like body size (big hosts more parasites) 
-> - other stuff
+>- Covariance between parasite distributions (some hosts are more likely) 
+>- Incorporate host traits like body size (big hosts more parasites) 
+>- other stuff
 
 
 
@@ -263,7 +266,12 @@ week 11 from Park 2019; include bits of parasite extinction stuff from week 14 a
 
 + Experimental field studies 
 
++ Meta-analysis 
+
 + Models 
+
+
+
 
 
 
@@ -272,7 +280,53 @@ week 11 from Park 2019; include bits of parasite extinction stuff from week 14 a
 
 ### Observational field studies 
 
-+ Tuberculosis and helminth coinfection in wild buffalo (Ezenwa)
+![](figs/ezenwa.png){width=70%} 
+
+<sub> Ezenwa & Jolles 2011 _Int & Compar Biology_ </sub>
+
+
+
+
+
+
+
+
+---
+
+### Tuberculosis and helminth coinfection in wild buffalo
+
+![](figs/ezenwa2.png){width=70%} 
+
+<sub> Ezenwa & Jolles 2011 _Int & Compar Biology_ </sub>
+
+
+
+
+<div class='notes'>
+
+Key results emerging from this work are that nematode infection is capable of depressing the host Th1 response (Ezenwa et al. 2010), suggesting that helminth coinfection is likely to increase general microparasite susceptibility. But the environment mediates this interaction, with the tradeoff only being observed in the dry season. 
+
+</div> 
+
+
+
+
+---
+
+### Infection intensity of intestinal helminths 
+
++ Positive relationship between infection intensities of coinfecting parasites 
+
++ What else could be driving this apart from joint parasite effects? 
+
+![](figs/lello.png){width=100%} 
+
+<sub> Lello et al. 2004 _Nature_</sub>
+
+
+<div class='notes'>
+Differences in host traits and intrinsic susceptibility could make non-interacting parasites look like they're interacting. A neutral model with host trait variation could reproduce these patterns. 
+</div>
 
 
 
@@ -283,7 +337,58 @@ week 11 from Park 2019; include bits of parasite extinction stuff from week 14 a
 
 ### Experimental field studies 
 
-+ Mice (Pederson) 
+<div class="columns-2">
+
++ Wood mice have many parasites 
+
++ Are they interacting? 
+
++ Tested using nematode parasite knock-downs by treating wild populations with ivermection
+
+
+![](figs/pedersenMice1.png){width=80%} 
+
+
+<sub> Knowles et al. 2013 _PRSB_ </sub>
+
+</div> 
+
+
+
+
+
+
+---
+
+### No entire community response, but found something 
+
+<div class="columns-2">
+
+![](figs/pedersenMice2.png){width=60%} 
+
++ A protozoan parasite significantly increased in abundance when nematode abundance was knocked down 
+
++ This parasite is located in the same tissue, suggesting a potential role of parasite-parasite competition 
+
+<sub> Knowles et al. 2013 _PRSB_ </sub>
+
+</div> 
+
+
+
+
+
+
+
+---
+
+### Meta-analysis 
+
+
+![](figs/griffithHelmCoinf.png){width=75%} 
+
+
+<sub> Griffiths et al. 2011 _J of Infection_ </sub>
 
 
 
@@ -293,10 +398,53 @@ week 11 from Park 2019; include bits of parasite extinction stuff from week 14 a
 
 ### Models 
 
+![](figs/gorschTBbuf1.png){width=100%} 
+
+<sub> Gorsich et al. 2018 _PNAS_ </sub> 
+
+---
+
+### Models 
+
+![](figs/gorschTBbuf2.png){width=100%} 
+
+<sub> Gorsich et al. 2018 _PNAS_ </sub> 
+
+---
+
+### Models 
+
+![](figs/gorschTBbuf3.png){width=60%} 
+
+<sub> Gorsich et al. 2018 _PNAS_ </sub> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- provide more detail on Seabloom model structure and how it differs from Gorsich -->
+
+
+---
+
+### Models 
+
 ![](figs/seabloom0.png){width=100%} 
 
-
 <sub> Seabloom et al. 2015</sub>
+
+
+
 
 
 
@@ -315,42 +463,6 @@ week 11 from Park 2019; include bits of parasite extinction stuff from week 14 a
 
 
 
----
-
-### 
-
-
-
-
-
-
-
-
----
-
-### 
-
-
-
-
-
-
----
-
-### 
-
-
-
-
-
-
-
-
----
-
-### 
-
-
 
 
 
@@ -361,17 +473,19 @@ week 11 from Park 2019; include bits of parasite extinction stuff from week 14 a
 
 ### A conceptual framework of coinfection 
 
-Exposure versus susceptibility as drivers of coinfection 
 
+<div class="columns-2">
 
+![](figs/graham.png){width=100%}
 
++ Exposure and susceptibility as drivers of coinfection 
 
++ This mirrors how we think about transmission as being encounter * susceptibility 
 
----
+<sub> Viney & Graham 2013 chapter in book _Advances in Parasitology_ </sub> 
 
-### A conceptual framework of coinfection 
+</div> 
 
-![](figs/graham.png){width=50%}
 
 
 
@@ -380,13 +494,11 @@ Exposure versus susceptibility as drivers of coinfection
 
 ### Exposure 
 
-+ geography 
++ <font color='green'>geography</font>: host and parasite must occupy the (micro)habitat 
 
-+ behavior 
++ <font color='green'>behavior</font>: host behavior modifies exposure to parasites
 
-+ host traits 
-
-
++ <font color='green'>host traits</font>: host traits modify exposure to parasites (e.g., home range size)
 
 
 
@@ -397,13 +509,11 @@ Exposure versus susceptibility as drivers of coinfection
 
 ### Susceptibility 
 
-+ genetics (immune or defense traits)
++ <font color='green'> genetics</font>: immune or defense traits
 
-+ diet 
++ <font color='green'> diet</font>: can control exposure (through contact) and susceptibility (through host condition)
 
-+ costs of immunity 
-
-+ microbiome 
++ <font color='green'> behavior</font>: can control exposure (through contact) and susceptibility (if behavior is costly) 
 
 
 
@@ -413,15 +523,8 @@ Exposure versus susceptibility as drivers of coinfection
 
 
 
----
 
-<div class="columns-2">
 
-</div> 
-
-<font color='green'>  </font> 
-
-<sub> Dallas et al. 2019 _PRSB_</sub> 
 
 
 
@@ -446,7 +549,13 @@ Exposure versus susceptibility as drivers of coinfection
 
 ### What have we learned? 
 
-+ 
++ Coinfection is incredibly common 
+
++ Generally has negative consequences to host fitness 
+
++ A bit on null models and some fun coinfection examples 
+
+
 
 
 
@@ -475,9 +584,78 @@ Seabloom et al. 2015 Ecol Letters
 
 ### Parasite community assembly processes 
 
-+ Co-infection doesn't just magically happen, right? 
++ Parasite exposure can occur at the same time, or it can be ordered 
 
-+ priority effects 
+
+
+
+--- 
+
+### Infection trials at the same time 
+
+Increasing parasite richness decreased parasite persistence
+
+![](figs/johnsonCoinf1.png){width=65%} 
+
+<sub> Johnson & Hoverman 2012 _PNAS_ </sub> 
+
+
+
+
+
+--- 
+
+### Infection trials at the same time 
+
+But even if parasites did not persist, host survival declined with increasing parasite richness 
+
+![](figs/johnsonCoinf2.png){width=70%} 
+
+<sub> Johnson & Hoverman 2012 _PNAS_ </sub> 
+
+
+
+
+
+--- 
+
+### Infection trials at the same time 
+
+And parasite load increased 
+
+![](figs/johnsonCoinf3.png){width=70%} 
+
+<sub> Johnson & Hoverman 2012 _PNAS_ </sub> 
+
+
+
+
+
+
+
+
+
+
+---
+
+### Priority effects 
+
++ Priority effects describe the process of community assembly, in which the order of arrival determines the resulting community structure 
+
++ This is related to coinfection, as being exposed to two parasites at the same time might have very different outcomes from being exposed to two parasites at different times 
+
+
+
+
+---
+
+### How does this work? 
+
+
+
+
+
+
 
 
 
@@ -495,9 +673,24 @@ Seabloom et al. 2015 Ecol Letters
 
 
 
+
+
+
+
+
+
 ---
 
 ### mark-recapture studies in wild populations 
+
+
+
+
+
+
+
+
+
 
 
 ---
@@ -507,11 +700,64 @@ Seabloom et al. 2015 Ecol Letters
 
 
 
+
+
+
+
+
+
+
+
 ---
 
 ### models 
 
-beta as a function of other parasite beta 
+![](figs/gorschTBbuf1.png){width=100%} 
+
+<sub> Gorsich et al. 2018 _PNAS_ </sub> 
+
+
+<div class='notes'>
+Whereas bTB facilitated brucellosis infection at the individual level, our model predicted the presence of brucellosis to have a strong negative impact on bTB at the population level.Therefore, these results provide a data-driven example of competition between coinfecting pathogens that occurs when one pathogen facilitates secondary infections at the individual level.
+</div> 
+
+
+
+
+
+
+---
+
+### coinfection models can get a bit wild 
+
+![](figs/marchetto.png){width=100%} 
+
+<sub> Marchetto and Power 2018 _Am Nat_ </sub> 
+
+
+
+
+
+
+
+---
+
+### Why is it so difficult to model the impact of coinfections on disease dynamics? 
+
+5-10 minutes in small groups 
+
+>- need to consider virulence 
+
+>- lots of parameters to get at
+
+>- priority effects can be tricky 
+
+>- extending to more than 2 parasites becomes untenable 
+
+
+
+
+
 
 
 
