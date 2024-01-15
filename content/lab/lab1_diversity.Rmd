@@ -24,9 +24,9 @@ At the end of this lab, a successful learner should be able to…
 Review the course syllabus before coming to lab. In the future, it'll be important to look over this heading before lab this week, as it will contain information you'll need to know for the lab quiz!
 
 ## Presentation
-[Lab 1 Presentation Stand-in](/lab/lab1_diversity/Lab1Notes.pdf)
+[Lab 1 Presentation](Lab1Presentation.pdf)
 
 ## Worksheet
-[Lab 1 Worksheet Stand-in](/lab/lab1_diversity/531L_Lab1Notes.docx)
+[Lab 1 Worksheet](/lab/lab1_diversity/531Lab1Worksheet.docx)
 
 ## Resources
