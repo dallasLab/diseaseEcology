@@ -643,9 +643,12 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 
 ### Detecting parasite-parasite associations 
 
-![](figs/parasiteAssoc2019.png){width=80%} 
+![](figs/parasiteAssoc2019.png){width=60%} 
 
 <sub> Dallas et al. 2019 _PRSB_</sub> 
+
+
+
 
 
 ---
@@ -849,6 +852,32 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 <sub> LoGiudice et al. 2003 _PNAS_ </sub> 
 
 
+---
+
+### But they kinda are 
+
+Dilution potential = $NIP{_mice} - NIP_{mice+other}$
+
++ $NIP$ is nymphal tick infection prevalence 
+
++ So this is the fraction of nymphal ticks that are infected with Lyme that were found on host $x$ 
+
+> Why is this a good measure of dilution potential? Why is this an imperfect measure? (5 minutes small groups)
+
+
+
+---
+
+### Other things we might want to consider 
+
+>- Host abundance 
+
+>- Host grooming (Opossums are tick killing machines) 
+
+>- Host habitat usage 
+
+>- other things that I didn't think of that you all might have 
+
 
 
 
@@ -1013,6 +1042,15 @@ This means that the <font color='green'> carrying capacity</font> of each host s
 ![](figs/riceDilution.png){width=100%} 
 
 
+
+
+---
+
+### Let's brainstorm some fruitful pathways for this research 
+
++ What types of experiments would you want to see to provide more rigorous tests of diversity-disease relationships? 
+
+> 5-10 minutes group discussion followed by some writing on blackboard 
 
 
 

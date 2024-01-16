@@ -322,7 +322,7 @@ Other:
 <div class="columns-2">
 + $R_0$ is most sensitive to changes in mosquito survival
 
-![](figs/mosqSurvR0.png){width="50%"}
+![](figs/mosqSurvR0.png){width="100%"}
 
 </div> 
 
@@ -335,6 +335,63 @@ Other:
 ![](figs/insecticideResist.jpeg){width="90%"}
 
 <sub> Hancock et al. 2018 _PNAS_ </sub>
+
+
+
+
+---
+
+### What are better ways to kill mosquitoes? 
+
++ Brainstorm in class and write on board 
+
+
+
+
+---
+
+### Or maybe we don't need to kill them 
+
+![](figs/rossMacModel5.png){width="80%"}
+
++ Maybe we just need to figure out how to reduce biting rates 
+
+
+
+---
+
+![](figs/mosqContact2.png){width="100%"}
+
+<sub> Thongsripong et al. 2021 _Ann Entomol Soc Am_ </sub>
+
+
+
+
+---
+
+### Adding the vector also makes for some confusion about density/frequency dependent transmission 
+
++ Mosquitoes won't just keep feeding and feeding and feeding, right? 
+
++ Even with 1000 hosts per meter, there's a limit on how many people a mosquito can bite
+
++ This results in a non-linear relationship between feeding rate and host density that looks a bit frequency dependent 
+
+<sub> Thongsripong et al. 2021 _Ann Entomol Soc Am_ </sub>
+
+
+
+
+---
+
+### Adding the vector also makes for some confusion about density/frequency dependent transmission 
+
+![](figs/mosqContact1.png){width="80%"}
+
+<sub> Thongsripong et al. 2021 _Ann Entomol Soc Am_ </sub>
+
+
+
 
 
 
@@ -379,7 +436,38 @@ Other:
 
 ![](figs/covidR0.png){width="40%"}
 
-<sub> Dhungel et al. 2022 _Int J Environ Res Public Health_</sub> 
+<sub> $R_0$ estimates for COVID; Dhungel et al. 2022 _Int J Environ Res Public Health_</sub> 
+
+
+
+
+
+
+---
+
+### Do you think that estimates of $R_0$ would be more or less variable for vector-borne disease relative to others. Why? 
+
+(5 minutes of small group discussion) 
+
+
+
+
+
+---
+
+### Look forward to some more fun disease ecology 
+
++ What happens when we start to consider the role of the environment in modifying some of those Ross-MacDonald parameters? 
+
++ How are host and vector distributions shifting with climate change, and what does this mean for the future of vector-borne disease? 
+
++ and other questions!
+
+
+
+
+
+
 
 
 
@@ -412,10 +500,125 @@ Other:
 
 
 
+---
+
+### Let's revisit Ross-MacDonald 
+
+![](figs/rossMacModel.png){width="100%"}
+
+
+---
+
+### Let's revisit Ross-MacDonald 
+
+![](figs/rossMacModel2.png){width="100%"}
+
+
+
+---
+
+### Let's code up the Ross-MacDonald $R_0$ 
+
+```{r, echo=TRUE}
+
+R0 <- function(Nv, Nh, a, bH, bV, p, r){
+  (Nv*(a**2)*bH*bV*(p**Nv)) / (Nh*r *(-log(p)))
+}
+
+R0(Nv=10, Nh=10, a=0.5, bH=0.5, bV=0.5, p=0.95, r=0.1)
+
+```
+
+
+
+
+---
+
+### Influence of host recovery rate 
+
+```{r, echo=FALSE}
+par(mar=c(4,4,0,0))
+plot(y=R0(Nv=10, Nh=10, a=0.5, bH=0.5, bV=0.5, p=0.95, r=seq(0.2, 1, length.out=100)), 
+  x=seq(0.2, 1, length.out=100), las=1,
+  xlab='Host recovery rate', ylab=expression(R[0]), type='b', pch=16, col='dodgerblue')
+abline(h=1, lwd=2, col='grey')
+
+```
+
+
+---
+
+### Influence of mosquito survival 
+
+```{r, echo=FALSE}
+par(mar=c(4,4,0,0))
+plot(y=R0(Nv=10, Nh=10, a=0.5, bH=0.5, bV=0.5, p=seq(0.2, 1, length.out=100), r=0.7), 
+  x=seq(0.2, 1, length.out=100), las=1,
+  xlab='Mosquito survival probability', ylab=expression(R[0]), type='b', pch=16, col='dodgerblue')
+abline(h=1, lwd=2, col='grey')
+
+```
+
+
+---
+
+### Let's revisit host recovery rate 
+
++ But look across a small range of mosquito survival rates 
+
+
+```{r, echo=FALSE}
+
+colz <- viridis::viridis(5)
+par(mar=c(4,4,0.25,0.25))
+plot(y=R0(Nv=10, Nh=10, a=0.5, bH=0.5, bV=0.5, p=0.95, r=seq(0.2, 1, length.out=100)), 
+  x=seq(0.2, 1, length.out=100), las=1, ylim=c(0,4),
+  xlab='Host recovery rate', ylab=expression(R[0]), type='b', pch=16, col=colz[1])
+lines(y=R0(Nv=10, Nh=10, a=0.5, bH=0.5, bV=0.5, p=0.94, r=seq(0.2, 1, length.out=100)), 
+  x=seq(0.2, 1, length.out=100),
+  type='b', pch=16, col=colz[2])
+lines(y=R0(Nv=10, Nh=10, a=0.5, bH=0.5, bV=0.5, p=0.93, r=seq(0.2, 1, length.out=100)), 
+  x=seq(0.2, 1, length.out=100),
+  type='b', pch=16, col=colz[3])
+lines(y=R0(Nv=10, Nh=10, a=0.5, bH=0.5, bV=0.5, p=0.92, r=seq(0.2, 1, length.out=100)), 
+  x=seq(0.2, 1, length.out=100),
+  type='b', pch=16, col=colz[4])
+lines(y=R0(Nv=10, Nh=10, a=0.5, bH=0.5, bV=0.5, p=0.91, r=seq(0.2, 1, length.out=100)), 
+  x=seq(0.2, 1, length.out=100),
+  type='b', pch=16, col=colz[5])
+
+abline(h=1, lwd=2, col='grey')
+
+legend('topright', c('p=0.95', 'p=0.94', 'p=0.93', 'p=0.92', 'p=0.91'), 
+  col=colz, pch=16, bty='n')
+
+```
+
+
+
+
+--- 
+
+### What did we learn from this exercise? 
+
+>- $R_0$ is pretty sensitive to small changes 
+
+>- Computer code is not scary 
+
+>- Probably something else 
+
+
+
+
+
+
+
 
 ---
 
 ### The role of environment on vector-borne disease 
+
+> Those small changes that have big impacts on $R_0$ could be driven by the environment 
 
 ![](figs/vectorEnv1.png){width="100%"}
 
@@ -523,9 +726,13 @@ Projected distribution is a bit scarier
 ### the bigger question is...
 
 <br> 
+
 > if the vector species are already here, why is the pathogen not found as often? 
 
-This points to either the importance of the <font color='green'> reservoir host community </font> or <font color='green'> environmental control of pathogen presence </font> 
+
+This points to the importance of the <font color='green'> reservoir host community </font>,  <font color='green'> environmental control of pathogen presence </font>, and/or <font color='green'> mitigation efforts </font> 
+
+<sub> But probably not mitigation efforts. Does Columbia spray for mosquitos? No. Other counties do. </sub>
 
 
 
@@ -540,6 +747,9 @@ This points to either the importance of the <font color='green'> reservoir host 
 + Some we are now starting to grapple with (e.g., Zika; local transmission back in 2016-2017, but not since) 
 
 + Some are right around the corner (e.g, Dengue; local transmission in Florida, Texas and Arizona)
+
++ ~2000 malaria cases per year (some from travel though, so not necessarily local transmission)
+
 
 
 
@@ -586,16 +796,46 @@ This points to either the importance of the <font color='green'> reservoir host 
 
 
 
+
+
 ---
 
-### But let's not be silly about it 
+### In terms of the Ross-MacDonald model, what do vector feeding preferences influence? 
+
+![](figs/rossMacModel2.png){width="100%"}
+
+
+
+---
+
+<br>
+<br>
+<br>
+<h3> How would we go about incorporating vector biting preferences and the underlying host community in our estimate of $R_0$? </h3>
+
+>- I'd probably argue that it largely influences vector infection probability ($b_v$) and use some weighted estimate of the susceptibility of the host community to infection as a modifier of $b_v$. 
+
+
+
+
+
+---
+
+### And considering the reservoir community through the lens of force of infection to humans makes sense ...
+
+
+---
+
+### but let's not be silly about it 
 
 ![](figs/treeBatEbola.png){width="100%"}
 
 
+
+
 ---
 
-### But let's not be silly about it 
+### but let's not be silly about it 
 
 + Response to this (and other bat-vectored disease) is to try to kill bats 
 
@@ -606,7 +846,7 @@ This points to either the importance of the <font color='green'> reservoir host 
 
 ---
 
-### But let's not be silly about it 
+### but let's not be silly about it 
 
 ![](figs/treeBatEbola2.png){width="100%"}
 
@@ -722,14 +962,15 @@ Bats may be likely for more infectious diseases in humans. There are many emergi
 
 ### Questions to think about
 
+<br> 
+
 + What determines how widespread a vector-borne pathogen can be? 
 
 + Why are vector-borne diseases so tough to control? 
 
++ What parameters in $R_0$ are likely to be most sensitive to environmental change? 
 
-<div class="notes">
-
-
-</div>
++ Do we need to model those parameters directly as functions of environmental variables?   
+  + Mordecai et al. 2019 _Ecology Letters_ argues this
 
 

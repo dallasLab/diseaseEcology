@@ -141,13 +141,41 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 <div class="columns-2">
 
-+ For a given host community, what is the distance between host species that a given parasite infects? 
++ For a given location or host community, what is the 'index of dispersion' for the parasite community? 
 
-+ So it still uses the host phylogeny 
++ The parasite phylogeny is used to measure <font color='green'>phylogenetic diversity</font>, the host phylogeny is used to calculate <font color='green'>phylogenetic specificity</font>
 
 ![](figs/phyloSpec2.png){width=100%}
 
 </div> 
+
+
+
+---
+
+### Phylogenetic diversity of parasites 
+
+> What geographic location would be the most phylogenetically diverse for parasites? 
+
+
+
+
+---
+
+### Mammmal richness and phylogenetic diversity 
+
+![](figs/hostPhyloDiv.png){width=100%}
+
+<sub> a is species diversity, b is phylo diversity; Voskamp et al. 2017 _J Biogeography_ </sub>
+
+
+---
+
+### Host and parasite diversity often related
+
+![](figs/hostParDiversity.png){width=60%}
+
+<sub> Dallas et al. 2018 _GEB_ </sub> 
 
 
 

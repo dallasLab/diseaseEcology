@@ -425,25 +425,116 @@ and this is because $\beta$ is a combination of contact $c$ and parasite establi
 
 
 
+---
+
+### Threshold host density 
+
+![](figs/thresholdHostDensity.png){width="90%"}
+
+<sub> Dallas et al. 2018 _PRSB_ </sub> 
+
+
+
+
+
+---
+
+### What determines this threshold host density? 
+
+>- Recovery rate of infected hosts 
+
+>- Pathogen-induced mortality (virulence) 
+
+>- Pathogen survival in the environment 
+
+
+
+
+
+
+---
+
+### Why do we need to worry about 'secondary infections'? 
+
+![](figs/thresholdHostDensity.png){width="90%"}
+
+<sub> Dallas et al. 2018 _PRSB_ </sub> 
+
+
+
+
+---
+
+### Would frequency or density dependent transmission result in lower threshold host density? 
+
+<br> 
+
+> 5 minutes to discuss this in small groups. 
+
+
+<div class="notes">
+Density-dependent should be higher host density threshold, since density-dependent relies on host density. That is, the impact of density-dependent transmission would be greatest at high host density, where frequency-dependent pathogens do the same damage once some level of contact is hit (recall that contact rate by density figure). 
+
+One could argue that frequency-dependent transmission would have a higher threshold, as the force of infection is standardized by the total population size, bringing dI/dt down. Mathematically, frequency-dependent transmission should not have a threshold host density at all, meaning that it would be lower than density-dependent transmission. 
+
+</div>
+
 
 
 
 
 --- 
 
-### 
+### Maybe this is a tougher question than I intended 
 
-What else? 
++ It really depends on _where_ the host density threshold is 
 
-Currently only about 20 slides, so this would be over in 30 minutes. 
-
-
+![](figs/freqDensTransmit.png){width="80%"}
 
 
 
 
+---
+
+### But let's simplify things 
+
++ Parasites with frequency-dependent transmission don't _really_ have a threshold host density in theory, but they often do in practice
+  + Think about pathogen spread at very low host densities and refer back to 2-3 figures ago 
+
++ This is a heady problem to think about, because we are acting like the same parasite can be transmitted as frequency or density dependent
+
++ And we aren't even considering the pathogen challenge (are we just introducing 1 infected person into the population, or 10?)
 
 
+---
+
+### One last note about this for clarity 
+
+<font color='green'> Frequency-dependent transmission </font> 
+
+\[ 0 < \beta \dfrac{SI}{N} - \gamma I \]
+
+\[ \gamma < \beta \dfrac{S}{N}  \]
+
++ Pre-outbreak, $S=N$, so as host density never comes into the equation 
+
+
+---
+
+### Compare this with density-dependent transmission 
+
+\[ 0 < \beta SI - \gamma I \]
+
+\[ \dfrac{\gamma}{\beta} < S \]
+
++ So host density is in the equation, where an outbreak will occur is $\frac{\gamma}{\beta}$ is less than $S$. 
+
+
+
+
+---
+
++ This will make more sense in the next lecture, where we will go a bit more into how we model infectious diseases, focusing on microparasites 
 
 
 
@@ -465,14 +556,24 @@ Currently only about 20 slides, so this would be over in 30 minutes.
 
 
 
-
-
-
-
-
-
 <!-- intro to SIR terminology (talk about transmission, recovery, mortality, etc. etc. etc.)
 lead into the next lecture, which will focus on the SIR and modeling bits around epidemics -->
+
+
+---
+
+### What have we learned 
+
++ A bit about microparasites and their different forms 
+
++ A primer on how pathogens are transmitted (density/frequency dependent transmission) 
+
++ A little bit of the fun math that we'll use throughout the semester 
+
+
+
+
+
 
 
 
@@ -489,12 +590,6 @@ lead into the next lecture, which will focus on the SIR and modeling bits around
 
 + Weird knock-on effects (e.g., alter competitive landscape)
 
-
-
-<div class="notes">
-This is my *note*.
-
-</div>
 
 
 
@@ -669,13 +764,6 @@ If native host is less affected by the parasite, or has a lower transmission rat
 + <font color='green'>Sequential epidemics</font>: Multiple waves or peaks of infection 
 
 + <font color='green'>Endemic parasites</font>: Increase in prevalence that eventually settles to some equilibrial amount of infection 
-
-
-
-<div class="notes">
-This is my *note*.
-
-</div>
 
 
 
@@ -857,6 +945,9 @@ Fit a statistical model just based on case counts over time
  \end{aligned}
 \]
 
++ Is this density or frequency dependent transmission? 
+
+
 
 
 ---
@@ -867,4 +958,93 @@ Fit a statistical model just based on case counts over time
 
 
 
+
+
+---
+
+### S-I-R model 
+
++ frequency-dependent transmission 
+
+\[
+ \begin{aligned}
+  \frac{dS}{dt}   &=  -\beta \dfrac{SI}{N} \\
+  \frac{dI}{dt}   &=  \beta \dfrac{SI}{N} - dI  \\
+  \frac{dR}{dt}  &=  dI 
+ \end{aligned}
+\]
+
+
+
+
+
+
+
+---
+
+### Host population size still matters for frequency-dependent transmission 
+
++ But in terms of infection prevalence, not in terms of pathogen invasion 
+
++ This also makes the odd assumption that there is no recovery of infected hosts 
+
+```{r, echo=FALSE}
+SIRf <- function(t, y, p) {
+  {
+        S <- y[1]
+        I <- y[2]
+        R <- y[3]
+        N <- S + I + R
+    }
+  with( as.list(c(y,p)), {
+    dS.dt <- -B*I*S/N
+    dI.dt <- B*I*S/N - g*I
+    dR.dt <- g*I
+   return( list(c(dS.dt, dI.dt, dR.dt)) )
+  } )
+}
+S <- 4^(0:4);  I <- 1; parmsf <- c(B=1, g=0)
+Months <- seq(0, 12, by=0.1)
+outf <- sapply(S, function(s) {out <- ode(c(s,I,R), Months, SIRf, parmsf)
+                               out[,3]/apply(out[,2:4], 1, sum) } )
+outf.t <- cbind.data.frame(Months=Months, Transmission="Frequency", outf)
+names(outf.t)[3:7] <- paste("N =", S+1)
+outf.tl <- tidyr::pivot_longer(outf.t, cols=3:7, names_to="N", values_to="Prevalence")
+outf.tl$N <- factor(outf.tl$N, levels = paste("N =", S+1) )
+
+ggplot2::ggplot(outf.tl, ggplot2::aes(Months, Prevalence, colour=N)) + ggplot2::geom_line()  
+
+```
+
+
+
+
+
+---
+
+### If we include a recovery term, we see shifted epidemic curves 
+
+```{r, echo=FALSE}
+
+S <- 4^(0:4);  I <- 1; parmsf <- c(B=1, g=0.25)
+Months <- seq(0, 12, by=0.1)
+outf <- sapply(S, function(s) {out <- ode(c(s,I,R), Months, SIRf, parmsf)
+                               out[,3]/apply(out[,2:4], 1, sum) } )
+outf.t <- cbind.data.frame(Months=Months, Transmission="Frequency", outf)
+names(outf.t)[3:7] <- paste("N =", S+1)
+outf.tl <- tidyr::pivot_longer(outf.t, cols=3:7, names_to="N", values_to="Prevalence")
+outf.tl$N <- factor(outf.tl$N, levels = paste("N =", S+1) )
+
+ggplot2::ggplot(outf.tl, ggplot2::aes(Months, Prevalence, colour=N)) + ggplot2::geom_line()  
+```
+
+
+
+
+
+---
+
++ In the next lecture, we'll focus much more on density-dependent transmission and the underlying modeling framework.
+
++ We'll also be incorporating further realism into the simple SIR model to think about epidemics and endemic disease
 
