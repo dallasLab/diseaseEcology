@@ -79,7 +79,7 @@ Resources To be added</description>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab2/</guid>
-      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+      <description>knitr::opts_chunk$set(echo = TRUE) Student Learning Outcomes At the end of this lab, a successful learner should be able to…
 Define common vocabulary used to describe parasite life cycles (Simple complex, tropic transmission, parasitic castrator, vector-borne).
 Describe the life histories of a few major parasites of importance to human or wildlife health (malaria, Schistosoma spp, Ascaris lumbricoides, Guinea Worm, etc.)
 Apply their knowledge of parasite life cycles to develop targeted intervention strategies, and develop methods to evaluate their performance</description>
