@@ -6,9 +6,6 @@ output: html_document
 ---
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Student Learning Outcomes
 
@@ -30,7 +27,8 @@ At the end of this lab, a successful learner should be able to…
 
 
 ## Pre-Lab Materials
-Review the course syllabus before coming to lab. In the future, it'll be important to look over this heading before lab this week, as it will contain information you'll need to know for the lab quiz!
+Make sure to look over the lab presentation and worksheet before coming to lab!
+
 
 ## Presentation
 [Lab 1 Presentation Stand-in](/lab/lab3_hostRange/Lab1Notes.pdf)
@@ -39,3 +37,8 @@ Review the course syllabus before coming to lab. In the future, it'll be importa
 [Lab 1 Worksheet Stand-in](/lab/lab3_hostRange/531L_Lab1Notes.docx)
 
 ## Resources
+[Global Mammal Parasite Database](https://parasites.nunn-lab.org/)
+
+[GMPD Data Paper](https://doi.org/10.1002/ecy.1799) 
+
+[Folks are using this data for lots of cool things!](https://scholar.google.com/scholar?cites=14643424445719922754&as_sdt=5,41&sciodt=0,41&hl=en) 
