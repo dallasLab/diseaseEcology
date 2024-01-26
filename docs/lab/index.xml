@@ -91,10 +91,11 @@ Apply their knowledge of parasite life cycles to develop targeted intervention s
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab3/</guid>
-      <description>knitr::opts_chunk$set(echo = TRUE) Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
 Perform the necessary steps to begin analyzing data in the R language (open a development environment, Create a new analysis file, load in analysis packages, load data into the environment).
 Create basic linear models in R and interpret their outputs.
-Create scatter plots and histograms in R and add lines of best fit</description>
+Create scatter plots and histograms in R and add lines of best fit
+Describe different ways we can describe levels of parasite host range and explain what types of information these different metrics capture (Number of Hosts, phylogenetic host range, tissue specialization, geographic range, etc).</description>
     </item>
     
     <item>
