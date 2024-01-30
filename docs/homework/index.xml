@@ -5,7 +5,11 @@
     <link>/homework/</link>
     <description>Recent content in Homeworks on Parasitology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/homework/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="/homework/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Module 1 homework</title>
       <link>/homework/module1/</link>
@@ -35,7 +39,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module3/</guid>
-      <description>Homework problems </description>
+      <description>Homework problems   How are the models of vector-borne parasites different from those of directly-transmitted parasites?
+  When modeling sexually-transmitted disease, we observe a large variation in resulting infection time series (x-axis is time, y-axis is number of infected hosts). There were at least two reasons for this. What were they?
+  How do we incorporate information about sexual transmission into our estimates of $R_0$?
+  A waterborne pathogen has been affecting a local population.</description>
     </item>
     
     <item>
@@ -44,8 +51,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module4/</guid>
-      <description>1 Calculate $R_0$ for a pathogen with transmission rate of 0.5 and recovery rate of 0.4, assuming $SIR$ style dynamics. What happens to $R_0$ when we introduce an exposed class and set the transition from exposed to infected ($\omega$) to be 0.6?
-2 Add vaccination into the SEIR model as presented in the lecture notes, show how to format the F and V matrices for the next-generation method of estimating $R_0$, and estimate $R_0$ given the parameters $\beta$ = 1.</description>
+      <description>Discuss the $c_{ij}$ parameter in Dobson 2004 American Naturalist paper (i.e., what is it? what do i and j stand for?). For a pathogen that can transmit across host species and within a host species effectively, what does $c_{ij}$ look like?
+  Describe all the main proposed mechanisms underlying the dilution effect. Using literature we went over in class and from other sources (google scholar), write 4-5 sentences about the current state of diversity-disease relationships (in your reading, look for papers discussing &amp;lsquo;additive&amp;rsquo; versus &amp;lsquo;substitutive&amp;rsquo; experimental designs and discuss those)</description>
     </item>
     
   </channel>

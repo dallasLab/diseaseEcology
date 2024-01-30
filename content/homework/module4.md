@@ -3,24 +3,41 @@ title: "Module 4 homework"
 ---
 
 
-### 1 
-
-Calculate $R_0$ for a pathogen with transmission rate of 0.5 and recovery rate of 0.4, assuming $SIR$ style dynamics. What happens to $R_0$ when we introduce an exposed class and set the transition from exposed to infected ($\omega$) to be 0.6?
+1) Discuss the $c_{ij}$ parameter in Dobson 2004 American Naturalist paper (i.e., what is it? what do i and j stand for?). For a pathogen that can transmit across host species and within a host species effectively, what does $c_{ij}$ look like? 
 
 
+2) Describe all the main proposed mechanisms underlying the _dilution effect_. Using literature we went over in class and from other sources (google scholar), write 4-5 sentences about the current state of diversity-disease relationships (in your reading, look for papers discussing 'additive' versus 'substitutive' experimental designs and discuss those)
 
 
-### 2 
-
-Add vaccination into the SEIR model as presented in the lecture notes, show how to format the F and V matrices for the next-generation method of estimating $R_0$, and estimate $R_0$ given the parameters $\beta$ = 1.1, $\gamma$ = 0.25, $\omega$ = 0.5, and $v$ = 0.3. 
+3) Lauren is studying flour beetles which are infected by an ectoparasitic mite and an intestinal nematode. She wants to be able to tell if the two parasites are interacting within coinfected host individuals, and futher to differentiate 'top-down' from 'bottom-up' effects. How could she do this? 
 
 
 
-### 3 
-
-How could you incorporate land use change into the standard SIR modeling framework we went over in class? How about the role of superspreaders? 
+4) 
 
 
+5) 
 
 
+6) 
+
+
+
+7) 
+
+
+
+8) 
+
+
+9) 
+
+
+10) 
+
+
+11) 
+
+
+12) 
 
