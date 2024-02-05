@@ -51,13 +51,6 @@ week 2 from Park 2019 -->
 
 
 
-<div class="notes">
-This is my *note*.
-
-</div>
-
-
-
 
 
 
@@ -80,11 +73,6 @@ This is my *note*.
 
 
 
-<div class="notes">
-This is my *note*.
-
-</div>
-
 
 
 
@@ -102,6 +90,9 @@ This is my *note*.
 + Many bacteria are good (e.g., your gut bacteria)
 
 + e.g., black death (bubonic and pneumonic plague; _Yersinia pestis_), Cholera, Tuberculosis
+
+
+
 
 
 
@@ -162,6 +153,9 @@ This is my *note*.
 + transmitted directly and through environment
 
 
+
+
+
 --- 
 
 ### A relevant fungal microparasite 
@@ -189,6 +183,7 @@ White nose syndrome (_Geomyces destructans_)
 + Hijack host cell's machinery to replicate (obligate intracellular parasite) 
 
 + e.g., DNA: poxviridae (smallpox), herpesviridae (herpes, chicken pox)
+
 + e.g., RNA: flaviviridae (yellow fever, dengue), retroviridae (HIV) 
 
 
@@ -227,6 +222,7 @@ White nose syndrome (_Geomyces destructans_)
 + high fever, stiff neck, headache, stupor, coma, tremors, muscle weakness, vision loss, numbness
 
 + lifelong immunity
+
 
 
 
@@ -347,12 +343,12 @@ White nose syndrome (_Geomyces destructans_)
   + contact between a susceptible and an infected individual ($c$)
   + successful parasite establishment ($a$)
 
-+ Transmission = $cN\frac{S}{N}Ia$ = $\beta SI$
++ Transmission = $caN\frac{S}{N}I$ = $\beta SI$
 
 
 <div class="notes">
 
-Be clear about S and I terminology, as it's going to be used at the end of this lecture to introduce the SIR model and such. How did I go from cNa(S/I) to bSI? ca is beta, the N cancels.
+Be clear about S and I terminology, as it's going to be used at the end of this lecture to introduce the SIR model and such. How did I go from caN(S/N)I to bSI? ca is beta, the N cancels.
 
 </div>
 
@@ -445,7 +441,7 @@ and this is because $\beta$ is a combination of contact $c$ and parasite establi
 
 >- Pathogen-induced mortality (virulence) 
 
->- Pathogen survival in the environment 
+>- Pathogen survival in the environment (if environmentally-transmitted)
 
 
 
