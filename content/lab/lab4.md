@@ -19,7 +19,7 @@ At the end of this lab, a successful learner should be able to…
 Before coming to lab this week, make sure to look over the learning objectives above, as well as the class presentation below.  
 
 ## Presentation
-[Lab 4 Presentation](/lab/lab4_immuneResponse/Lab4Presentation_Student.pdf)
+[Lab 4 Presentation](/lab/lab3_hostRange/Lab4_Pres.pdf)
 
 ## Worksheet
 
