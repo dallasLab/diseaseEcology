@@ -22,6 +22,6 @@ Before coming to lab this week, make sure to look over the learning objectives a
 [Lab 4 Presentation](/lab/lab3_hostRange/Lab4_Pres.pdf)
 
 ## Worksheet
-
+[Lab 4 Worksheet](/lab/lab3_hostRange/531Lab4Ws.docx)
 
 ## Resources
