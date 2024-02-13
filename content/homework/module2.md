@@ -38,8 +38,7 @@ title: "Module 2 homework"
 
 
 
-9) Incorporate vaccination into the SIR model structure. 
-
+9) Incorporate vaccination into the SIR model structure (hint: use equations, show the model, calculate R0, etc.)
 
 
 10) A parasite has been discovered that infects the host through direct transmission, and hosts can clear the pathogen, but are immediately susceptible again to infection. Write out how this would modify the SIR model structure. Sketch out what you think the time series of infection would look like for such a parasite (x-axis is time, y-axis is infected people or fraction of population infected). 

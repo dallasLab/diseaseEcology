@@ -425,13 +425,6 @@ Differences in host traits and intrinsic susceptibility could make non-interacti
 
 
 
-
-
-
-
-
-
-
 <!-- provide more detail on Seabloom model structure and how it differs from Gorsich -->
 
 
@@ -444,6 +437,26 @@ Differences in host traits and intrinsic susceptibility could make non-interacti
 <sub> Seabloom et al. 2015</sub>
 
 
+
+---
+
+### Side by side 
+
+
+<div class="columns-2">
+
+![](figs/seabloom00.png){width=100%} 
+
+Seabloom 
+
+
+
+![](figs/gorsch00.png){width=100%} 
+
+Gorsch 
+
+
+</div>
 
 
 
@@ -568,7 +581,32 @@ Differences in host traits and intrinsic susceptibility could make non-interacti
 
 ### Models of coinfection 
 
-Seabloom et al. 2015 Ecol Letters
+Pathogen coexistence, with dashed line being immunosuppression and dotted line being cross-protection. 
+
+![](figs/seabloom2.png){width=65%} 
+
+
+<sub> Seabloom et al. 2015 _Ecol Letters_ </sub> 
+
+
+
+
+
+--- 
+
+### Small group activity 
+
+3 minutes to provide an interpretation of this figure
+
++ explain the figure to your neighbor
+
++ have your neighbor explain the figure to you 
+
++ come up with a composite explanation 
+
+
+
+
 
 
 
@@ -584,7 +622,24 @@ Seabloom et al. 2015 Ecol Letters
 
 ### Parasite community assembly processes 
 
-+ Parasite exposure can occur at the same time, or it can be ordered 
++ Parasite exposure can occur at the same time, but is this likely? (not really)
+
++ The timing of parasite exposure matters to the resulting parasite community! 
+
+
+
+
+
+
+---
+
+### Priority effects 
+
++ Priority effects describe the process of community assembly, in which the order of arrival determines the resulting community structure 
+
++ This is related to coinfection, as being exposed to two parasites at the same time might have very different outcomes from being exposed to two parasites at different times 
+
+
 
 
 
@@ -633,34 +688,6 @@ And parasite load increased
 
 
 
-
-
-
----
-
-### Priority effects 
-
-+ Priority effects describe the process of community assembly, in which the order of arrival determines the resulting community structure 
-
-+ This is related to coinfection, as being exposed to two parasites at the same time might have very different outcomes from being exposed to two parasites at different times 
-
-
-
-
----
-
-### How does this work? 
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 ### How can we get at parasite community assembly? 
@@ -683,6 +710,21 @@ And parasite load increased
 
 ### mark-recapture studies in wild populations 
 
++ Work from folks that we've shown
+
+  + Amy Pedersen (mouse-helminth system) 
+  + Pieter Johnson (amphibian-helminth system)
+
++ Idea to is to longitudinally monitor individuals, which allows parasite community assembly to be estimated directly 
+
++ pros and cons? 
+
+
+<div class='notes'>
+Pros: natural setting, so variation in encounter/susceptibility etc. are maintained
+
+Cons: No way to really say that the two parasites are interacting, no control over parasite dose/possibility of superinfection, role of environment, etc.
+</div> 
 
 
 
@@ -697,6 +739,23 @@ And parasite load increased
 
 ### experimental lab studies 
 
++ Work from folks that we've shown
+
+  + Daniel Benesh (fish-helminth system)
+  + Pieter Johnson (amphibian-helminth system)
+
+
++ Idea is to experimental control timing and dose of parasites to explore how parasite communities could assemble. 
+
++ pros and cons? 
+
+
+<div class='notes'>
+Pros: more control (all possible combinations), can do more parasite species, no env influence
+
+Cons: is resulting variation in parasite community relevant to natural systems? 
+
+</div> 
 
 
 
@@ -712,13 +771,20 @@ And parasite load increased
 
 ### models 
 
-![](figs/gorschTBbuf1.png){width=100%} 
+![](figs/gorschTBbuf1.png){width=70%} 
 
-<sub> Gorsich et al. 2018 _PNAS_ </sub> 
++ Work from folks that we've shown: Gorsich, Seabloom, Ezenwa, etc. 
+
++ Idea is to generate testable hypotheses by leveraging both disease theory and community assembly theory from free-living organisms. 
+
++ Pros and cons? 
 
 
 <div class='notes'>
-Whereas bTB facilitated brucellosis infection at the individual level, our model predicted the presence of brucellosis to have a strong negative impact on bTB at the population level.Therefore, these results provide a data-driven example of competition between coinfecting pathogens that occurs when one pathogen facilitates secondary infections at the individual level.
+Pros: generate testable hypotheses. Can look at full scope of possible outcomes (vary dose, infectivity, immune suppression, facilitation, host condition, etc.)
+
+Cons: maybe generate untestable or infeasible hypotheses. Difficulty in generalizing across systems? 
+
 </div> 
 
 
@@ -742,32 +808,22 @@ Whereas bTB facilitated brucellosis infection at the individual level, our model
 
 ---
 
-### Why is it so difficult to model the impact of coinfections on disease dynamics? 
+### Why is it so difficult to model the impact of coinfections on resulting disease dynamics? 
 
 5-10 minutes in small groups 
 
->- need to consider virulence 
 
->- lots of parameters to get at
+<div class='notes'>
 
->- priority effects can be tricky 
++ need to consider virulence 
 
->- extending to more than 2 parasites becomes untenable 
++ lots of parameters to get at
 
++ priority effects can be tricky 
 
++ extending to more than 2 parasites becomes untenable 
 
-
-
-
-
-
-
----
-
-### 
-
-
-
+</div>
 
 
 
@@ -778,9 +834,17 @@ Whereas bTB facilitated brucellosis infection at the individual level, our model
 
 ---
 
-### 
+### So coinfections influence host fitness non-linearly 
 
++ explorations of parasite community assembly and coinfection suffer from feasibility issues and chonky models
 
+  + but tons of great work here 
+
++ What if we simplify the approach? 
+
+  + What is the expected distribution of parasites in a host population if coinfection just happens randomly? 
+
+  + i.e., there is no facilitation, there is no host trait variation that promotes coinfection, coinfecting parasites do not interact. 
 
 
 
@@ -788,6 +852,78 @@ Whereas bTB facilitated brucellosis infection at the individual level, our model
 
 ---
 
-### 
+### One parasite 
+
+```{r, echo=FALSE}
+par(mar=c(4,4,0.5,0.5))
+hist(rnbinom(1000, 1, 0.2), main='', xlab='Infection intensity', las=1)
+```
+
+
+
+---
+
+### Two parasites 
+
+```{r, echo=FALSE}
+par(mar=c(4,4,0.5,0.5))
+plot(rnbinom(1000, 1, 0.2), 
+  rnbinom(1000, 1, 0.2), pch=16, col=adjustcolor(1,0.5),
+  main='', xlab='Infection intensity (A)', 
+  ylab='Infection intensity (B)', las=1)
+legend('topleft', legend=c('the least extreme case'), bty='n')
+
+```
+
+
+
+---
+
+### Two parasites 
+
+To what extent does high burden of one parasite correspond to high burden of another? 
+
+```{r, echo=FALSE}
+
+par(mar=c(4,4,0.5,0.5))
+plot(sort(rnbinom(1000, 1, 0.2)), 
+  sort(rnbinom(1000, 1, 0.2)), pch=16, col=adjustcolor(1,0.5),
+  main='', xlab='Infection intensity (A)', 
+  ylab='Infection intensity (B)', las=1)
+legend('topleft', legend=c('the most extreme case'), bty='n')
+
+```
+
+
+
+
+---
+
+### Is this a good approach? 
+
++ Doesn't really get at costs of coinfection 
+
++ Can't tease apart role of host condition 
+
++ Assumes that priority effects don't matter 
+
++ It is extensible to 
+  + a lot of parasite species 
+  + variation in host infection probability 
+  + different distributions of infection intensity 
+  + host and parasite communities combined 
+
+
+
+
+
+---
+
+
+<font color='green'> So that was an odd note to go out on, but I wanted you to link some of the work of infectious disease in community models with some of how we previously talked about aggregated burdens to this lecture on coinfection dynamics </font> 
+
+
+Next time we'll talk about large-scale patterns of parasite diversity and some other fun bits 
+
 
 
