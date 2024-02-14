@@ -575,18 +575,6 @@ $\beta SI$, where $\beta$ is encounter * susceptibility
 
 
 
----
-
-### Methods to reduce transmission 
-
-+ culling or vaccination 
-
-+ other stuff? 
-
-
-
-
-
 
 
 
@@ -854,19 +842,21 @@ SIRf <- function(t, y, p) {
         N <- S + I + R
     }
   with( as.list(c(y,p)), {
-    dS.dt <- -B*I*S/N
-    dI.dt <- B*I*S/N - g*I
+    dS.dt <- -B*I*(S/N)
+    dI.dt <- B*I*(S/N) - g*I
     dR.dt <- g*I
    return( list(c(dS.dt, dI.dt, dR.dt)) )
   } )
 }
 
-parms <- c(B=.001, g=1/7)
+parms <- c(B=0.001, g=1/7)
+parms2 <- c(B=0.5, g=1/7)
 N <- 10^3; I <- R <- 1; S <- N - I - R
 y <- c(S=S, I=I, R=R)
 weeks <- seq(0, 20, by=0.01)
-out1 <- data.frame( ode(y, weeks, SIRd, parms) )
-out2 <- data.frame( ode(y, weeks, SIRf, parms) )
+out1 <- data.frame( ode(y, weeks, SIRd, parms))
+
+out2 <- data.frame( ode(y, weeks, SIRf, parms2) )
 
 plotSIR(out1, ylim=c(0,1000), xlim=c(0,2000))
 
@@ -880,8 +870,7 @@ plotSIR(out1, ylim=c(0,1000), xlim=c(0,2000))
 
 Classic frequency dependent transmission in SIR 
 
-
-```{r}
+```{r, echo=FALSE}
 plotSIR(out2, ylim=c(0,1000), xlim=c(0,2000))
 
 ```
@@ -1123,11 +1112,20 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3959940/ </sub>
 
 
 
+
+
+
 ---
 
 ### So let's incorporate some of these things 
 
-Start with superspreaders 
++ Superspreaders
+
+  + How would we incorporate them? 
+
+
++ We won't until a couple weeks from now, but useful to think about how you might do it.
+
 
 
 
@@ -1135,6 +1133,13 @@ Start with superspreaders
 ---
 
 ### Asymptomatic individuals 
+
+![](figs/sirAsym.png){width="80%"}
+
+
+
+
+
 
 
 
@@ -1144,12 +1149,103 @@ Start with superspreaders
 
 ### Transmission heterogeneity
 
++ Superspreaders influence $\beta$ through encounter
++ Asymptomatic individuals influence $\beta$ only if they differ from symptomatic individuals 
 
-Agent based model where individuals vary in their ability to transmit 
+<font color='green'>Individuals don't have to have the same $\beta$</font>
 
 
 
 
+
+---
+
+### Transmission heterogeneity
+
+```{r, echo=FALSE}
+
+a <- rnorm(1000, 3, 0.5)
+hist(a/6, col='dodgerblue', las=1, main='', 
+  xlab=expression(Transmission~rate~(beta)))
+
+abline(v=mean(a/6), lwd=2)
+
+```
+
+
+
+
+
+
+
+---
+
+### When is transmission heterogeneity really going to matter?
+
++ small population sizes or weird shaped transmission distributions 
+
+```{r}
+
+a <- rnorm(1000, 3, 0.5)/6
+a2 <- sample(a, 10)
+
+```
+
+
+---
+
+### When is transmission heterogeneity really going to matter?
+
+
+```{r, echo=FALSE}
+
+hist(a2, col='dodgerblue', las=1, main='', 
+  xlab=expression(Transmission~rate~(beta)))
+abline(v=mean(a), lwd=2, col='purple')
+abline(v=mean(a2), lwd=2, col=1)
+
+```
+
+<div class="notes">
+
++ purple line is the true $\beta$ 
+
++ black line is the estimate $\beta$ from the sample 
+
+</div>
+
+
+
+
+---
+
+### When is transmission heterogeneity really going to matter? (n=10)
+
+```{r, echo=FALSE, suppressWarnings=TRUE, suppressMessages=TRUE}
+
+hist(a, col='dodgerblue', las=1, main='', 
+  xlab=expression(Transmission~rate~(beta)))
+sapply(1:100, function(x){
+  abline(v=mean(sample(a, 10)), lwd=2, col=1)
+})
+
+```
+
+
+
+---
+
+### When is transmission heterogeneity really going to matter? (n=100)
+
+```{r, echo=FALSE, suppressWarnings=TRUE, suppressMessages=TRUE}
+
+hist(a, col='dodgerblue', las=1, main='', 
+  xlab=expression(Transmission~rate~(beta)))
+sapply(1:100, function(x){
+  abline(v=mean(sample(a, 100)), lwd=2, col=1)
+})
+
+```
 
 
 
@@ -1157,7 +1253,133 @@ Agent based model where individuals vary in their ability to transmit
 
 ### How models can inform mitigation efforts 
 
-Vaccination thresholds are based on SIR model, with everyone contacting everyone and everyone just as infectious as the next person. Even the exposed class doesn't really change R0, unless those that are exposed are also infectious. What happens then? Or incorporated asymptomatic carriers and see how that influences dynamics 
++ We talked about vaccination efforts and herd immunity 
 
-Let's break that down and introduce some fun nuance 
++ What about the timing of vaccination efforts? 
+
++ What is the optimal timing of vaccine rollout? (think-pair-share 3 minutes)
+  + Things to think about: the structure of the SIR 
+  + Things not to think about: the feasibility and limited vaccine number
+
+
+
+
+
+
+
+
+
+---
+
+### Vaccinate consistently through epidemic
+
+```{r, echo=FALSE}
+
+sirDiscrete <- function(init=c(100,1,0), times=1:100, 
+  vacc=rep(1/length(times), length(times)), beta=0.25, gamma=0.01) {
+
+    s <- i <- r <- c()
+    s[1] <- init[1]/sum(init)
+    i[1] <- init[2]/sum(init)
+    r[1] <- init[3]/sum(init)
+    for(z in 1:length(times)){
+      s[z+1] <- s[z] - (beta * s[z] * i[z]) - (vacc[z]*s[z])
+      i[z+1] <- i[z] + (beta * s[z] * i[z]) - (gamma * i[z])
+      r[z+1] <- r[z] + (gamma * i[z]) + (vacc[z]*s[z])
+    }
+  return(data.frame(time=c(0, times), S=s,I=i,R=r))
+}
+
+layout(matrix(1:2, ncol=2))
+# no vaccination
+dis <- sirDiscrete(vacc=rep(0, 100))
+plotSIR(dis)
+legend('topleft', legend='No vaccination', bty='n')
+# constant low level
+dis <- sirDiscrete(vacc=rep(1/100, 100))
+plotSIR(dis)
+legend('topleft', legend='Constant low level', bty='n')
+
+```
+
+
+
+---
+
+### Vaccinate early and hard 
+
+```{r, echo=FALSE}
+
+layout(matrix(1:2, ncol=2))
+# no vaccination
+dis <- sirDiscrete(vacc=rep(0, 100))
+plotSIR(dis)
+legend('topleft', legend='No vaccination', bty='n')
+# constant low level
+dis <- sirDiscrete(vacc=c(1, rep(0, 99)))
+plotSIR(dis)
+legend('topleft', legend='One shot early', bty='n')
+
+```
+
+
+---
+
+### Vaccinate when you can only hit a max of 50% coverage 
+
+```{r, echo=FALSE}
+
+layout(matrix(1:2, ncol=2))
+# no vaccination
+dis <- sirDiscrete(vacc=rep(0, 100))
+plotSIR(dis)
+legend('topleft', legend='No vaccination', bty='n')
+# constant low level
+dis <- sirDiscrete(vacc=c(0.5, rep(0, 99)))
+plotSIR(dis)
+legend('topleft', legend='One shot early', bty='n')
+
+```
+
+
+
+
+
+
+---
+
+### Vaccinate heavily only after when cases start to pick up
+
+```{r, echo=FALSE}
+
+layout(matrix(1:3, ncol=3))
+# One shot early
+dis <- sirDiscrete(vacc=c(0.5, rep(0, 99)))
+plotSIR(dis)
+legend('topleft', legend='0.5 immediate', bty='n')
+
+# one shot 10 timesteps in
+dis <- sirDiscrete(vacc=c(rep(0, 10), 0.5, rep(0, 89)))
+plotSIR(dis)
+legend('topleft', legend='0.5 after 10 timesteps', bty='n')
+
+
+# one shot 20 timesteps in
+dis <- sirDiscrete(vacc=c(rep(0, 20), 0.5, rep(0, 79)))
+plotSIR(dis)
+legend('topleft', legend='0.5 after 20 timesteps', bty='n')
+```
+
+
+
+---
+
+### One shot vaccination works 
+
++ dependent on lots of things
+  + vaccine rollout is perfect 
+  + the vaccine effects don't wane 
+  + other stuff, probably 
+
+
 
