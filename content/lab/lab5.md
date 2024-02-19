@@ -5,11 +5,6 @@ date: "2024-01-08"
 output: html_document
 ---
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 This lab is still being built; check back in later for the complete information!
 
 ## Student Learning Outcomes
@@ -23,10 +18,7 @@ At the end of this lab, a successful learner should be able to…
 To be added
 
 ## Presentation
-[Lab 1 Presentation Stand-in](/lab/lab4_immuneResponse/Lab1Notes.pdf)
+[Lab 5 Presentation](/lab/lab5/microparasitesI/Lab5Presentation.pdf)
 
 ## Worksheet
-[Lab 1 Worksheet Stand-in](/lab/lab4_immuneResponse/531L_Lab1Notes.docx)
-
-## Resources
-To be added
+[Lab 5 Rmd](/lab/lab5/microparasitesI/Lab5_Student Materials.zip)
