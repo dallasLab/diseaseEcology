@@ -116,9 +116,7 @@ Explain how the melanization response helps insects fight different types of par
       <guid>/lab/lab5/</guid>
       <description>This lab is still being built; check back in later for the complete information!
 Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials To be added
-Presentation Lab 5 Presentation
-Worksheet [Lab 5 Rmd](/lab/lab5/microparasitesI/Lab5_Student Materials.zip)</description>
+Define a &amp;ldquo;model&amp;rdquo; and describe some of the ways disease models can help us gain insight Define and discriminate between state variables and parameters Explain how maximum likelihood approaches can be used to fit disease models Use functions from the bbmle package to fit epidemic models to real data, and then analyze resultant parameter estimates.</description>
     </item>
     
     <item>

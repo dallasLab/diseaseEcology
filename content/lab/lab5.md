@@ -11,14 +11,17 @@ This lab is still being built; check back in later for the complete information!
 
 At the end of this lab, a successful learner should be able to…
 
-1. First LO
-2. Second LO
+1. Define a "model" and describe some of the ways disease models can help us gain insight
+2. Define and discriminate between state variables and parameters
+3. Explain how maximum likelihood approaches can be used to fit disease models
+4. Use functions from the `bbmle` package to fit epidemic models to real data, and then analyze resultant parameter estimates.
 
 ## Pre-Lab Materials
-To be added
+None: No quiz today!
 
 ## Presentation
-[Lab 5 Presentation](/lab/lab5/microparasitesI/Lab5Presentation.pdf)
+[Lab 5 Presentation](/lab/lab5_microparasitesI/Lab5Presentation.pdf)
 
 ## Worksheet
-[Lab 5 Rmd](/lab/lab5/microparasitesI/Lab5_Student Materials.zip)
+[Lab 5 Worksheet and Materials](/lab/lab5_microparasitesI/Lab5_StudentMaterials.zip)
+
