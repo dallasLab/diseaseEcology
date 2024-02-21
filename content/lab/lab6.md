@@ -20,9 +20,8 @@ At the end of this lab, a successful learner should be able to…
 
 
 ## Worksheet
-To be added
+[Lab 6 Worksheet](/lab/lab6_microparasitesII/531Lab6Worksheet.docx)
+
 
 ## Resources
-[Google Drive Link with Datasources for your project](https://drive.google.com/drive/folders/1yUsBlCLNGTZOV2hsoApExhOJwt4LGhp-?usp=sharing)
-
-[In-Class Analysis Files](www.google.com)
+[Google Drive Link with Datasources for your project](https://docs.google.com/spreadsheets/d/1afqbqwTSlRRkoE8v2I2N8o70gRLbdnqKnKyyoDburQw/edit?usp=sharing)
