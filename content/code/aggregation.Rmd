@@ -793,8 +793,7 @@ mean abundance.
 
 + This measure is also called the Gini index in economics 
 
-
-\[ D = 1 - \dfrac{2\sum^N_i=1 \sum^i_j=1 x_j}{\mu N(N+1)} \]
+\[ D = 1 - \dfrac{2\sum^N_{i=1} \sum^i_{j=1} x_j}{\mu N(N+1)} \]
 
 
 
@@ -839,7 +838,7 @@ mean abundance.
 
 + e.g., value of 0.7 indicates that 70% of the parasites would need to be redistributed in the sample to achieve evenness
 
-\[ H = \dfrac{\sum^N_i=1 |x_i - \mu | }{2\sum^N_i=1 x_i}  \]
+\[ H = \dfrac{\sum^N_{i=1} |x_i - \mu | }{2\sum^N_{i=1} x_i}  \]
 
 
 
@@ -864,8 +863,6 @@ mean abundance.
 ---
 
 ### This is not good 
-
-+ Some have good relationships, but some are only weakly correlated
 
 > Why is this a problem? 
 
