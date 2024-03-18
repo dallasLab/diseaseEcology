@@ -8,27 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/lab/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lab 1: Lab Setup/Parasite Diversity/Microscope Basics</title>
-      <link>/lab/lab1_diversity/</link>
-      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/lab/lab1_diversity/</guid>
-      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-Describe the overall structure of the laboratory course, expectations for laboratory conduct, and how their grade is assessed Successfully demonstrate how to use a compound light microscope, including loading specimen slides, focusing at multiple magnifications, calculating total magnification, and to accurately measure the size of objects under magnification Label the basic parts of a compound microscope and be able to explain their function Define parasitism (in an ecological sense), identify major parasitic groups of interest, and outline some of the life history strategies lumped together under the term “parasite” Distinguish morphological differences separating major groups of helminth parasites across multiple life stages, and apply that knowledge to identify unknown specimens Pre-Lab Materials Review the course syllabus before coming to lab.</description>
-    </item>
-    
-    <item>
       <title>Lab 10: Tick Data Collection &#43; Vector-borne Disease Paper Discussion</title>
       <link>/lab/lab10/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab10/</guid>
-      <description>This lab is still being built; check back in later for the complete information!
+      <description> This lab is still being built; check back in later for the complete information!
 Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials To be added
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources To be added</description>
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
     </item>
     
     <item>
@@ -37,12 +28,13 @@ Resources To be added</description>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab11/</guid>
-      <description>This lab is still being built; check back in later for the complete information!
+      <description> This lab is still being built; check back in later for the complete information!
 Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials To be added
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources To be added</description>
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
     </item>
     
     <item>
@@ -51,12 +43,13 @@ Resources To be added</description>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab12/</guid>
-      <description>This lab is still being built; check back in later for the complete information!
+      <description> This lab is still being built; check back in later for the complete information!
 Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Pre-Lab Materials To be added
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources To be added</description>
+First LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
     </item>
     
     <item>
@@ -65,12 +58,23 @@ Resources To be added</description>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab13/</guid>
-      <description>This lab is still being built; check back in later for the complete information!
+      <description> This lab is still being built; check back in later for the complete information!
 Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials To be added
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources To be added</description>
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
+    </item>
+    
+    <item>
+      <title>Lab 1: Lab Setup/Parasite Diversity/Microscope Basics</title>
+      <link>/lab/lab1_diversity/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab1_diversity/</guid>
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+ Describe the overall structure of the laboratory course, expectations for laboratory conduct, and how their grade is assessed Successfully demonstrate how to use a compound light microscope, including loading specimen slides, focusing at multiple magnifications, calculating total magnification, and to accurately measure the size of objects under magnification Label the basic parts of a compound microscope and be able to explain their function Define parasitism (in an ecological sense), identify major parasitic groups of interest, and outline some of the life history strategies lumped together under the term “parasite” Distinguish morphological differences separating major groups of helminth parasites across multiple life stages, and apply that knowledge to identify unknown specimens  Pre-Lab Materials Review the course syllabus before coming to lab.</description>
     </item>
     
     <item>
@@ -80,9 +84,9 @@ Resources To be added</description>
       
       <guid>/lab/lab2/</guid>
       <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-Define common vocabulary used to describe parasite life cycles (Simple complex, tropic transmission, parasitic castrator, vector-borne).
-Describe the life histories of a few major parasites of importance to human or wildlife health (malaria, Schistosoma spp, Ascaris lumbricoides, Guinea Worm, etc.)
-Apply their knowledge of parasite life cycles to develop targeted intervention strategies, and develop methods to evaluate their performance</description>
+  Define common vocabulary used to describe parasite life cycles (Simple complex, tropic transmission, parasitic castrator, vector-borne).
+  Describe the life histories of a few major parasites of importance to human or wildlife health (malaria, Schistosoma spp, Ascaris lumbricoides, Guinea Worm, etc.)
+  Apply their knowledge of parasite life cycles to develop targeted intervention strategies, and develop methods to evaluate their performance</description>
     </item>
     
     <item>
@@ -92,10 +96,9 @@ Apply their knowledge of parasite life cycles to develop targeted intervention s
       
       <guid>/lab/lab3/</guid>
       <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-Perform the necessary steps to begin analyzing data in the R language (open a development environment, Create a new analysis file, load in analysis packages, load data into the environment).
-Create basic linear models in R and interpret their outputs.
-Understand potential drivers of parasite richness across species
-Summarize takeaways from primary literature supporting and opposing the results of your analysis</description>
+  Perform the necessary steps to begin analyzing data in the R language (open a development environment, Create a new analysis file, load in analysis packages, load data into the environment).
+  Create basic linear models in R and interpret their outputs.
+  Understand potential drivers of parasite richness across species</description>
     </item>
     
     <item>
@@ -105,7 +108,7 @@ Summarize takeaways from primary literature supporting and opposing the results 
       
       <guid>/lab/lab4/</guid>
       <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-Explain how the melanization response helps insects fight different types of parasites Perform dissections of Odontotaenius beetles and recognize common macroparasites of them Analyze empirical observations of parasite burden and immune response to make conclusions about which types of parasites illicit stronger host immune responses Pre-Lab Materials Before coming to lab this week, make sure to look over the learning objectives above, as well as the class presentation below.</description>
+ Explain how the melanization response helps insects fight different types of parasites Perform dissections of Odontotaenius beetles and recognize common macroparasites of them Analyze empirical observations of parasite burden and immune response to make conclusions about which types of parasites illicit stronger host immune responses  Pre-Lab Materials Before coming to lab this week, make sure to look over the learning objectives above, as well as the class presentation below.</description>
     </item>
     
     <item>
@@ -116,7 +119,7 @@ Explain how the melanization response helps insects fight different types of par
       <guid>/lab/lab5/</guid>
       <description>This lab is still being built; check back in later for the complete information!
 Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-Define a &amp;ldquo;model&amp;rdquo; and describe some of the ways disease models can help us gain insight Define and discriminate between state variables and parameters Explain how maximum likelihood approaches can be used to fit disease models Use functions from the bbmle package to fit epidemic models to real data, and then analyze resultant parameter estimates.</description>
+ Define a &amp;ldquo;model&amp;rdquo; and describe some of the ways disease models can help us gain insight Define and discriminate between state variables and parameters Explain how maximum likelihood approaches can be used to fit disease models Use functions from the bbmle package to fit epidemic models to real data, and then analyze resultant parameter estimates.</description>
     </item>
     
     <item>
@@ -126,7 +129,7 @@ Define a &amp;ldquo;model&amp;rdquo; and describe some of the ways disease model
       
       <guid>/lab/lab6/</guid>
       <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-Modify an epidemic model to include or remove compartments Draw a flow diagram to represent a compartmental model given a system of equations describing that model Given a flow diagram model, write a system of equations describing that system Explain the basic assumptions of the SIR model, and identify cases when violations of those assumptions may make it an inappropriate modeling choice.</description>
+ Modify an epidemic model to include or remove compartments Draw a flow diagram to represent a compartmental model given a system of equations describing that model Given a flow diagram model, write a system of equations describing that system Explain the basic assumptions of the SIR model, and identify cases when violations of those assumptions may make it an inappropriate modeling choice.</description>
     </item>
     
     <item>
@@ -135,12 +138,13 @@ Modify an epidemic model to include or remove compartments Draw a flow diagram t
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab7/</guid>
-      <description>This lab is still being built; check back in later for the complete information!
+      <description> This lab is still being built; check back in later for the complete information!
 Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials To be added
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources To be added</description>
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
     </item>
     
     <item>
@@ -149,12 +153,13 @@ Resources To be added</description>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab8/</guid>
-      <description>This lab is still being built; check back in later for the complete information!
+      <description> This lab is still being built; check back in later for the complete information!
 Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials To be added
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources To be added</description>
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
     </item>
     
     <item>
@@ -163,12 +168,13 @@ Resources To be added</description>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab9/</guid>
-      <description>This lab is still being built; check back in later for the complete information!
+      <description> This lab is still being built; check back in later for the complete information!
 Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO Pre-Lab Materials To be added
-Presentation Lab 1 Presentation Stand-in
-Worksheet Lab 1 Worksheet Stand-in
-Resources To be added</description>
+First LO Second LO   Pre-Lab Materials To be added
+ Presentation Lab 1 Presentation Stand-in
+ Worksheet Lab 1 Worksheet Stand-in
+ Resources To be added
+ </description>
     </item>
     
     <item>
@@ -177,7 +183,8 @@ Resources To be added</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lab/setup/</guid>
-      <description>No labs this week! Our first lab will be next week (01/17/2024) in Coker Life Sciences, room 201. Before coming to lab, make sure to review the syllabus and come excited to look at some parasites!</description>
+      <description> No labs this week! Our first lab will be next week (01/17/2024) in Coker Life Sciences, room 201. Before coming to lab, make sure to review the syllabus and come excited to look at some parasites!
+ </description>
     </item>
     
   </channel>

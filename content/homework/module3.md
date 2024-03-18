@@ -28,12 +28,11 @@ title: "Module 3 homework"
 
 
 
-
-8) 
-
+8) Using examples from class, describe how vector host preferences influence vector-borne disease transmission. 
 
 
-9) 
+9) During a vector-borne disease outbreak, you have the ability to reduce (by proportional amounts) host transmission rate ($b_v$) or mosquito attack rate ($a$). Which do you select and why? 
 
 
-10) 
+10) We talked about the best traits for a sexually-transmitted disease to have. What are some of the traits that would make the 'perfect' vector-borne disease (perfect in the sense that the disease is able to establish, spread, and persist)?
+

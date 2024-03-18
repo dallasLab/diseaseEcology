@@ -5,11 +5,7 @@
     <link>/homework/</link>
     <description>Recent content in Homeworks on Parasitology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/homework/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/homework/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Module 1 homework</title>
       <link>/homework/module1/</link>

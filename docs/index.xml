@@ -53,18 +53,6 @@ First LO   Pre-Lab Materials To be added
     </item>
     
     <item>
-      <title>Lab 12: Parasite Life Histories</title>
-      <link>/lab/lab2/</link>
-      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/lab/lab2/</guid>
-      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-Define common vocabulary used to describe parasite life cycles (Simple complex, tropic transmission, parasitic castrator, parasitoid, vector-borne).
- Describe the life histories of a few major parasites of importance to human or wildlife health (malaria, schistosomiasis, trophically transmitted cestode, simple life cycle nematode, Guinea Worm, Chytrid…)
- Apply their knowledge of parasite life cycles to develop targeted intervention strategies, and develop methods to evaluate their performance</description>
-    </item>
-    
-    <item>
       <title>Lab 13: Wrapup</title>
       <link>/lab/lab13/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
@@ -86,7 +74,19 @@ First LO Second LO   Pre-Lab Materials To be added
       
       <guid>/lab/lab1_diversity/</guid>
       <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-Describe the overall structure of the laboratory course, expectations for laboratory conduct, and how their grade is assessed Successfully demonstrate how to use a compound light microscope, including loading specimen slides, focusing at multiple magnifications, calculating total magnification, and to accurately measure the size of objects under magnification Label the basic parts of a compound microscope and be able to explain their function Define parasitism (in an ecological sense), identify major parasitic groups of interest, and outline some of the life history strategies lumped together under the term “parasite” Distinguish morphological differences separating major groups of helminth parasites across multiple life stages, and apply that knowledge to identify unknown specimens   Pre-Lab Materials Review the course syllabus before coming to lab.</description>
+ Describe the overall structure of the laboratory course, expectations for laboratory conduct, and how their grade is assessed Successfully demonstrate how to use a compound light microscope, including loading specimen slides, focusing at multiple magnifications, calculating total magnification, and to accurately measure the size of objects under magnification Label the basic parts of a compound microscope and be able to explain their function Define parasitism (in an ecological sense), identify major parasitic groups of interest, and outline some of the life history strategies lumped together under the term “parasite” Distinguish morphological differences separating major groups of helminth parasites across multiple life stages, and apply that knowledge to identify unknown specimens  Pre-Lab Materials Review the course syllabus before coming to lab.</description>
+    </item>
+    
+    <item>
+      <title>Lab 2: Parasite Life Histories</title>
+      <link>/lab/lab2/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab2/</guid>
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+  Define common vocabulary used to describe parasite life cycles (Simple complex, tropic transmission, parasitic castrator, vector-borne).
+  Describe the life histories of a few major parasites of importance to human or wildlife health (malaria, Schistosoma spp, Ascaris lumbricoides, Guinea Worm, etc.)
+  Apply their knowledge of parasite life cycles to develop targeted intervention strategies, and develop methods to evaluate their performance</description>
     </item>
     
     <item>
@@ -96,9 +96,9 @@ Describe the overall structure of the laboratory course, expectations for labora
       
       <guid>/lab/lab3/</guid>
       <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-Perform the necessary steps to begin analyzing data in the R language (open a development environment, Create a new analysis file, load in analysis packages, load data into the environment).
- Create basic linear models in R and interpret their outputs.
- Create scatter plots and histograms in R and add lines of best fit</description>
+  Perform the necessary steps to begin analyzing data in the R language (open a development environment, Create a new analysis file, load in analysis packages, load data into the environment).
+  Create basic linear models in R and interpret their outputs.
+  Understand potential drivers of parasite richness across species</description>
     </item>
     
     <item>
@@ -108,9 +108,7 @@ Perform the necessary steps to begin analyzing data in the R language (open a de
       
       <guid>/lab/lab4/</guid>
       <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO   Pre-Lab Materials Review the course syllabus before coming to lab. In the future, it’ll be important to look over this heading before lab this week, as it will contain information you’ll need to know for the lab quiz!
- Presentation Lab 1 Presentation Stand-in
- Worksheet Lab 1 Worksheet Stand-in</description>
+ Explain how the melanization response helps insects fight different types of parasites Perform dissections of Odontotaenius beetles and recognize common macroparasites of them Analyze empirical observations of parasite burden and immune response to make conclusions about which types of parasites illicit stronger host immune responses  Pre-Lab Materials Before coming to lab this week, make sure to look over the learning objectives above, as well as the class presentation below.</description>
     </item>
     
     <item>
@@ -119,13 +117,9 @@ First LO Second LO   Pre-Lab Materials Review the course syllabus before coming 
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab5/</guid>
-      <description> This lab is still being built; check back in later for the complete information!
+      <description>This lab is still being built; check back in later for the complete information!
 Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO   Pre-Lab Materials To be added
- Presentation Lab 1 Presentation Stand-in
- Worksheet Lab 1 Worksheet Stand-in
- Resources To be added
- </description>
+ Define a &amp;ldquo;model&amp;rdquo; and describe some of the ways disease models can help us gain insight Define and discriminate between state variables and parameters Explain how maximum likelihood approaches can be used to fit disease models Use functions from the bbmle package to fit epidemic models to real data, and then analyze resultant parameter estimates.</description>
     </item>
     
     <item>
@@ -134,13 +128,8 @@ First LO Second LO   Pre-Lab Materials To be added
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab6/</guid>
-      <description> This lab is still being built; check back in later for the complete information!
-Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO   Pre-Lab Materials To be added
- Presentation Lab 1 Presentation Stand-in
- Worksheet Lab 1 Worksheet Stand-in
- Resources To be added
- </description>
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+ Modify an epidemic model to include or remove compartments Draw a flow diagram to represent a compartmental model given a system of equations describing that model Given a flow diagram model, write a system of equations describing that system Explain the basic assumptions of the SIR model, and identify cases when violations of those assumptions may make it an inappropriate modeling choice.</description>
     </item>
     
     <item>
@@ -359,7 +348,10 @@ link to paper
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module3/</guid>
-      <description>Homework problems </description>
+      <description>Homework problems   How are the models of vector-borne parasites different from those of directly-transmitted parasites?
+  When modeling sexually-transmitted disease, we observe a large variation in resulting infection time series (x-axis is time, y-axis is number of infected hosts). There were at least two reasons for this. What were they?
+  How do we incorporate information about sexual transmission into our estimates of $R_0$?
+  A waterborne pathogen has been affecting a local population.</description>
     </item>
     
     <item>
@@ -368,8 +360,8 @@ link to paper
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/homework/module4/</guid>
-      <description>1 Calculate $R_0$ for a pathogen with transmission rate of 0.5 and recovery rate of 0.4, assuming $SIR$ style dynamics. What happens to $R_0$ when we introduce an exposed class and set the transition from exposed to infected ($\omega$) to be 0.6?
-2 Add vaccination into the SEIR model as presented in the lecture notes, show how to format the F and V matrices for the next-generation method of estimating $R_0$, and estimate $R_0$ given the parameters $\beta$ = 1.</description>
+      <description>Discuss the $c_{ij}$ parameter in Dobson 2004 American Naturalist paper (i.e., what is it? what do i and j stand for?). For a pathogen that can transmit across host species and within a host species effectively, what does $c_{ij}$ look like?
+  Describe all the main proposed mechanisms underlying the dilution effect. Using literature we went over in class and from other sources (google scholar), write 4-5 sentences about the current state of diversity-disease relationships (in your reading, look for papers discussing &amp;lsquo;additive&amp;rsquo; versus &amp;lsquo;substitutive&amp;rsquo; experimental designs and discuss those)</description>
     </item>
     
     <item>
