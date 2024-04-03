@@ -13,31 +13,30 @@ title: "Module 4 homework"
 
 
 
-4) 
-
-
-5) 
-
-
-6) 
+4) In class, we went over 5 potential mechanisms for the dilution effect (diversity-disease relationships, but one-sided). Describe two of them and how they work. 
 
 
 
-7) 
+5) What is 'friendly competition' and how does it work? 
+
+
+6) What is apparent competition as it pertains to disease systems (as discussed in lecture)? 
 
 
 
-8) 
+7) With respect to diversity-disease relationships, we went over an example in amphibians from Piet Johnsons work. Describe how/why community composition mattered in this system. Did they find evidence for amplication or dilution effects? Why? 
 
 
-9) 
+
+
+8) Describe the transmutation problem as it could apply to something we have learned about in class. 
+
+
+9) Describe the mid-domain effect, specifically with regards to parasite distributions and some patterns we could observe in terms of parasite species richness. 
+
 
 
 10) 
 
 
-11) 
-
-
-12) 
 

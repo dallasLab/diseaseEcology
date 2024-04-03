@@ -41,6 +41,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
   predicting zoonotic potential 
 
   week 12 and week 13 from Park 2019
+  
 -->
 
 
@@ -48,13 +49,36 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 
 
+--- 
+
+### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
-### Title
+<br> 
+<br> 
+<br> 
 
-
-![](figs/parasites.jpg){width="90%"}
+<h2> <center> End of lecture 1 </center> </h2> 
 
 
 
@@ -62,13 +86,31 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 ---
 
-<div class="columns-2">
+### Final exam review 
 
-</div> 
+> Open to questions to start off with 
 
-<font color='green'>  </font> 
 
-<sub> Dallas et al. 2019 _PRSB_</sub> 
+
+
+
+
+
+
+
+--- 
+
+### overview of lectures 
+
++ Communities 
+
++ Macroecology
+
++ Zoonoses 
+
+
+
+
 
 
 
