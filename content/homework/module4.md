@@ -27,8 +27,6 @@ title: "Module 4 homework"
 7) With respect to diversity-disease relationships, we went over an example in amphibians from Piet Johnsons work. Describe how/why community composition mattered in this system. Did they find evidence for amplication or dilution effects? Why? 
 
 
-
-
 8) Describe the transmutation problem as it could apply to something we have learned about in class. 
 
 
@@ -36,7 +34,7 @@ title: "Module 4 homework"
 
 
 
-10) 
+10) What is different about the One Health approach to mitigating disease compared to our standard approach? 
 
 
 
