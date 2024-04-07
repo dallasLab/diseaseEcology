@@ -153,7 +153,7 @@ lessons:
   - module: "<i class='fa fa-lg fa-star'></i>"
     date: "Week 15"
     topics: "Final exam review + "
-    code: "code/examreview"
+    
 
   - module: "<i class='material-icons'>school</i>"
     date: "Final exam week"
