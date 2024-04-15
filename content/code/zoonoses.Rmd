@@ -202,7 +202,7 @@ We've learned a lot and had some fun
   + environmental health 
   + animal health 
 
-+ The One Health appraoch argues that it's at the intersection of all these 
++ The One Health approach argues that it's at the intersection of all these 
 
 
 --- 
@@ -296,7 +296,7 @@ We've learned a lot and had some fun
 
 ### Virus hunters 
 
-+ Perhaps what surveillence should not look like? 
++ Perhaps what surveillance should not look like? 
 
 ![](figs/virusHunters.png){width=95%}
 
@@ -308,9 +308,9 @@ We've learned a lot and had some fun
 
 ---
 
-### Informed surveillence 
+### Informed surveillance 
 
-+ Link prediction methods like we went over previously can help target surveillence 
++ Link prediction methods like we went over previously can help target surveillance 
 
 + We shouldn't just be sampling bats 
 
@@ -318,7 +318,7 @@ We've learned a lot and had some fun
 
 --- 
 
-### How do we do informed surveillence? 
+### How do we do informed surveillance? 
 
 (5 minutes small groups)
 
