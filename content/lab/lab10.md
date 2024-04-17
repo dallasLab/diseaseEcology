@@ -1,14 +1,10 @@
 ---
-title: "Lab 7: Microparasites III"
+title: "Lab 10: Tick Data Collection + Vector-borne Disease Paper Discussion"
 author: "Grant Foster"
 date: "2024-01-08"
 output: html_document
 ---
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 This lab is still being built; check back in later for the complete information!
 

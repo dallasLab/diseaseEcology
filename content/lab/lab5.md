@@ -5,8 +5,6 @@ date: "2024-01-08"
 output: html_document
 ---
 
-This lab is still being built; check back in later for the complete information!
-
 ## Student Learning Outcomes
 
 At the end of this lab, a successful learner should be able to…

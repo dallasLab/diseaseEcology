@@ -15,12 +15,12 @@ At the end of this lab, a successful learner should be able to…
 3. Given a flow diagram model, write a system of equations describing that system
 4. Explain the basic assumptions of the SIR model, and identify cases when violations of those assumptions may make it an inappropriate modeling choice. 
 
-## Presentation
-[Lab 6 Presentation](/lab/lab6_microparasitesII/Lab6Presentation.pdf)
+## Disease Modeling Project Resources
+[Project Rubric](/lab/lab7_microparasitesIII/DiseaseModelingProjectRubric.pdf)
 
 
 ## Worksheet
-[Lab 6 Worksheet](/lab/lab6_microparasitesII/531Lab6Worksheet.docx)
+[Lab 7 Worksheet](/lab/lab7_microparasitesIII/ModelingProjectReflection.docx)
 
 
 ## Resources

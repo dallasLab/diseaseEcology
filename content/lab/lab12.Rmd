@@ -1,5 +1,5 @@
 ---
-title: "Lab 12: Diagnostic Testing for Helminth Parasites"
+title: ""
 author: "Grant Foster"
 date: "2024-01-08"
 output: html_document
@@ -10,23 +10,4 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This lab is still being built; check back in later for the complete information!
-
-## Student Learning Outcomes
-
-At the end of this lab, a successful learner should be able to…
-
-1. First LO
-
-
-## Pre-Lab Materials
-To be added
-
-## Presentation
-[Lab 1 Presentation Stand-in](/lab/lab12_diagnosticTesting/Lab1Notes.pdf)
-
-## Worksheet
-[Lab 1 Worksheet Stand-in](/lab/lab12_diagnosticTesting/531L_Lab1Notes.docx)
-
-## Resources
-To be added
+# Labs are complete for the semester. Great job, and good luck on the final!
