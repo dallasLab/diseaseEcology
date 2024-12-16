@@ -10,7 +10,7 @@ markup: "mmark"
 #### Instructor | [Tad Dallas](https://taddallas.github.io)  
 #### Location   |   Coker Life Sciences 202
 #### Times      |  T & TH 10:05am - 11:20am     
-#### Drop-in hours |  Th from 1:00pm - 2:30pm  
+#### Drop-in hours |  Th from 1:00pm - 3:000pm  
 
 ---
 
@@ -29,7 +29,7 @@ Parasitism is the most common trophic strategy on Earth, with incredibly variati
 
 ## Approach
 
-Students are expected to come to class with the conceptual background in the topic of the lecture, as the lectures will focus on skill-building and the analysis of biological data. Students will be expected to work collaboratively in and out of class, and course content and grading will emphasize communication and reproducibility of an analysis as much as scientific or technical completeness. That being said, there are numerous ways to programmatically solve the same problem, and I do not expect to see the same code from multiple people. The [Course Syllabus](/syllabus/) provides an overview of the modules and topics covered as well as links to weekly reading, assignments, and any lecture material. This syllabus is preliminary and always subject to change.
+Students are expected to come to class with the conceptual background in the topic of the lecture, as the lectures will focus on skill-building and the analysis of biological data. Students will be expected to work collaboratively in and out of class, and course content and grading will emphasize communication and reproducibility of an analysis as much as scientific or technical completeness. That being said, there are numerous ways to programmatically solve the same problem, and I do not expect to see the same code from multiple people. The [Course Syllabus](/syllabus/) provides an overview of the modules and topics covered as well as links to weekly reading, assignments, and any lecture material. This syllabus is preliminary and always subject to change. A pdf of the syllabus with more detailed information about grading and expectations [is provided here](/DallasBIOL531Syllabus.pdf).
 
 
 

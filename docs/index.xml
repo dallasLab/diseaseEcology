@@ -8,63 +8,46 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>/lab/lab12/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab12/</guid>
+      <description> Labs are complete for the semester. Great job, and good luck on the final!  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/lab/lab13/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab13/</guid>
+      <description> Labs are complete for the semester. Great job, and good luck on the final!  </description>
+    </item>
+    
+    <item>
       <title>Lab 10: Tick Data Collection &#43; Vector-borne Disease Paper Discussion</title>
       <link>/lab/lab10/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab10/</guid>
-      <description> This lab is still being built; check back in later for the complete information!
+      <description>This week we&amp;rsquo;ll be identifying the ticks we got from last week&amp;rsquo;s lab (and from iNaturalist), and then will be having a discussion on Shapiro et al., 2017
 Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO   Pre-Lab Materials To be added
- Presentation Lab 1 Presentation Stand-in
- Worksheet Lab 1 Worksheet Stand-in
- Resources To be added
- </description>
+ First LO Second LO  Presentation Lab 10 Presentation
+Worksheet Lab 10 Worksheet
+Resources To be added</description>
     </item>
     
     <item>
-      <title>Lab 11: Environmental Risk Mapping: A Case study with a Waterborne Disease</title>
+      <title>Lab 11: Unique Host-Parasite Systems!</title>
       <link>/lab/lab11/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab11/</guid>
-      <description> This lab is still being built; check back in later for the complete information!
-Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO   Pre-Lab Materials To be added
- Presentation Lab 1 Presentation Stand-in
- Worksheet Lab 1 Worksheet Stand-in
- Resources To be added
- </description>
-    </item>
-    
-    <item>
-      <title>Lab 12: Diagnostic Testing for Helminth Parasites</title>
-      <link>/lab/lab12/</link>
-      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/lab/lab12/</guid>
-      <description> This lab is still being built; check back in later for the complete information!
-Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO   Pre-Lab Materials To be added
- Presentation Lab 1 Presentation Stand-in
- Worksheet Lab 1 Worksheet Stand-in
- Resources To be added
- </description>
-    </item>
-    
-    <item>
-      <title>Lab 13: Wrapup</title>
-      <link>/lab/lab13/</link>
-      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/lab/lab13/</guid>
-      <description> This lab is still being built; check back in later for the complete information!
-Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO   Pre-Lab Materials To be added
- Presentation Lab 1 Presentation Stand-in
- Worksheet Lab 1 Worksheet Stand-in
- Resources To be added
- </description>
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+ First LO Second LO  Presentation Lab 11 Presentation
+Worksheet Lab 11 Worksheet
+Resources To be added</description>
     </item>
     
     <item>
@@ -117,13 +100,23 @@ First LO Second LO   Pre-Lab Materials To be added
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab5/</guid>
-      <description>This lab is still being built; check back in later for the complete information!
-Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
  Define a &amp;ldquo;model&amp;rdquo; and describe some of the ways disease models can help us gain insight Define and discriminate between state variables and parameters Explain how maximum likelihood approaches can be used to fit disease models Use functions from the bbmle package to fit epidemic models to real data, and then analyze resultant parameter estimates.</description>
     </item>
     
     <item>
-      <title>Lab 6: Microparasites II</title>
+      <title>Lab 9: Tick Sampling</title>
+      <link>/lab/lab9/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/lab9/</guid>
+      <description>This week&amp;rsquo;s lab is a field trip! We&amp;rsquo;ll be sampling for ticks at Sesquicentennial state park. I&amp;rsquo;ve directly emailed you all with full information about times, where to meet, etc. Make sure to check it!
+Aside from participating in sampling, the worksheet also asks you to read Shapiro et al., 2017 to prepare for our class discussion of it next week!
+Presentation No presentation this week; we&amp;rsquo;re in the field!</description>
+    </item>
+    
+    <item>
+      <title>Labs 6-7: Microparasites II</title>
       <link>/lab/lab6/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
@@ -133,48 +126,24 @@ Student Learning Outcomes At the end of this lab, a successful learner should be
     </item>
     
     <item>
-      <title>Lab 7: Microparasites III</title>
+      <title>Labs 6-7: Microparasites II</title>
       <link>/lab/lab7/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab7/</guid>
-      <description> This lab is still being built; check back in later for the complete information!
-Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO   Pre-Lab Materials To be added
- Presentation Lab 1 Presentation Stand-in
- Worksheet Lab 1 Worksheet Stand-in
- Resources To be added
- </description>
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+ Modify an epidemic model to include or remove compartments Draw a flow diagram to represent a compartmental model given a system of equations describing that model Given a flow diagram model, write a system of equations describing that system Explain the basic assumptions of the SIR model, and identify cases when violations of those assumptions may make it an inappropriate modeling choice.</description>
     </item>
     
     <item>
-      <title>Lab 8: Macroparasite Aggregation</title>
+      <title>Labs 8: Macroparasite Aggregation &#43; Host Behavioral Effects</title>
       <link>/lab/lab8/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/lab/lab8/</guid>
-      <description> This lab is still being built; check back in later for the complete information!
-Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO   Pre-Lab Materials To be added
- Presentation Lab 1 Presentation Stand-in
- Worksheet Lab 1 Worksheet Stand-in
- Resources To be added
- </description>
-    </item>
-    
-    <item>
-      <title>Lab 9: Tick Field Trip</title>
-      <link>/lab/lab9/</link>
-      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/lab/lab9/</guid>
-      <description> This lab is still being built; check back in later for the complete information!
-Student Learning Outcomes At the end of this lab, a successful learner should be able to…
-First LO Second LO   Pre-Lab Materials To be added
- Presentation Lab 1 Presentation Stand-in
- Worksheet Lab 1 Worksheet Stand-in
- Resources To be added
- </description>
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…
+Presentation Lab 8 Presentation
+Worksheet Lab 8 Worksheet</description>
     </item>
     
     <item>
@@ -192,7 +161,7 @@ First LO Second LO   Pre-Lab Materials To be added
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/syllabus/</guid>
-      <description> Syllabus    Date Module Topics Read Code Lab Homework   Week 1 home Course design, goals, introduction, and setup          MODULE 1: Parasite diversity        Week 2   Life history strategies and host-parasite coevolution       Week 3  Parasite richness, specificity, and host range       Week 4  Behavioral and immunological responses           MODULE 2: Directly-transmitted parasites        Week 5  Biology of microparasites       Week 6  Epidemics and interventions       Week 7  Parasite aggregation and burden          MODULE 3: Non-direct transmission        Week 9  Biology of macroparasites       Spring break  ---        Week 10  Vector-borne disease       Week 11  Environmentally-transmitted disease and sexually-transmitted diseases          MODULE 4: Disease across scales        Week 12  Infectious diseases in communities       Week 13  Coinfection       Week 14  Macroecology of infectious disease and networked populations       Week 15  Zoonoses, spillover, emergence, and One Health          MODULE 5: Closing thoughts        Week 15  Final exam review +        Final exam week school Final exam (April 30; 9am)         </description>
+      <description> Syllabus    Date Module Topics Read Code Lab Homework   Week 1 home Course design, goals, introduction, and setup          MODULE 1: Parasite diversity        Week 2   Life history strategies and host-parasite coevolution       Week 3  Parasite richness, specificity, and host range       Week 4  Behavioral and immunological responses           MODULE 2: Directly-transmitted parasites        Week 5  Biology of microparasites       Week 6  Epidemics and interventions       Week 7  Parasite aggregation and burden          MODULE 3: Non-direct transmission        Week 9  Biology of macroparasites       Spring break  ---        Week 10  Vector-borne disease       Week 11  Environmentally-transmitted disease and sexually-transmitted diseases          MODULE 4: Disease across scales        Week 12  Infectious diseases in communities       Week 13  Coinfection       Week 14  Macroecology of infectious disease and networked populations       Week 15  Zoonoses, spillover, emergence, and One Health          MODULE 5: Closing thoughts        Final exam week school Final exam (May 6; 9am)         </description>
     </item>
     
     <item>
