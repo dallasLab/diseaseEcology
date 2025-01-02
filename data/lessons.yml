@@ -82,14 +82,14 @@ lessons:
 
 
   - module: "<i class='fa fa-lg fa-line-chart'></i>"
-    date: "Week 9"
+    date: "Week 8"
     topics: "Biology of macroparasites"
     reading: "read/macroparasites"
     code: "code/macroparasites"
     lab: "lab/lab7"
 
   - module: "<i class='fa fa-lg fa-thumbs-o-up'></i>"
-    date: "Spring break"
+    date: "Week 9: Spring break"
     topics: " --- "
 
   - module: "<i class='fa fa-lg fa-line-chart'></i>"
@@ -149,13 +149,8 @@ lessons:
   - module: " "
     date: ""
     topics: "<b>MODULE 5: Closing thoughts </b>"
-   
-  - module: "<i class='fa fa-lg fa-star'></i>"
-    date: "Week 15"
-    topics: "Final exam review + "
-    
 
   - module: "<i class='material-icons'>school</i>"
     date: "Final exam week"
-    topics: "Final exam (April 30; 9am)"
+    topics: "Final exam (May 6; 9am)"
    
