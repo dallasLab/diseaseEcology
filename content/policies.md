@@ -17,5 +17,5 @@ markup: "mmark"
 
 ### Parasitology
 
-This document contains more information about the class and course policies. For more detailed information on course structure, click on `syllabus` tab above. For information on due dates, point breakdown, student resources, course expectations, etc., please see this [pdf syllabus](/DallasBIOL531Syllabus.pdf).
+This document contains more information about the class and course policies. For more detailed information on course structure, click on `syllabus` tab above. For information on due dates, point breakdown, student resources, course expectations, etc., please see this [pdf syllabus](/Dallas531Syllabus.pdf).
 
