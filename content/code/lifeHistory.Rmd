@@ -675,6 +675,56 @@ http://dx.doi.org/10.1086/423716
 
 
 
+---
+
+### Let's look for this relationship in some bigger data 
+
+```{r, echo=TRUE, eval=FALSE}
+
+gmpd2 <- gmpd[which(gmpd$Prevalence !=0 & gmpd$Prevalence < 1), ]
+gmpd2$Intensity <- as.numeric(gmpd2$Intensity)
+
+gmpd3 <- gmpd2 |> 
+   group_by(ParasiteCorrectedName) |> 
+   summarise(hostRange=length(unique(HostCorrectedName)), 
+      prevalence=mean(Prevalence, na.rm=TRUE), 
+      intensity=mean(Intensity, na.rm=TRUE))
+
+png('gmpdJack.png', width=600, height=300)
+par(mar=c(4,4,0.5,0.5))
+layout(matrix(1:2, ncol=2))
+plot(gmpd3$hostRange, gmpd3$prevalence, 
+   pch=16, xlab='Number of host species', 
+   ylab='Mean prevalence')
+plot(gmpd3$hostRange, gmpd3$intensity, 
+   log='y', 
+   pch=16, xlab='Number of host species', 
+   ylab='Mean infection intensity')
+dev.off()
+
+```
+
+
+
+
+---
+
+### Let's look for this relationship in some bigger data 
+
+
+[Global Mammal Parasite Database](https://parasites.nunn-lab.org/)
+
+![](figs/dataplus.png){width="50%"}
+
+
+
+
+---
+
+### Let's look for this relationship in some bigger data 
+
+![](figs/gmpdJack.png){width="100%"}
+
 
 
 

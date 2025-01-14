@@ -487,6 +487,8 @@ Tie into Park's ideas about reliability of host.
 
 + There doesn't tend to be much evidence for a cost 
 
++ Does this look familiar? 
+
 ![](figs/jackOfAll.png){width="60%"}
 
 <sub> Krasnov et al. 2004 _Am Nat_ </sub> 
