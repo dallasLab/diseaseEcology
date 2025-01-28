@@ -18,7 +18,7 @@ lessons:
     topics: "Life history strategies and host-parasite coevolution"
     reading: "read/lifehistory"
     code: "code/lifehistory"
-    lab: "lab/lab1_diversity"
+    lab: "lab/setup"
 
   - module: "<i class='fa fa-lg fa-terminal'></i>"
     date: "Week 3"
