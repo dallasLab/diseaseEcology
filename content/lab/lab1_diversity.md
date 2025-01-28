@@ -21,6 +21,8 @@ At the end of this lab, a successful learner should be able to…
 ## Pre-Lab Materials
 Review the course syllabus before coming to lab. In the future, it'll be important to look over this heading before lab this week, as it will contain information you'll need to know for the lab quiz!
 
+THIS IS A TEST 
+
 ## Presentation
 [Lab 1 Presentation](Lab1Presentation.pdf)
 

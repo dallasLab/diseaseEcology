@@ -11,7 +11,6 @@ header-includes:
       citebordercolor=red, filebordercolor=red}
     - \usepackage{geometry}
     - \geometry{a4paper}
-markup: "mmark"
 ---
 
 
