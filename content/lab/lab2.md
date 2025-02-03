@@ -5,6 +5,8 @@ date: "2024-01-08"
 output: html_document
 ---
 
+<base href="{{ .Site.BaseURL }}">
+
 
 ## Student Learning Outcomes
 
@@ -27,6 +29,8 @@ Make sure to look over
 
 ## Presentation
 [Lab 2 Presentation](/lab/lab2_lifeHistory/Lab2Presentation.pdf)
+
+[Lab 2 Presentation](lab/lab2_lifeHistory/Lab2Presentation.pdf)
 
 ## Worksheet
 [Lab 2 Worksheet](/lab/lab2_lifeHistory/Lab2Worksheet.docx)
