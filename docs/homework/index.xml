@@ -4,36 +4,52 @@
     <title>Homeworks on Parasitology</title>
     <link>/homework/</link>
     <description>Recent content in Homeworks on Parasitology</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="/homework/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/homework/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Module 1 homework</title>
       <link>/homework/module1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>/homework/module1/</guid>
-      <description>Homework problems (feel free to copy and paste these over to another file and write your answers below each question)&#xA;What are the different ways we can estimate parasite diversity?&#xA;Clearly distinguish concepts of &amp;lsquo;diversity&amp;rsquo; from &amp;lsquo;specificity&amp;rsquo;&#xA;What parasite group would likely have the lowest specificity, and why? In your answer, discuss parasite life history differences that are relevant to specificity.&#xA;A botfly lays an egg inside the skin of it&amp;rsquo;s host.</description>
+      <description>Homework problems (feel free to copy and paste these over to another file and write your answers below each question)
+  What are the different ways we can estimate parasite diversity?
+  Clearly distinguish concepts of &amp;lsquo;diversity&amp;rsquo; from &amp;lsquo;specificity&amp;rsquo;
+  What parasite group would likely have the lowest specificity, and why? In your answer, discuss parasite life history differences that are relevant to specificity.
+  A botfly lays an egg inside the skin of it&amp;rsquo;s host.</description>
     </item>
+    
     <item>
       <title>Module 2 homework</title>
       <link>/homework/module2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>/homework/module2/</guid>
-      <description>Homework problems (feel free to copy and paste these over to another file and write your answers below each question)&#xA;A new parasite is discovered infecting bess beetles in Mexico. Design an experiment to test whether the parasite exhibits frequency or density dependent transmission. This parasite is also found in Italy. How would you test for evidence of enemy release relative to other drivers of this parasite&amp;rsquo;s emergence in Mexico?</description>
+      <description>Homework problems (feel free to copy and paste these over to another file and write your answers below each question)
+  A new parasite is discovered infecting bess beetles in Mexico. Design an experiment to test whether the parasite exhibits frequency or density dependent transmission. This parasite is also found in Italy. How would you test for evidence of enemy release relative to other drivers of this parasite&amp;rsquo;s emergence in Mexico?</description>
     </item>
+    
     <item>
       <title>Module 3 homework</title>
       <link>/homework/module3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>/homework/module3/</guid>
-      <description>Homework problems How are the models of vector-borne parasites different from those of directly-transmitted parasites?&#xA;When modeling sexually-transmitted disease, we observe a large variation in resulting infection time series (x-axis is time, y-axis is number of infected hosts). There were at least two reasons for this. What were they?&#xA;How do we incorporate information about sexual transmission into our estimates of $R_0$?&#xA;A waterborne pathogen has been affecting a local population.</description>
+      <description>Homework problems   How are the models of vector-borne parasites different from those of directly-transmitted parasites?
+  When modeling sexually-transmitted disease, we observe a large variation in resulting infection time series (x-axis is time, y-axis is number of infected hosts). There were at least two reasons for this. What were they?
+  How do we incorporate information about sexual transmission into our estimates of $R_0$?
+  A waterborne pathogen has been affecting a local population.</description>
     </item>
+    
     <item>
       <title>Module 4 homework</title>
       <link>/homework/module4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>/homework/module4/</guid>
-      <description>Discuss the $c_{ij}$ parameter in Dobson 2004 American Naturalist paper (i.e., what is it? what do i and j stand for?). For a pathogen that can transmit across host species and within a host species effectively, what does $c_{ij}$ look like?&#xA;Describe all the main proposed mechanisms underlying the dilution effect. Using literature we went over in class and from other sources (google scholar), write 4-5 sentences about the current state of diversity-disease relationships (in your reading, look for papers discussing &amp;lsquo;additive&amp;rsquo; versus &amp;lsquo;substitutive&amp;rsquo; experimental designs and discuss those)</description>
+      <description>Discuss the $c_{ij}$ parameter in Dobson 2004 American Naturalist paper (i.e., what is it? what do i and j stand for?). For a pathogen that can transmit across host species and within a host species effectively, what does $c_{ij}$ look like?
+  Describe all the main proposed mechanisms underlying the dilution effect. Using literature we went over in class and from other sources (google scholar), write 4-5 sentences about the current state of diversity-disease relationships (in your reading, look for papers discussing &amp;lsquo;additive&amp;rsquo; versus &amp;lsquo;substitutive&amp;rsquo; experimental designs and discuss those)</description>
     </item>
+    
   </channel>
 </rss>

@@ -11,13 +11,13 @@
     <loc>/lab/lab13/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/lab/lab1_diversity/</loc>
-    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/lab/lab10/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/lab/lab11/</loc>
+    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/lab/lab1_diversity/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/lab/lab2/</loc>
@@ -47,36 +47,6 @@
     <loc>/lab/lab8/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/code/aggregation/</loc>
-  </url><url>
-    <loc>/code/behavior/</loc>
-  </url><url>
-    <loc>/code/coinfection/</loc>
-  </url><url>
-    <loc>/code/communities/</loc>
-  </url><url>
-    <loc>/code/disease/</loc>
-  </url><url>
-    <loc>/code/env/</loc>
-  </url><url>
-    <loc>/code/epidemics/</loc>
-  </url><url>
-    <loc>/code/lifehistory/</loc>
-  </url><url>
-    <loc>/code/macrodisease/</loc>
-  </url><url>
-    <loc>/code/macroparasites/</loc>
-  </url><url>
-    <loc>/code/microparasites/</loc>
-  </url><url>
-    <loc>/code/setup/</loc>
-  </url><url>
-    <loc>/code/specificity/</loc>
-  </url><url>
-    <loc>/code/vectors/</loc>
-  </url><url>
-    <loc>/code/zoonoses/</loc>
-  </url><url>
     <loc>/policies/</loc>
   </url><url>
     <loc>/syllabus/</loc>
@@ -90,8 +60,6 @@
     <loc>/read/microparasites/</loc>
   </url><url>
     <loc>/categories/</loc>
-  </url><url>
-    <loc>/code/</loc>
   </url><url>
     <loc>/read/coinfection/</loc>
   </url><url>
