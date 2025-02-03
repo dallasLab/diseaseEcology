@@ -28,9 +28,9 @@ Make sure to look over
 * Lab 2 Presentation (paying particular attention to vocabulary!)
 
 ## Presentation
-[Lab 2 Presentation](/lab/lab2_lifeHistory/Lab2Presentation.pdf)
+[Lab 2 Presentation](Lab2Presentation.pdf)
 
-[Lab 2 Presentation](lab/lab2_lifeHistory/Lab2Presentation.pdf)
+[Lab 2 Presentation](./Lab2Presentation.pdf)
 
 ## Worksheet
 [Lab 2 Worksheet](/lab/lab2_lifeHistory/Lab2Worksheet.docx)
