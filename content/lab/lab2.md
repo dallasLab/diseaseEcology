@@ -10,13 +10,13 @@ output: html_document
 
 At the end of this lab, a successful learner should be able to…
 
-1. Define common vocabulary used to describe parasite life cycles (Simple complex, tropic transmission, parasitic castrator, vector-borne). 
+1. Define common vocabulary used to describe parasite life cycles (simple, complex, tropic transmission, parasitic castrator, vector-borne). 
 
 2. Describe the life histories of a few major parasites of importance to human or wildlife health (malaria, *Schistosoma spp*, *Ascaris lumbricoides*, Guinea Worm, etc.)
 
 3. Apply their knowledge of parasite life cycles to develop targeted intervention strategies, and develop methods to evaluate their performance
 
-4. Identify samples of *schistosoma spp* across life stages and the tissues or environments they are likely to be found in.
+4. Identify samples of *Schistosoma spp* across life stages and the tissues or environments they are likely to be found in.
 
 
 ## Pre-Lab Materials
@@ -27,6 +27,9 @@ Make sure to look over
 
 ## Presentation
 [Lab 2 Presentation](/lab/lab2_lifeHistory/Lab2Presentation.pdf)
+[Lab 2 Presentation](/lab2_lifeHistory/Lab2Presentation.pdf)
+[Lab 2 Presentation](lab/lab2_lifeHistory/Lab2Presentation.pdf)
+
 
 ## Worksheet
 [Lab 2 Worksheet](/lab/lab2_lifeHistory/Lab2Worksheet.docx)
