@@ -27,9 +27,6 @@ Make sure to look over
 
 ## Presentation
 [Lab 2 Presentation](/lab/lab2_lifeHistory/Lab2Presentation.pdf)
-[Lab 2 Presentation](/lab2_lifeHistory/Lab2Presentation.pdf)
-[Lab 2 Presentation](lab/lab2_lifeHistory/Lab2Presentation.pdf)
-
 
 ## Worksheet
 [Lab 2 Worksheet](/lab/lab2_lifeHistory/Lab2Worksheet.docx)
