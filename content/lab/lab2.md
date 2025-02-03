@@ -31,4 +31,3 @@ Make sure to look over
 ## Worksheet
 [Lab 2 Worksheet](/lab/lab2_lifeHistory/Lab2Worksheet.docx)
 
-## Resources
