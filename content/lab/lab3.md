@@ -32,10 +32,10 @@ That same site also provides a useful [introduction to the RStudio IDE](https://
 Finally, during class we'll be using a few common packages to help us in our analyses. You're able to download the required packages using the `install.packages("PackageName")` command in R. I've also created a small file that lists all the packages we'll be using for this lab and install them; feel free to download that here and run it to install those. (Note: This only needs to be done once on each computer; once we've **installed** a package once, we can use the `library("PackageName") command to load the package without reinstalling.)
 
 ## Presentation
-[Lab 3 Presentation](/lab/lab3_hostRange/Lab3Presentation.pdf)
+[Lab 3 Presentation](Lab3Presentation.pdf)
 
 ## Worksheet and Lab Materials
-[Lab 3 Worksheet and Materials](/lab/lab3_hostRange/Lab3Student.zip)
+[Lab 3 Worksheet and Materials](Lab3Student.zip)
 Once downloaded, **MAKE SURE** to extract this zip file before working with anything inside it! Loading in data (among other things) will give you an error if you don't!
 
 ## Resources
