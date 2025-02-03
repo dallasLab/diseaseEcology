@@ -30,7 +30,9 @@ Make sure to look over
 ## Presentation
 [Lab 2 Presentation](Lab2Presentation.pdf)
 
-[Lab 2 Presentation](./Lab2Presentation.pdf)
+[Lab 2 Presentation](../../static/lab/lab2/Lab2Presentation.pdf)
+
+[Lab 2 Presentation](../static/lab/lab2/Lab2Presentation.pdf)
 
 ## Worksheet
 [Lab 2 Worksheet](/lab/lab2_lifeHistory/Lab2Worksheet.docx)
