@@ -21,5 +21,4 @@ None: No quiz today!
 [Lab 5 Presentation](/lab/lab5/Lab5Presentation.pdf)
 
 ## Worksheet
-[Lab 5 Worksheet and Materials](/lab/lab5/Lab5_StudentMaterials.zip)
-
+[Lab 5 Worksheet and Materials](/lab/lab5/Lab5_StudentMaterialsS25.zip)
