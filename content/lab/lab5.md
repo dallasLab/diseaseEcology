@@ -18,7 +18,7 @@ At the end of this lab, a successful learner should be able to…
 None: No quiz today!
 
 ## Presentation
-[Lab 5 Presentation](/lab/lab5Lab5Presentation.pdf)
+[Lab 5 Presentation](/lab/lab5/Lab5Presentation.pdf)
 
 ## Worksheet
 [Lab 5 Worksheet and Materials](/lab/lab5/Lab5_StudentMaterials.zip)
