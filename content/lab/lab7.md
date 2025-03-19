@@ -16,11 +16,11 @@ At the end of this lab, a successful learner should be able to…
 4. Explain the basic assumptions of the SIR model, and identify cases when violations of those assumptions may make it an inappropriate modeling choice. 
 
 ## Disease Modeling Project Resources
-[Project Rubric](/lab/lab7_microparasitesIII/DiseaseModelingProjectRubric.pdf)
+[Project Rubric](/lab/lab7/RubricS25.docx)
 
 
 ## Worksheet
-[Lab 7 Worksheet](/lab/lab7_microparasitesIII/ModelingProjectReflection.docx)
+[Lab 7 Worksheet](/lab/lab7/ModelingProjectReflection.docx)
 
 
 ## Resources
