@@ -2,137 +2,137 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:6830/</loc>
+    <loc>/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab12/</loc>
+    <loc>/lab/lab12/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab13/</loc>
+    <loc>/lab/lab13/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab1_diversity/</loc>
+    <loc>/lab/lab1_diversity/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab10/</loc>
+    <loc>/lab/lab10/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab11/</loc>
+    <loc>/lab/lab11/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab2/</loc>
+    <loc>/lab/lab2/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab3/</loc>
+    <loc>/lab/lab3/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab4/</loc>
+    <loc>/lab/lab4/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab5/</loc>
+    <loc>/lab/lab5/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab9/</loc>
+    <loc>/lab/lab9/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/</loc>
+    <loc>/lab/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab6/</loc>
+    <loc>/lab/lab6/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab7/</loc>
+    <loc>/lab/lab7/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/lab/lab8/</loc>
+    <loc>/lab/lab8/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:6830/code/aggregation/</loc>
+    <loc>/code/aggregation/</loc>
   </url><url>
-    <loc>//localhost:6830/code/behavior/</loc>
+    <loc>/code/behavior/</loc>
   </url><url>
-    <loc>//localhost:6830/code/coinfection/</loc>
+    <loc>/code/coinfection/</loc>
   </url><url>
-    <loc>//localhost:6830/code/communities/</loc>
+    <loc>/code/communities/</loc>
   </url><url>
-    <loc>//localhost:6830/code/disease/</loc>
+    <loc>/code/disease/</loc>
   </url><url>
-    <loc>//localhost:6830/code/env/</loc>
+    <loc>/code/env/</loc>
   </url><url>
-    <loc>//localhost:6830/code/epidemics/</loc>
+    <loc>/code/epidemics/</loc>
   </url><url>
-    <loc>//localhost:6830/code/lifehistory/</loc>
+    <loc>/code/lifehistory/</loc>
   </url><url>
-    <loc>//localhost:6830/code/macrodisease/</loc>
+    <loc>/code/macrodisease/</loc>
   </url><url>
-    <loc>//localhost:6830/code/macroparasites/</loc>
+    <loc>/code/macroparasites/</loc>
   </url><url>
-    <loc>//localhost:6830/code/microparasites/</loc>
+    <loc>/code/microparasites/</loc>
   </url><url>
-    <loc>//localhost:6830/code/setup/</loc>
+    <loc>/code/setup/</loc>
   </url><url>
-    <loc>//localhost:6830/code/specificity/</loc>
+    <loc>/code/specificity/</loc>
   </url><url>
-    <loc>//localhost:6830/code/vectors/</loc>
+    <loc>/code/vectors/</loc>
   </url><url>
-    <loc>//localhost:6830/code/zoonoses/</loc>
+    <loc>/code/zoonoses/</loc>
   </url><url>
-    <loc>//localhost:6830/policies/</loc>
+    <loc>/policies/</loc>
   </url><url>
-    <loc>//localhost:6830/syllabus/</loc>
+    <loc>/syllabus/</loc>
   </url><url>
-    <loc>//localhost:6830/archives/</loc>
+    <loc>/archives/</loc>
   </url><url>
-    <loc>//localhost:6830/read/behavior/</loc>
+    <loc>/read/behavior/</loc>
   </url><url>
-    <loc>//localhost:6830/read/macroparasites/</loc>
+    <loc>/read/macroparasites/</loc>
   </url><url>
-    <loc>//localhost:6830/read/microparasites/</loc>
+    <loc>/read/microparasites/</loc>
   </url><url>
-    <loc>//localhost:6830/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>//localhost:6830/code/</loc>
+    <loc>/code/</loc>
   </url><url>
-    <loc>//localhost:6830/read/coinfection/</loc>
+    <loc>/read/coinfection/</loc>
   </url><url>
-    <loc>//localhost:6830/read/disease/</loc>
+    <loc>/read/disease/</loc>
   </url><url>
-    <loc>//localhost:6830/read/env/</loc>
+    <loc>/read/env/</loc>
   </url><url>
-    <loc>//localhost:6830/read/epidemics/</loc>
+    <loc>/read/epidemics/</loc>
   </url><url>
-    <loc>//localhost:6830/read/examreview/</loc>
+    <loc>/read/examreview/</loc>
   </url><url>
-    <loc>//localhost:6830/homework/</loc>
+    <loc>/homework/</loc>
   </url><url>
-    <loc>//localhost:6830/read/communities/</loc>
+    <loc>/read/communities/</loc>
   </url><url>
-    <loc>//localhost:6830/read/setup/</loc>
+    <loc>/read/setup/</loc>
   </url><url>
-    <loc>//localhost:6830/read/lifehistory/</loc>
+    <loc>/read/lifehistory/</loc>
   </url><url>
-    <loc>//localhost:6830/read/macrodisease/</loc>
+    <loc>/read/macrodisease/</loc>
   </url><url>
-    <loc>//localhost:6830/homework/module1/</loc>
+    <loc>/homework/module1/</loc>
   </url><url>
-    <loc>//localhost:6830/homework/module2/</loc>
+    <loc>/homework/module2/</loc>
   </url><url>
-    <loc>//localhost:6830/homework/module3/</loc>
+    <loc>/homework/module3/</loc>
   </url><url>
-    <loc>//localhost:6830/homework/module4/</loc>
+    <loc>/homework/module4/</loc>
   </url><url>
-    <loc>//localhost:6830/lab/setup/</loc>
+    <loc>/lab/setup/</loc>
   </url><url>
-    <loc>//localhost:6830/read/aggregation/</loc>
+    <loc>/read/aggregation/</loc>
   </url><url>
-    <loc>//localhost:6830/read/specificity/</loc>
+    <loc>/read/specificity/</loc>
   </url><url>
-    <loc>//localhost:6830/read/</loc>
+    <loc>/read/</loc>
   </url><url>
-    <loc>//localhost:6830/tags/</loc>
+    <loc>/tags/</loc>
   </url><url>
-    <loc>//localhost:6830/read/vectors/</loc>
+    <loc>/read/vectors/</loc>
   </url><url>
-    <loc>//localhost:6830/read/zoonoses/</loc>
+    <loc>/read/zoonoses/</loc>
   </url>
 </urlset>
