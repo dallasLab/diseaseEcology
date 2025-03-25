@@ -37,13 +37,6 @@
       <description>This week we&amp;rsquo;ll be identifying the ticks we got from last week&amp;rsquo;s lab (and from iNaturalist), and then will be having a discussion on Shapiro et al., 2017&#xA;Student Learning Outcomes At the end of this lab, a successful learner should be able to…&#xA;First LO Second LO Presentation Lab 10 Presentation&#xA;Worksheet Lab 10 Worksheet&#xA;Resources To be added</description>
     </item>
     <item>
-      <title>Lab 11: Unique Host-Parasite Systems!</title>
-      <link>/lab/lab11/</link>
-      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/lab/lab11/</guid>
-      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…&#xA;Define and describe the different ways we can measure parasite specificity 2.Identify and describe the morphological characteristics of Dicrocheles mites and their location on moth specimens. Demonstrate proper techniques for handling and examining specimens under a dissecting microscope Hypothesize potential mechanisms of transmission in this system, as well as potential impacts on host fitness and behavior.</description>
-    </item>
-    <item>
       <title>Lab 2: Parasite Life Histories</title>
       <link>/lab/lab2/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
@@ -70,6 +63,13 @@
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/lab/lab5/</guid>
       <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…&#xA;Define a &amp;ldquo;model&amp;rdquo; and describe some of the ways disease models can help us gain insight Define and discriminate between state variables and parameters Explain how maximum likelihood approaches can be used to fit disease models Use functions from the bbmle package to fit epidemic models to real data, and then analyze resultant parameter estimates.</description>
+    </item>
+    <item>
+      <title>Lab 8: Unique Host-Parasite Systems!</title>
+      <link>/lab/lab11/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/lab/lab11/</guid>
+      <description>Student Learning Outcomes At the end of this lab, a successful learner should be able to…&#xA;Define and describe the different ways we can measure parasite specificity 2.Identify and describe the morphological characteristics of Dicrocheles mites and their location on moth specimens. Demonstrate proper techniques for handling and examining specimens under a dissecting microscope Hypothesize potential mechanisms of transmission in this system, as well as potential impacts on host fitness and behavior.</description>
     </item>
     <item>
       <title>Lab 9: Tick Sampling</title>

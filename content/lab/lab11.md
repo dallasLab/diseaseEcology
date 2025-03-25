@@ -1,5 +1,5 @@
 ---
-title: "Lab 11: Unique Host-Parasite Systems!"
+title: "Lab 8: Unique Host-Parasite Systems!"
 author: "Grant Foster"
 date: "2024-01-08"
 output: html_document
@@ -16,10 +16,10 @@ At the end of this lab, a successful learner should be able to…
 
 
 ## Presentation
-[Lab 11 Presentation](/lab/lab11/Lab11Presentation.pdf)
+[Lab 8 Presentation](/lab/lab11/Lab11Presentation.pdf)
 
 ## Worksheet
-[Lab 11 Worksheet](/lab/lab11/531Lab11_Worksheet.docx)
+[Lab 8 Worksheet](/lab/lab11/531Lab11_Worksheet.docx)
 
 ## Resources
 To be added
