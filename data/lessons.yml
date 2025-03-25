@@ -97,14 +97,14 @@ lessons:
     topics: "Vector-borne disease"
     reading: "read/vectors"
     code: "code/vectors"
-    lab: "lab/lab7"
+    lab: "lab/lab11"
 
   - module: "<i class='fa fa-lg fa-line-chart'></i>"
     date: "Week 11"
     topics: "Environmentally-transmitted disease and sexually-transmitted diseases"
     reading: "read/env"
     code: "code/env"
-    lab: "lab/lab8"
+    lab: "lab/lab11"
     homework: "homework/module3" 
 
 
@@ -122,7 +122,7 @@ lessons:
     topics: "Infectious diseases in communities"
     reading: "read/communities"
     code: "code/communities"
-    lab: "lab/lab9"
+    lab: "lab/lab11"
 
   - module: "<i class='fa fa-lg fa-map'></i>"
     date: "Week 13"
