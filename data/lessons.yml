@@ -97,7 +97,7 @@ lessons:
     topics: "Vector-borne disease"
     reading: "read/vectors"
     code: "code/vectors"
-    lab: "lab/lab11"
+    lab: "lab/lab7"
 
   - module: "<i class='fa fa-lg fa-line-chart'></i>"
     date: "Week 11"
@@ -122,7 +122,7 @@ lessons:
     topics: "Infectious diseases in communities"
     reading: "read/communities"
     code: "code/communities"
-    lab: "lab/lab11"
+    lab: "lab/lab9"
 
   - module: "<i class='fa fa-lg fa-map'></i>"
     date: "Week 13"

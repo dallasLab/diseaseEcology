@@ -2,114 +2,114 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Codes on Parasitology</title>
-    <link>/code/</link>
+    <link>//localhost:5015/code/</link>
     <description>Recent content in Codes on Parasitology</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:5015/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/code/aggregation/</link>
+      <link>//localhost:5015/code/aggregation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/aggregation/</guid>
+      <guid>//localhost:5015/code/aggregation/</guid>
       <description>&lt;!DOCTYPE html&gt; Parasite aggregation and burden We don’t only care about prevalence Prevalence : fraction of the population infected (infection is binary here)&#xA;Intensity : the number of parasites within an infected host (how infected is the host?)&#xA;But prevalence and intensity are interesting to look at together Prevalence and intensity are driven by potentially different forces&#xA;Prevalence is more about encounter (\(c\)) and intensity is more about host susceptibility (\(a\))</description>
     </item>
     <item>
       <title></title>
-      <link>/code/behavior/</link>
+      <link>//localhost:5015/code/behavior/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/behavior/</guid>
+      <guid>//localhost:5015/code/behavior/</guid>
       <description>&lt;!DOCTYPE html&gt; Behavioral and immunological responses Parasite infection alters host behavior Behavioral defense (e.g., grooming)&#xA;Parasite manipulation (e.g., parasite-induced changes to host behavior)&#xA;Sickness behavior (e.g., fever)&#xA;Grooming Societal benefits&#xA;Removal of ectoparasites&#xA;which can vector some rough parasites Humans groom, but what are other related activities that we do?&#xA;Desert rodent grooming behavior and flea mortality Point out differences in grooming behavior at different host ages, and how juveniles appear to be &amp;ldquo;better groomers&amp;rdquo;?</description>
     </item>
     <item>
       <title></title>
-      <link>/code/coinfection/</link>
+      <link>//localhost:5015/code/coinfection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/coinfection/</guid>
+      <guid>//localhost:5015/code/coinfection/</guid>
       <description>&lt;!DOCTYPE html&gt; Coinfection Community epidemiology mult-host, multi-parasite interactions in a community context Multi-host parasites One parasite that infects multiple host species (recall previous lectures)&#xA;Can be either at species (rabies) or individual (mosquitos) level&#xA;Host-predator-prey Predator eats prey, prey gets infected by parasite&#xA;Important in a couple ways:&#xA;trophic transmission healthy herds Trophic transmission consumption of prey is necessary for the parasite to advance life cycle the parasite infects the predator as well Healthy herds Predators might eat prey non-randomly Sickness behaviors leave prey weaker or more isolated from groups The consumption of infected prey by the predator could reduce disease burden in the host population Co-infection The same host individual is infected by more than one parasite species</description>
     </item>
     <item>
       <title></title>
-      <link>/code/communities/</link>
+      <link>//localhost:5015/code/communities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/communities/</guid>
+      <guid>//localhost:5015/code/communities/</guid>
       <description>&lt;!DOCTYPE html&gt; Infectious diseases in communities Bits to recall from previous lectures Parasites can infect multiple hosts&#xA;Prevalence and infection intensity can differ across host species&#xA;So the same host-parasite interaction may look quite different in different host communities, or through time as the host community changes&#xA;Multi-host parasites What do you think the host range is of the average… ectoparasite? virus? bacteria? protozoan? fungi? Do you think host range captures specificity?</description>
     </item>
     <item>
       <title></title>
-      <link>/code/disease/</link>
+      <link>//localhost:5015/code/disease/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/disease/</guid>
+      <guid>//localhost:5015/code/disease/</guid>
       <description>&lt;!DOCTYPE html&gt; Disease Disease Title Modeling host-parasite interactions Model Assumptions: Adding an exposed class Next generation estimation of R_0 A couple of examples demonstrating why simple models may miss key things Evolution of virulence and the Red Queen Environmental controls of disease spread Social contact networks and disease invasion/spread Land use change and disease spread Title This is my note.&#xA;Modeling host-parasite interactions Despite the variety of parasite life history and transmission modes, one flexible model which can capture many fundamental aspects of host-parasite infection dynamics is the SIR model.</description>
     </item>
     <item>
       <title></title>
-      <link>/code/env/</link>
+      <link>//localhost:5015/code/env/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/env/</guid>
+      <guid>//localhost:5015/code/env/</guid>
       <description>&lt;!DOCTYPE html&gt; Environmentally-transmitted disease and sexually-transmitted diseases Environmentally-transmitted disease In 1990, 76% of pop had access to &amp;lsquo;improved drinking water&amp;rsquo;. Up to 91% by 2015&#xA;This still leaves 663 million people relying on unimproved sources, including 159 million dependent on surface water&#xA;1.8 billion people use drinking water source contaminated with feces&#xA;Water-borne disease, especially for fecal-oral pathogens, is a huge risk to these populations&#xA;Contaminated water causes at around 500k diarrhoeal deaths per year</description>
     </item>
     <item>
       <title></title>
-      <link>/code/epidemics/</link>
+      <link>//localhost:5015/code/epidemics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/epidemics/</guid>
+      <guid>//localhost:5015/code/epidemics/</guid>
       <description>&lt;!DOCTYPE html&gt; Epidemics and interventions Epidemics Rapid spread of disease through a population in a relatively short time (defined by host lifespan)&#xA;Different from endemic diseases, which occur at some equilibrial level in the population (e.g., malaria, HIV)&#xA;note that malaria and HIV may have epidemic phases where they increase rapidly (especially when driven by things like climate/vector abundance/etc.), but there is always some baseline amount of disease. What are they?</description>
     </item>
     <item>
       <title></title>
-      <link>/code/lifehistory/</link>
+      <link>//localhost:5015/code/lifehistory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/lifehistory/</guid>
+      <guid>//localhost:5015/code/lifehistory/</guid>
       <description>&lt;!DOCTYPE html&gt; Life history strategies and host-parasite coevolution Learning objectives Appreciate the multiple forms parasites can take Be able to define general parasite terms (e.g., obligate, facultative, etc.) Understand parasite life history tradeoffs Be able to quantify parasite specialism Parasite diversity Byers et al. 2019 PRSB Parasite diversity Dallas et al. 2018 GEB How do we really define parasite diversity? Diversity in:&#xA;number (taxonomic) phylogenetic functional infection modes tissue infected impacts host specificity … Diversity in numbers Diversity in phylogenetics A host is infected with two parasite species they could be closely related parasites, or quite distantly related parasites So when quantifying parasite diversity (either within a region or within a host species), considering the phylogenetic distance between parasites can be used as a measure of diversity Phylogenetic diversity for free-living animals Take the tree of free-living species Calculate some index of dispersion for species found in the local community Mean pairwise distance is a common one Quantifying phylogenetic diversity for parasites For a given location or host community, what is the &amp;lsquo;index of dispersion&amp;rsquo; for the parasite community?</description>
     </item>
     <item>
       <title></title>
-      <link>/code/macrodisease/</link>
+      <link>//localhost:5015/code/macrodisease/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/macrodisease/</guid>
+      <guid>//localhost:5015/code/macrodisease/</guid>
       <description>&lt;!DOCTYPE html&gt; Macroecology of infectious disease and networked populations What is macroecology? What is macroecology? How do we do it? Large observational data&#xA;Some theory, but not much currently&#xA;Makes it tough to get at mechanism …but maybe that’s not the point&#xA;What do parasites have to do with macroecology? Parasites can provide good tests of macroecological ideas An example:&#xA;Some macreocological ideas claim that metabolic constraints on thermoregulation determine the distribution of diversity.</description>
     </item>
     <item>
       <title></title>
-      <link>/code/macroparasites/</link>
+      <link>//localhost:5015/code/macroparasites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/macroparasites/</guid>
+      <guid>//localhost:5015/code/macroparasites/</guid>
       <description>&lt;!DOCTYPE html&gt; Biology of macroparasites Link to pdf slides Here are the pdf slides</description>
     </item>
     <item>
       <title></title>
-      <link>/code/microparasites/</link>
+      <link>//localhost:5015/code/microparasites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/microparasites/</guid>
+      <guid>//localhost:5015/code/microparasites/</guid>
       <description>&lt;!DOCTYPE html&gt; Biology of microparasites What are microparasites? Fungal, bacterial, viral, and protozoan parasites&#xA;Small, typically fast reproduction, often lead to lasting immunity&#xA;Transmission modes Can be transmitted many ways (water, direct, vectors)&#xA;Direct&#xA;direct contact (e.g., respiratory droplets) sexual contact Indirect&#xA;environment water vector Bacterial microparasites Unicellular prokaryotes (no mitochondria, unbound genetic material)&#xA;Can be intracellular or extracellular&#xA;Asexual reproduction (potential for horizontal gene transfer through plasmid transfer between cells)</description>
     </item>
     <item>
       <title></title>
-      <link>/code/setup/</link>
+      <link>//localhost:5015/code/setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/setup/</guid>
+      <guid>//localhost:5015/code/setup/</guid>
       <description>&lt;!DOCTYPE html&gt; Introduction to the course Introductions I can start this off. Then we can go around the room, thinking about&#xA;what you want to get out of the course any worries/feelings/questions/concerns about the course your favorite parasite A bit about me my background is quantitative disease ecology started with ticks and small mammals host-parasite interactions are incredibly interesting, parasites are gross. lab research here A bit about course structure lecture (3 hrs) + lab (1 hr) structure of lecture structure of lab course website Syllabus Work through syllabus, clarify structure, etc.</description>
     </item>
     <item>
       <title></title>
-      <link>/code/specificity/</link>
+      <link>//localhost:5015/code/specificity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/specificity/</guid>
+      <guid>//localhost:5015/code/specificity/</guid>
       <description>&lt;!DOCTYPE html&gt; Parasite richness, host range, and specificity Parasite diversity Previous lectures have gone over parasite diversity a bit&#xA;Here, we will focus on two things:&#xA;Parasite species richness Parasite specificity (host range) What is parasite species richness? Number of parasite species known to infect a given host Does consider:&#xA;the total number phylogenetic relationships (sometimes) functional traits (sometimes) Does not consider:&#xA;relative utilization of hosts effects on host fitness Parasite species richness is not all the parasites found in a given location.</description>
     </item>
     <item>
       <title></title>
-      <link>/code/vectors/</link>
+      <link>//localhost:5015/code/vectors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/vectors/</guid>
+      <guid>//localhost:5015/code/vectors/</guid>
       <description>&lt;!DOCTYPE html&gt; Vector-borne disease What is vector-borne disease? A micro- or macroparasite transmitted among vertebrate hosts by an arthropod vector&#xA;Vector-borne diseases represent some of the deadliest, most impoverishing diseases of mankind and wildlife&#xA;Vectors Vectors Importance of vector-borne disease Vectors are flying syringes&#xA;Host preference determines encounter&#xA;Huge economic cost&#xA;Some rough diseases&#xA;Vectors are flying syringes Vectors take blood or host tissue (including pathogen) and transmit to same (or different) species</description>
     </item>
     <item>
       <title></title>
-      <link>/code/zoonoses/</link>
+      <link>//localhost:5015/code/zoonoses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/code/zoonoses/</guid>
+      <guid>//localhost:5015/code/zoonoses/</guid>
       <description>&lt;!DOCTYPE html&gt; Zoonoses, spillover, emergence, and One Health Last actual lecture of the term! We’ve learned a lot and had some fun&#xA;Zoonotic disease We’ve talked about zoonoses before (Lyme disease in the last lecture, Ebola, avian flu, trichinosis, etc.)&#xA;zoonosis a pathogen that can be transmitted into humans through animals&#xA;reverse zoonosis a pathogen that is transmitted from humans into animals&#xA;Zoonotic disease This distinction is not super important, but it does get at a key part of many zoonotic diseases, transmission from animals into humans is rare, and humans are normally dead end hosts capable of human-to-human transmission only Zoonotic disease Pretty common (let’s name some examples)</description>
     </item>
   </channel>

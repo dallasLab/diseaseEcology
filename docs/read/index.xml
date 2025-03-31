@@ -2,121 +2,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reads on Parasitology</title>
-    <link>/read/</link>
+    <link>//localhost:5015/read/</link>
     <description>Recent content in Reads on Parasitology</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="/read/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:5015/read/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Behavioral and immunological responses</title>
-      <link>/read/behavior/</link>
+      <link>//localhost:5015/read/behavior/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/behavior/</guid>
+      <guid>//localhost:5015/read/behavior/</guid>
       <description>Reading Ezenwa, V. O., Etienne, R. S., Luikart, G., Beja-Pereira, A., &amp;amp; Jolles, A. E. (2010). Hidden consequences of living in a wormy world: nematode-induced immune suppression facilitates tuberculosis invasion in African buffalo. The American Naturalist, 176(5), 613-624.&#xA;de Roode, J. C., Lefèvre, T., &amp;amp; Hunter, M. D. (2013). Self-medication in animals. Science, 340(6129), 150-151.</description>
     </item>
     <item>
       <title>Biology of macroparasites</title>
-      <link>/read/macroparasites/</link>
+      <link>//localhost:5015/read/macroparasites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/macroparasites/</guid>
+      <guid>//localhost:5015/read/macroparasites/</guid>
       <description>Reading Viney M, Cable J. Macroparasite life histories. Curr Biol. 2011 Sep 27;21(18):R767-74. doi: 10.1016/j.cub.2011.07.023. PMID: 21959167.</description>
     </item>
     <item>
       <title>Biology of microparasites</title>
-      <link>/read/microparasites/</link>
+      <link>//localhost:5015/read/microparasites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/microparasites/</guid>
+      <guid>//localhost:5015/read/microparasites/</guid>
       <description>Reading Hopkins, S. R., Fleming-Davies, A. E., Belden, L. K., &amp;amp; Wojdak, J. M. (2020). Systematic review of modelling assumptions and empirical evidence: does parasite transmission increase nonlinearly with host density?. Methods in Ecology and Evolution, 11(4), 476-486.</description>
     </item>
     <item>
       <title>Coinfection</title>
-      <link>/read/coinfection/</link>
+      <link>//localhost:5015/read/coinfection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/coinfection/</guid>
+      <guid>//localhost:5015/read/coinfection/</guid>
       <description>Reading Viney, M. E., &amp;amp; Graham, A. L. (2013). Patterns and Processes in Parasite Co-Infection.</description>
     </item>
     <item>
       <title>Disease</title>
-      <link>/read/disease/</link>
+      <link>//localhost:5015/read/disease/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/disease/</guid>
+      <guid>//localhost:5015/read/disease/</guid>
       <description>Reading Anderson, R. M. and May, R. M., Population biology of infectious diseases I Nature 280 (5721), 361 (1979). pdf available here&#xA;Kilpatrick, A. M. &amp;amp; Altizer, S. (2010) Disease Ecology. Nature Education Knowledge 3(10):55&#xA;link to paper</description>
     </item>
     <item>
       <title>Environmentally-transmitted disease and sexually-transmitted diseases</title>
-      <link>/read/env/</link>
+      <link>//localhost:5015/read/env/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/env/</guid>
+      <guid>//localhost:5015/read/env/</guid>
       <description>Reading Nordvik, M. K., &amp;amp; Liljeros, F. (2006). Number of sexual encounters involving intercourse and the transmission of sexually transmitted infections. Sexually transmitted diseases, 342-349.&#xA;Lanzas C, Davies K, Erwin and Dawson D. 2020. On modelling environmentally transmitted pathogens. Interface Focus.1020190056&#xA;STD rates in Columbia, SC News article on Columbia as no. 3 rank</description>
     </item>
     <item>
       <title>Epidemics and interventions</title>
-      <link>/read/epidemics/</link>
+      <link>//localhost:5015/read/epidemics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/epidemics/</guid>
+      <guid>//localhost:5015/read/epidemics/</guid>
       <description>Reading McLean AR. Infectious Disease Modeling. Infectious Diseases. 2012 Dec 5:99–115. doi: 10.1007/978-1-4614-5719-0_5. PMCID: PMC7121366.&#xA;Relevant video content Introduction to modeling infectious diseases</description>
     </item>
     <item>
       <title>Exam review</title>
-      <link>/read/examreview/</link>
+      <link>//localhost:5015/read/examreview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/examreview/</guid>
+      <guid>//localhost:5015/read/examreview/</guid>
       <description>Reading </description>
     </item>
     <item>
       <title>Infectious diseases in communities</title>
-      <link>/read/communities/</link>
+      <link>//localhost:5015/read/communities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/communities/</guid>
+      <guid>//localhost:5015/read/communities/</guid>
       <description>Reading Roche, B., Dobson, A. P., Guégan, J. F., &amp;amp; Rohani, P. (2012). Linking community and disease ecology: the impact of biodiversity on pathogen transmission. Philosophical Transactions of the Royal Society B: Biological Sciences, 367(1604), 2807-2813.</description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>/read/setup/</link>
+      <link>//localhost:5015/read/setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/setup/</guid>
+      <guid>//localhost:5015/read/setup/</guid>
       <description>Reading None for this week.</description>
     </item>
     <item>
       <title>Life history strategies and host-parasite coevolution</title>
-      <link>/read/lifehistory/</link>
+      <link>//localhost:5015/read/lifehistory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/lifehistory/</guid>
+      <guid>//localhost:5015/read/lifehistory/</guid>
       <description>Reading General background on parasite life history</description>
     </item>
     <item>
       <title>Macroecology of infectious disease and networked populations</title>
-      <link>/read/macrodisease/</link>
+      <link>//localhost:5015/read/macrodisease/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/macrodisease/</guid>
+      <guid>//localhost:5015/read/macrodisease/</guid>
       <description>Reading Stephens, P. R., Altizer, S., Smith, K. F., Alonso Aguirre, A., Brown, J. H., Budischak, S. A., &amp;hellip; &amp;amp; Poulin, R. (2016). The macroecology of infectious diseases: A new perspective on global-scale drivers of pathogen distributions and impacts. Ecology letters, 19(9), 1159-1171.&#xA;Dallas, T. A., Aguirre, A. A., Budischak, S., Carlson, C., Ezenwa, V., Han, B., &amp;hellip; &amp;amp; Stephens, P. R. (2018). Gauging support for macroecological patterns in helminth parasites.</description>
     </item>
     <item>
       <title>Parasite aggregation and burden</title>
-      <link>/read/aggregation/</link>
+      <link>//localhost:5015/read/aggregation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/aggregation/</guid>
+      <guid>//localhost:5015/read/aggregation/</guid>
       <description>Reading Poulin, R. (2013). Explaining variability in parasite aggregation levels among host samples. Parasitology, 140(4), 541-546.&#xA;Shaw, D. J., Grenfell, B. T., &amp;amp; Dobson, A. P. (1998). Patterns of macroparasite aggregation in wildlife host populations. Parasitology, 117(6), 597-610.</description>
     </item>
     <item>
       <title>Parasite richness, specificity, and host range</title>
-      <link>/read/specificity/</link>
+      <link>//localhost:5015/read/specificity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/specificity/</guid>
+      <guid>//localhost:5015/read/specificity/</guid>
       <description>Reading Poulin, R., Krasnov, B. R., &amp;amp; Mouillot, D. (2011). Host specificity in phylogenetic and geographic space. Trends in parasitology, 27(8), 355-361.&#xA;Carlson CJ, Dallas TA, Alexander LW, Phelan AL, Phillips AJ. 2020. What would it take to describe the global diversity of parasites? Proc Biol Sci.</description>
     </item>
     <item>
       <title>Vector-borne disease</title>
-      <link>/read/vectors/</link>
+      <link>//localhost:5015/read/vectors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/vectors/</guid>
+      <guid>//localhost:5015/read/vectors/</guid>
       <description>Reading LaDeau, S. L., Allan, B. F., Leisnham, P. T., &amp;amp; Levy, M. Z. (2015). The ecological foundations of transmission potential and vector-borne disease in urban landscapes. Functional ecology, 29(7), 889-901.</description>
     </item>
     <item>
       <title>Zoonoses, spillover, emergence, and One Health</title>
-      <link>/read/zoonoses/</link>
+      <link>//localhost:5015/read/zoonoses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/read/zoonoses/</guid>
+      <guid>//localhost:5015/read/zoonoses/</guid>
       <description>Reading Plowright, R. K., Parrish, C. R., McCallum, H., Hudson, P. J., Ko, A. I., Graham, A. L., &amp;amp; Lloyd-Smith, J. O. (2017). Pathways to zoonotic spillover. Nature Reviews Microbiology, 15(8), 502-510.&#xA;Cunningham, A. A., Daszak, P., &amp;amp; Wood, J. L. (2017). One Health, emerging infectious diseases and wildlife: two decades of progress?. Philosophical Transactions of the Royal Society B: Biological Sciences, 372(1725), 20160167.</description>
     </item>
   </channel>
