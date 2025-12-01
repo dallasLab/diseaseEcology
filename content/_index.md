@@ -9,7 +9,13 @@ title: ""
 #### Instructor | [Tad Dallas](https://taddallas.github.io)  
 #### Location   |   Coker Life Sciences 202
 #### Times      |  T & TH 10:05am - 11:20am     
-#### Drop-in hours |  Th from 1:00pm - 3:000pm  
+#### Drop-in hours |  Th from 1:00pm - 3:00pm  
+
+
+#### Lab Instructor | [Grant Foster](https://gtfoster.github.io/)  
+#### Location   |   Coker Life Sciences 302
+#### Times      |  W  8:30am - 11:15am OR 12:00pm-2:45pm     
+#### Drop-in hours |  M,TH from 9:30am - 10:30am (Or by appointment)  
 
 ---
 

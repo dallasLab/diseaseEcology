@@ -23,9 +23,9 @@ Review the course syllabus before coming to lab. In the future, it'll be importa
 
 
 ## Presentation
-[Lab 1 Presentation](Lab1Presentation.pdf)
+[Lab 1 Presentation](lab/lab1/Lab1Presentation.pdf)
 
 ## Worksheet
-[Lab 1 Worksheet](/lab/lab1_diversity/531Lab1Worksheet.docx)
+[Lab 1 Worksheet](/lab/lab1/531Lab1Worksheet.docx)
 
 ## Resources
