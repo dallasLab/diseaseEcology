@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://dallaslab.github.io/diseaseEcology/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Parasitology"
