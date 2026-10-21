@@ -7,17 +7,21 @@ output: html_document
 
 ## Student Learning Outcomes
 
-At the end of this lab, a successful learner should be able to…
+At the end of this lab, a successful learner should be able to 
 
-1. First LO
-2. Second LO
+1. Appreciate the wide diversity of parasites and their life histories.
+
+2. Be capable of using a microscope to assess ear mite burdens in moth individuals.
+
+3. 
+
 
 
 ## Presentation
-[Lab 11 Presentation](/lab/lab11_envRisk/Lab11Presentation.pdf)
+[Lab 11 Presentation](/lab/lab11/Lab11Presentation.pdf)
 
 ## Worksheet
-[Lab 11 Worksheet](/lab/lab11_envRisk/531Lab11_Worksheet.docx)
+[Lab 11 Worksheet](/lab/lab11/531Lab11_Worksheet.docx)
 
 ## Resources
 To be added

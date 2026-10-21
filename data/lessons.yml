@@ -25,7 +25,7 @@ lessons:
     topics: "Parasite richness, specificity, and host range"
     reading: "read/specificity"
     code: "code/specificity"
-    lab: "lab/lab1_diversity"
+    lab: "lab/lab1"
 
   - module: "<i class='fa fa-lg fa-terminal'></i>"
     date: "Week 4"

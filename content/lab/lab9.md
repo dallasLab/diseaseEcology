@@ -16,7 +16,7 @@ No presentation this week; we're in the field!
 
 
 ## Worksheet 9 
-[Lab 9 Worksheet](/lab/lab9_ticksI/531Lab9_Worksheet.docx)
+[Lab 9 Worksheet](/lab/lab9/531Lab9_Worksheet.docx)
 
 ## Resources
 

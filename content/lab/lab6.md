@@ -16,11 +16,11 @@ At the end of this lab, a successful learner should be able to…
 4. Explain the basic assumptions of the SIR model, and identify cases when violations of those assumptions may make it an inappropriate modeling choice. 
 
 ## Presentation
-[Lab 6 Presentation](/lab/lab6_microparasitesII/Lab6Presentation.pdf)
+[Lab 6 Presentation](/lab/lab6/Lab6Presentation.pdf)
 
 
 ## Worksheet
-[Lab 6 Worksheet](/lab/lab6_microparasitesII/531Lab6Worksheet.docx)
+[Lab 6 Worksheet](/lab/lab6/531Lab6Worksheet.docx)
 
 
 ## Resources

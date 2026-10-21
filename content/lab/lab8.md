@@ -8,15 +8,21 @@ output: html_document
 
 ## Student Learning Outcomes
 
-At the end of this lab, a successful learner should be able to…
+At the end of this lab, a successful learner should be able to
+
+1. Understand aggregated parasite burdens from a conceptual, mathematical, and ecological lens.
+
+2. Feel comfortable with field-based (tick dragging) and lab-based (crushing snails) parasitology techniques.
+
+3. 
 
 
 
 ## Presentation
-[Lab 8 Presentation](/lab/lab8_macroparasiteAggregation/Lab8Presentation.pdf)
+[Lab 8 Presentation](/lab/lab8/Lab8Presentation.pdf)
 
 
 ## Worksheet
-[Lab 8 Worksheet](/lab/lab8_macroparasiteAggregation/531Lab8Worksheet.docx)
+[Lab 8 Worksheet](/lab/lab8/531Lab8Worksheet.docx)
 
 

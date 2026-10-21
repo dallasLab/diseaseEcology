@@ -19,9 +19,9 @@ At the end of this lab, a successful learner should be able to…
 Before coming to lab this week, make sure to look over the learning objectives above, as well as the class presentation below.  
 
 ## Presentation
-[Lab 4 Presentation](/lab/lab3_hostRange/Lab4_Pres.pdf)
+[Lab 4 Presentation](/lab/lab4/Lab4_Pres.pdf)
 
 ## Worksheet
-[Lab 4 Worksheet](/lab/lab3_hostRange/531Lab4Ws.docx)
+[Lab 4 Worksheet](/lab/lab4/531Lab4Ws.docx)
 
 ## Resources
