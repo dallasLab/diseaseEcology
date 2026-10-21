@@ -18,6 +18,14 @@ h2 {
 h3 { 
  color: #3399ff;		
 }
+
+p {
+  margin-bottom: 25px;
+}
+
+ul li, ol li {
+  margin-bottom: 15px;
+}
 </style>
 
 
@@ -28,7 +36,7 @@ h3 {
 
 ### Introductions 
 
-I can start this off. Then we can go around the room, thinking about
+I can start this off. Then we can go around the room, thinking about:
 
 + what you want to get out of the course
 + any worries/feelings/questions/concerns about the course
@@ -42,7 +50,8 @@ I can start this off. Then we can go around the room, thinking about
 
 + my background is quantitative disease ecology
 + started with ticks and small mammals
-+ host-parasite interactions are incredibly interesting, parasites are gross. 
++ host-parasite interactions are incredibly interesting
+  + parasites are gross. 
 + [lab research here](https://taddallas.github.io)
 
 
@@ -54,9 +63,16 @@ I can start this off. Then we can go around the room, thinking about
 ### A bit about course structure 
 
 + lecture (3 hrs) + lab (1 hr)
-+ structure of lecture
-+ structure of lab
+  + Haley Hines is lab TA
++ we'll go over structure of lecture today
+  + structure of lab during first lab
+
+<br>   
+
 + [course website](https://dallaslab.github.io/diseaseEcology/syllabus/)
+  + https://dallaslab.github.io/diseaseEcology
+
+
 
 
 
@@ -71,6 +87,7 @@ Work through syllabus, clarify structure, etc.
 
 - [syllabus](https://dallasLab.github.io/diseaseEcology/syllabus/)
 
+<br>
 
 _why is the website called "diseaseEcology" if this is a "parasitology" course?_
 
@@ -124,11 +141,11 @@ Go through the course website and make sure everyone has easy access and is clea
 
 ### Parasitology, epidemiology, ecology
 
-+ Parasitology: the study of parasites 
++ *Parasitology*: the study of parasites 
 
-+ Epidemiology: study of human infectious disease 
++ *Epidemiology*: study of human infectious disease 
 
-+ Ecology: study of interactions with organisms and their environment 
++ *Ecology*: study of interactions with organisms and their environment 
 
 > So how would we define disease ecology? 
 
@@ -206,15 +223,28 @@ Go through the course website and make sure everyone has easy access and is clea
 
 ### What about ecology and parasitology? 
 
-> During a job interview I was once called a parasitologist 
+> During a job interview I was once called a _parasitologist_
 
-+ Why I am not a parasitologist 
-  + I don't study individual parasites
-  + I can't identify parasites to species 
-  + I've rarely handled parasites 
-  + I don't care about what many parasitologists care about 
+**Why I am not a parasitologist**:
+
++ I don't study individual parasites
++ I can't identify parasites to species 
++ I've rarely handled parasites 
++ I don't care about what many parasitologists care about 
 
 
+
+---
+
+### But I understand the confusion
+
++ Vector communities under global change may exacerbate and redistribute infectious disease risk. CA Cleveland, T Dallas, S Vigil, DG Mead, JL Corn, AW Park 2023. Parasitology Research 
+
++ Taxonomic resolution affects host-parasite association model performance. T Dallas, D Becker 2020. Parasitology 
+
++ Predictability of helminth parasite host range using information on geography, host traits and parasite community structure. T Dallas, Park, AW, Drake, JM 2017. Parasitology 
+
++ Vector species richness increases hemorrhagic disease prevalence through functional diversity modulating the duration of seasonal transmission. AW Park, Cleveland, C, Dallas, T, Corn, J 2015. Parasitology 
 
 
 
@@ -227,13 +257,6 @@ Go through the course website and make sure everyone has easy access and is clea
   + how this process is mediated by the environment 
   + what the costs to host fitness are 
   + if I can generalize across systems and gain common insight 
-
-
-
-
-
-
-
 
 
 

@@ -3060,18 +3060,21 @@ var loadDeck = function(event) {
   });
 };
 
-if (document.readyState !== "loading" &&
-    document.querySelector('slides') === null) { 
-  // if the document is done loading but our element hasn't yet appeared, defer
-  // loading of the deck
-  window.setTimeout(function() {
-    loadDeck(null);
-  }, 0);
-} else {
-  // still loading the DOM, so wait until it's finished
-  document.addEventListener("DOMContentLoaded", loadDeck);
-}
+if (!window.Shiny) {
+  // If Shiny is loaded, the slide deck is initialized in ioslides template
 
+  if (document.readyState !== "loading" &&
+      document.querySelector('slides') === null) {
+    // if the document is done loading but our element hasn't yet appeared, defer
+    // loading of the deck
+    window.setTimeout(function() {
+      loadDeck(null);
+    }, 0);
+  } else {
+    // still loading the DOM, so wait until it's finished
+    document.addEventListener("DOMContentLoaded", loadDeck);
+  }
+}
 
 
 </script>
@@ -3143,13 +3146,21 @@ h2 {
 h3 { 
  color: #3399ff;        
 }
+
+p {
+  margin-bottom: 25px;
+}
+
+ul li, ol li {
+  margin-bottom: 15px;
+}
 </style>
 
 <slide class=""><hgroup><h2></h2></hgroup><article >
 
 <h3>Introductions</h3>
 
-<p>I can start this off. Then we can go around the room, thinking about</p>
+<p>I can start this off. Then we can go around the room, thinking about:</p>
 
 <ul>
 <li>what you want to get out of the course</li>
@@ -3164,7 +3175,11 @@ h3 {
 <ul>
 <li>my background is quantitative disease ecology</li>
 <li>started with ticks and small mammals</li>
-<li>host-parasite interactions are incredibly interesting, parasites are gross.</li>
+<li>host-parasite interactions are incredibly interesting
+
+<ul>
+<li>parasites are gross.</li>
+</ul></li>
 <li><a href='https://taddallas.github.io' title=''>lab research here</a></li>
 </ul>
 
@@ -3173,10 +3188,26 @@ h3 {
 <h3>A bit about course structure</h3>
 
 <ul>
-<li>lecture (3 hrs) + lab (1 hr)</li>
-<li>structure of lecture</li>
-<li>structure of lab</li>
-<li><a href='https://dallaslab.github.io/diseaseEcology/syllabus/' title=''>course website</a></li>
+<li>lecture (3 hrs) + lab (1 hr)
+
+<ul>
+<li>Haley Hines is lab TA</li>
+</ul></li>
+<li>we’ll go over structure of lecture today
+
+<ul>
+<li>structure of lab during first lab</li>
+</ul></li>
+</ul>
+
+<p><br></p>
+
+<ul>
+<li><a href='https://dallaslab.github.io/diseaseEcology/syllabus/' title=''>course website</a>
+
+<ul>
+<li><a href='https://dallaslab.github.io/diseaseEcology' title=''>https://dallaslab.github.io/diseaseEcology</a></li>
+</ul></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
@@ -3188,6 +3219,8 @@ h3 {
 <ul>
 <li><a href='https://dallasLab.github.io/diseaseEcology/syllabus/' title=''>syllabus</a></li>
 </ul>
+
+<p><br></p>
 
 <p><em>why is the website called &ldquo;diseaseEcology&rdquo; if this is a &ldquo;parasitology&rdquo; course?</em></p>
 
@@ -3226,9 +3259,9 @@ End of lecture 1
 <h3>Parasitology, epidemiology, ecology</h3>
 
 <ul>
-<li><p>Parasitology: the study of parasites</p></li>
-<li><p>Epidemiology: study of human infectious disease</p></li>
-<li><p>Ecology: study of interactions with organisms and their environment</p></li>
+<li><p><em>Parasitology</em>: the study of parasites</p></li>
+<li><p><em>Epidemiology</em>: study of human infectious disease</p></li>
+<li><p><em>Ecology</em>: study of interactions with organisms and their environment</p></li>
 </ul>
 
 <blockquote>
@@ -3295,18 +3328,27 @@ End of lecture 1
 <h3>What about ecology and parasitology?</h3>
 
 <blockquote>
-<p>During a job interview I was once called a parasitologist</p>
+<p>During a job interview I was once called a <em>parasitologist</em></p>
 </blockquote>
 
-<ul>
-<li>Why I am not a parasitologist
+<p><strong>Why I am not a parasitologist</strong>:</p>
 
 <ul>
 <li>I don’t study individual parasites</li>
 <li>I can’t identify parasites to species</li>
 <li>I’ve rarely handled parasites</li>
 <li>I don’t care about what many parasitologists care about</li>
-</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<h3>But I understand the confusion</h3>
+
+<ul>
+<li><p>Vector communities under global change may exacerbate and redistribute infectious disease risk. CA Cleveland, T Dallas, S Vigil, DG Mead, JL Corn, AW Park 2023. Parasitology Research</p></li>
+<li><p>Taxonomic resolution affects host-parasite association model performance. T Dallas, D Becker 2020. Parasitology</p></li>
+<li><p>Predictability of helminth parasite host range using information on geography, host traits and parasite community structure. T Dallas, Park, AW, Drake, JM 2017. Parasitology</p></li>
+<li><p>Vector species richness increases hemorrhagic disease prevalence through functional diversity modulating the duration of seasonal transmission. AW Park, Cleveland, C, Dallas, T, Corn, J 2015. Parasitology</p></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
@@ -3575,6 +3617,11 @@ End of lecture 1
        window.jQuery(document).on('slideenter', function(e) {
          window.jQuery(e.target).trigger('shown');
       });
+    }
+    if (window.Shiny) {
+      // Initialize slides when this script appears on the page, since it
+      // indicates that the <slides> markup has been fully loaded.
+      window.loadDeck();
     }
   })();
 </script>
